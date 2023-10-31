@@ -3,7 +3,7 @@
 Pos_0   = [1500; 200; 100.]; 
 Pos_0   = [0; 0; 20]; % Initial position vector (m)
 Vb_0    = [85.; 0; 0]'*0.3048;        % Initial velocity vector (m/s)
-Euler_0 = [0; 0; 0]'*pi/180;          % Initial Euler angles    (rad)
+Euler_0 = [0; 0; 180]'*pi/180;          % Initial Euler angles    (rad)
 PQR_0   = [0; 0; 0]';                 % Initial Omega           (rad/s)
 
 % Mass and Geometric Parameters
