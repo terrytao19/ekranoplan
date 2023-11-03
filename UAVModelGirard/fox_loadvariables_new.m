@@ -1,8 +1,8 @@
 
 %  Initial Conditions in ENU (all vector data is represented as a column vectors)
 Pos_0   = [1500; 200; 100.]; 
-Pos_0   = [0; 0; 20]; % Initial position vector (m)
-Vb_0    = [85.; 0; 0]'*0.3048;        % Initial velocity vector (m/s)
+Pos_0   = [0; 0; 5]; % Initial position vector (m)
+Vb_0    = [65.; 0; 0]'*0.3048;        % Initial velocity vector (m/s)
 Euler_0 = [0; 0; 0]'*pi/180;          % Initial Euler angles    (rad)
 PQR_0   = [0; 0; 0]';                 % Initial Omega           (rad/s)
 
