@@ -48,8 +48,8 @@ __MWOPC_PART_BEGIN__ /metadata/coreProperties.xml
   <dcterms:created xsi:type="dcterms:W3CDTF">2003-03-13T01:24:05Z</dcterms:created>
   <dc:creator>anouck</dc:creator>
   <cp:lastModifiedBy>terry</cp:lastModifiedBy>
-  <dcterms:modified xsi:type="dcterms:W3CDTF">2023-11-03T04:44:51Z</dcterms:modified>
-  <cp:revision>23.15</cp:revision>
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2023-11-08T03:51:13Z</dcterms:modified>
+  <cp:revision>23.16</cp:revision>
   <cp:version>R2023a</cp:version>
 </cp:coreProperties>
 
@@ -122,7 +122,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
     <ConfigManagerSettings>
       <P Name="ModifiedByFormat">%&lt;Auto&gt;</P>
       <P Name="ModifiedDateFormat">%&lt;Auto&gt;</P>
-      <P Name="ModelVersionFormat">%&lt;AutoIncrement:23.15&gt;</P>
+      <P Name="ModelVersionFormat">%&lt;AutoIncrement:23.16&gt;</P>
     </ConfigManagerSettings>
     <EditorSettings>
       <P Name="LibraryLinkDisplay">none</P>
@@ -163,311 +163,10 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
         <P Name="Parameters" Class="double">[]</P>
         <P Name="Signals" Class="double">[]</P>
         <P Name="DataStores" Class="double">[]</P>
-        <Array PropName="States" Type="Simulink.CoderDictionary.StateMapping" Dimension="1*20">
-          <Object ObjectID="5">
-            <P Name="StateIdentifier" Class="int32">0</P>
-            <P Name="Identifier" Class="int32">0</P>
-            <Object Reference="true" PropName="ParentMapping" ObjectID="4"/>
-            <Object PropName="MappedTo" ObjectID="6" ClassName="Simulink.DataReferenceClass">
-              <P Name="MappedTo" Class="char">StorageClass</P>
-              <P Name="StorageClass" Class="double">[]</P>
-              <P Name="ServicePort" Class="double">[]</P>
-              <P Name="CSCAttributes" Class="char"/>
-              <P Name="MemorySection" Class="double">[]</P>
-              <P Name="Identifier" Class="char"/>
-            </Object>
-            <P Name="BlockSID" Class="char">668:843</P>
-            <P Name="StereotypeProperties" Class="char"/>
-          </Object>
-          <Object ObjectID="7">
-            <P Name="StateIdentifier" Class="int32">0</P>
-            <P Name="Identifier" Class="int32">0</P>
-            <Object Reference="true" PropName="ParentMapping" ObjectID="4"/>
-            <Object PropName="MappedTo" ObjectID="8" ClassName="Simulink.DataReferenceClass">
-              <P Name="MappedTo" Class="char">StorageClass</P>
-              <P Name="StorageClass" Class="double">[]</P>
-              <P Name="ServicePort" Class="double">[]</P>
-              <P Name="CSCAttributes" Class="char"/>
-              <P Name="MemorySection" Class="double">[]</P>
-              <P Name="Identifier" Class="char"/>
-            </Object>
-            <P Name="BlockSID" Class="char">668:737</P>
-            <P Name="StereotypeProperties" Class="char"/>
-          </Object>
-          <Object ObjectID="9">
-            <P Name="StateIdentifier" Class="int32">0</P>
-            <P Name="Identifier" Class="int32">0</P>
-            <Object Reference="true" PropName="ParentMapping" ObjectID="4"/>
-            <Object PropName="MappedTo" ObjectID="10" ClassName="Simulink.DataReferenceClass">
-              <P Name="MappedTo" Class="char">StorageClass</P>
-              <P Name="StorageClass" Class="double">[]</P>
-              <P Name="ServicePort" Class="double">[]</P>
-              <P Name="CSCAttributes" Class="char"/>
-              <P Name="MemorySection" Class="double">[]</P>
-              <P Name="Identifier" Class="char"/>
-            </Object>
-            <P Name="BlockSID" Class="char">668:723</P>
-            <P Name="StereotypeProperties" Class="char"/>
-          </Object>
-          <Object ObjectID="11">
-            <P Name="StateIdentifier" Class="int32">0</P>
-            <P Name="Identifier" Class="int32">0</P>
-            <Object Reference="true" PropName="ParentMapping" ObjectID="4"/>
-            <Object PropName="MappedTo" ObjectID="12" ClassName="Simulink.DataReferenceClass">
-              <P Name="MappedTo" Class="char">StorageClass</P>
-              <P Name="StorageClass" Class="double">[]</P>
-              <P Name="ServicePort" Class="double">[]</P>
-              <P Name="CSCAttributes" Class="char"/>
-              <P Name="MemorySection" Class="double">[]</P>
-              <P Name="Identifier" Class="char"/>
-            </Object>
-            <P Name="BlockSID" Class="char">668:748</P>
-            <P Name="StereotypeProperties" Class="char"/>
-          </Object>
-          <Object ObjectID="13">
-            <P Name="StateIdentifier" Class="int32">0</P>
-            <P Name="Identifier" Class="int32">0</P>
-            <Object Reference="true" PropName="ParentMapping" ObjectID="4"/>
-            <Object PropName="MappedTo" ObjectID="14" ClassName="Simulink.DataReferenceClass">
-              <P Name="MappedTo" Class="char">StorageClass</P>
-              <P Name="StorageClass" Class="double">[]</P>
-              <P Name="ServicePort" Class="double">[]</P>
-              <P Name="CSCAttributes" Class="char"/>
-              <P Name="MemorySection" Class="double">[]</P>
-              <P Name="Identifier" Class="char"/>
-            </Object>
-            <P Name="BlockSID" Class="char">671:843</P>
-            <P Name="StereotypeProperties" Class="char"/>
-          </Object>
-          <Object ObjectID="15">
-            <P Name="StateIdentifier" Class="int32">0</P>
-            <P Name="Identifier" Class="int32">0</P>
-            <Object Reference="true" PropName="ParentMapping" ObjectID="4"/>
-            <Object PropName="MappedTo" ObjectID="16" ClassName="Simulink.DataReferenceClass">
-              <P Name="MappedTo" Class="char">StorageClass</P>
-              <P Name="StorageClass" Class="double">[]</P>
-              <P Name="ServicePort" Class="double">[]</P>
-              <P Name="CSCAttributes" Class="char"/>
-              <P Name="MemorySection" Class="double">[]</P>
-              <P Name="Identifier" Class="char"/>
-            </Object>
-            <P Name="BlockSID" Class="char">671:737</P>
-            <P Name="StereotypeProperties" Class="char"/>
-          </Object>
-          <Object ObjectID="17">
-            <P Name="StateIdentifier" Class="int32">0</P>
-            <P Name="Identifier" Class="int32">0</P>
-            <Object Reference="true" PropName="ParentMapping" ObjectID="4"/>
-            <Object PropName="MappedTo" ObjectID="18" ClassName="Simulink.DataReferenceClass">
-              <P Name="MappedTo" Class="char">StorageClass</P>
-              <P Name="StorageClass" Class="double">[]</P>
-              <P Name="ServicePort" Class="double">[]</P>
-              <P Name="CSCAttributes" Class="char"/>
-              <P Name="MemorySection" Class="double">[]</P>
-              <P Name="Identifier" Class="char"/>
-            </Object>
-            <P Name="BlockSID" Class="char">671:723</P>
-            <P Name="StereotypeProperties" Class="char"/>
-          </Object>
-          <Object ObjectID="19">
-            <P Name="StateIdentifier" Class="int32">0</P>
-            <P Name="Identifier" Class="int32">0</P>
-            <Object Reference="true" PropName="ParentMapping" ObjectID="4"/>
-            <Object PropName="MappedTo" ObjectID="20" ClassName="Simulink.DataReferenceClass">
-              <P Name="MappedTo" Class="char">StorageClass</P>
-              <P Name="StorageClass" Class="double">[]</P>
-              <P Name="ServicePort" Class="double">[]</P>
-              <P Name="CSCAttributes" Class="char"/>
-              <P Name="MemorySection" Class="double">[]</P>
-              <P Name="Identifier" Class="char"/>
-            </Object>
-            <P Name="BlockSID" Class="char">671:748</P>
-            <P Name="StereotypeProperties" Class="char"/>
-          </Object>
-          <Object ObjectID="21">
-            <P Name="StateIdentifier" Class="int32">0</P>
-            <P Name="Identifier" Class="int32">0</P>
-            <Object Reference="true" PropName="ParentMapping" ObjectID="4"/>
-            <Object PropName="MappedTo" ObjectID="22" ClassName="Simulink.DataReferenceClass">
-              <P Name="MappedTo" Class="char">StorageClass</P>
-              <P Name="StorageClass" Class="double">[]</P>
-              <P Name="ServicePort" Class="double">[]</P>
-              <P Name="CSCAttributes" Class="char"/>
-              <P Name="MemorySection" Class="double">[]</P>
-              <P Name="Identifier" Class="char"/>
-            </Object>
-            <P Name="BlockSID" Class="char">675:843</P>
-            <P Name="StereotypeProperties" Class="char"/>
-          </Object>
-          <Object ObjectID="23">
-            <P Name="StateIdentifier" Class="int32">0</P>
-            <P Name="Identifier" Class="int32">0</P>
-            <Object Reference="true" PropName="ParentMapping" ObjectID="4"/>
-            <Object PropName="MappedTo" ObjectID="24" ClassName="Simulink.DataReferenceClass">
-              <P Name="MappedTo" Class="char">StorageClass</P>
-              <P Name="StorageClass" Class="double">[]</P>
-              <P Name="ServicePort" Class="double">[]</P>
-              <P Name="CSCAttributes" Class="char"/>
-              <P Name="MemorySection" Class="double">[]</P>
-              <P Name="Identifier" Class="char"/>
-            </Object>
-            <P Name="BlockSID" Class="char">675:737</P>
-            <P Name="StereotypeProperties" Class="char"/>
-          </Object>
-          <Object ObjectID="25">
-            <P Name="StateIdentifier" Class="int32">0</P>
-            <P Name="Identifier" Class="int32">0</P>
-            <Object Reference="true" PropName="ParentMapping" ObjectID="4"/>
-            <Object PropName="MappedTo" ObjectID="26" ClassName="Simulink.DataReferenceClass">
-              <P Name="MappedTo" Class="char">StorageClass</P>
-              <P Name="StorageClass" Class="double">[]</P>
-              <P Name="ServicePort" Class="double">[]</P>
-              <P Name="CSCAttributes" Class="char"/>
-              <P Name="MemorySection" Class="double">[]</P>
-              <P Name="Identifier" Class="char"/>
-            </Object>
-            <P Name="BlockSID" Class="char">675:723</P>
-            <P Name="StereotypeProperties" Class="char"/>
-          </Object>
-          <Object ObjectID="27">
-            <P Name="StateIdentifier" Class="int32">0</P>
-            <P Name="Identifier" Class="int32">0</P>
-            <Object Reference="true" PropName="ParentMapping" ObjectID="4"/>
-            <Object PropName="MappedTo" ObjectID="28" ClassName="Simulink.DataReferenceClass">
-              <P Name="MappedTo" Class="char">StorageClass</P>
-              <P Name="StorageClass" Class="double">[]</P>
-              <P Name="ServicePort" Class="double">[]</P>
-              <P Name="CSCAttributes" Class="char"/>
-              <P Name="MemorySection" Class="double">[]</P>
-              <P Name="Identifier" Class="char"/>
-            </Object>
-            <P Name="BlockSID" Class="char">675:748</P>
-            <P Name="StereotypeProperties" Class="char"/>
-          </Object>
-          <Object ObjectID="29">
-            <P Name="StateIdentifier" Class="int32">0</P>
-            <P Name="Identifier" Class="int32">0</P>
-            <Object Reference="true" PropName="ParentMapping" ObjectID="4"/>
-            <Object PropName="MappedTo" ObjectID="30" ClassName="Simulink.DataReferenceClass">
-              <P Name="MappedTo" Class="char">StorageClass</P>
-              <P Name="StorageClass" Class="double">[]</P>
-              <P Name="ServicePort" Class="double">[]</P>
-              <P Name="CSCAttributes" Class="char"/>
-              <P Name="MemorySection" Class="double">[]</P>
-              <P Name="Identifier" Class="char"/>
-            </Object>
-            <P Name="BlockSID" Class="char">678:843</P>
-            <P Name="StereotypeProperties" Class="char"/>
-          </Object>
-          <Object ObjectID="31">
-            <P Name="StateIdentifier" Class="int32">0</P>
-            <P Name="Identifier" Class="int32">0</P>
-            <Object Reference="true" PropName="ParentMapping" ObjectID="4"/>
-            <Object PropName="MappedTo" ObjectID="32" ClassName="Simulink.DataReferenceClass">
-              <P Name="MappedTo" Class="char">StorageClass</P>
-              <P Name="StorageClass" Class="double">[]</P>
-              <P Name="ServicePort" Class="double">[]</P>
-              <P Name="CSCAttributes" Class="char"/>
-              <P Name="MemorySection" Class="double">[]</P>
-              <P Name="Identifier" Class="char"/>
-            </Object>
-            <P Name="BlockSID" Class="char">678:737</P>
-            <P Name="StereotypeProperties" Class="char"/>
-          </Object>
-          <Object ObjectID="33">
-            <P Name="StateIdentifier" Class="int32">0</P>
-            <P Name="Identifier" Class="int32">0</P>
-            <Object Reference="true" PropName="ParentMapping" ObjectID="4"/>
-            <Object PropName="MappedTo" ObjectID="34" ClassName="Simulink.DataReferenceClass">
-              <P Name="MappedTo" Class="char">StorageClass</P>
-              <P Name="StorageClass" Class="double">[]</P>
-              <P Name="ServicePort" Class="double">[]</P>
-              <P Name="CSCAttributes" Class="char"/>
-              <P Name="MemorySection" Class="double">[]</P>
-              <P Name="Identifier" Class="char"/>
-            </Object>
-            <P Name="BlockSID" Class="char">678:723</P>
-            <P Name="StereotypeProperties" Class="char"/>
-          </Object>
-          <Object ObjectID="35">
-            <P Name="StateIdentifier" Class="int32">0</P>
-            <P Name="Identifier" Class="int32">0</P>
-            <Object Reference="true" PropName="ParentMapping" ObjectID="4"/>
-            <Object PropName="MappedTo" ObjectID="36" ClassName="Simulink.DataReferenceClass">
-              <P Name="MappedTo" Class="char">StorageClass</P>
-              <P Name="StorageClass" Class="double">[]</P>
-              <P Name="ServicePort" Class="double">[]</P>
-              <P Name="CSCAttributes" Class="char"/>
-              <P Name="MemorySection" Class="double">[]</P>
-              <P Name="Identifier" Class="char"/>
-            </Object>
-            <P Name="BlockSID" Class="char">678:748</P>
-            <P Name="StereotypeProperties" Class="char"/>
-          </Object>
-          <Object ObjectID="37">
-            <P Name="StateIdentifier" Class="int32">0</P>
-            <P Name="Identifier" Class="int32">0</P>
-            <Object Reference="true" PropName="ParentMapping" ObjectID="4"/>
-            <Object PropName="MappedTo" ObjectID="38" ClassName="Simulink.DataReferenceClass">
-              <P Name="MappedTo" Class="char">StorageClass</P>
-              <P Name="StorageClass" Class="double">[]</P>
-              <P Name="ServicePort" Class="double">[]</P>
-              <P Name="CSCAttributes" Class="char"/>
-              <P Name="MemorySection" Class="double">[]</P>
-              <P Name="Identifier" Class="char"/>
-            </Object>
-            <P Name="BlockSID" Class="char">688:843</P>
-            <P Name="StereotypeProperties" Class="char"/>
-          </Object>
-          <Object ObjectID="39">
-            <P Name="StateIdentifier" Class="int32">0</P>
-            <P Name="Identifier" Class="int32">0</P>
-            <Object Reference="true" PropName="ParentMapping" ObjectID="4"/>
-            <Object PropName="MappedTo" ObjectID="40" ClassName="Simulink.DataReferenceClass">
-              <P Name="MappedTo" Class="char">StorageClass</P>
-              <P Name="StorageClass" Class="double">[]</P>
-              <P Name="ServicePort" Class="double">[]</P>
-              <P Name="CSCAttributes" Class="char"/>
-              <P Name="MemorySection" Class="double">[]</P>
-              <P Name="Identifier" Class="char"/>
-            </Object>
-            <P Name="BlockSID" Class="char">688:737</P>
-            <P Name="StereotypeProperties" Class="char"/>
-          </Object>
-          <Object ObjectID="41">
-            <P Name="StateIdentifier" Class="int32">0</P>
-            <P Name="Identifier" Class="int32">0</P>
-            <Object Reference="true" PropName="ParentMapping" ObjectID="4"/>
-            <Object PropName="MappedTo" ObjectID="42" ClassName="Simulink.DataReferenceClass">
-              <P Name="MappedTo" Class="char">StorageClass</P>
-              <P Name="StorageClass" Class="double">[]</P>
-              <P Name="ServicePort" Class="double">[]</P>
-              <P Name="CSCAttributes" Class="char"/>
-              <P Name="MemorySection" Class="double">[]</P>
-              <P Name="Identifier" Class="char"/>
-            </Object>
-            <P Name="BlockSID" Class="char">688:723</P>
-            <P Name="StereotypeProperties" Class="char"/>
-          </Object>
-          <Object ObjectID="43">
-            <P Name="StateIdentifier" Class="int32">0</P>
-            <P Name="Identifier" Class="int32">0</P>
-            <Object Reference="true" PropName="ParentMapping" ObjectID="4"/>
-            <Object PropName="MappedTo" ObjectID="44" ClassName="Simulink.DataReferenceClass">
-              <P Name="MappedTo" Class="char">StorageClass</P>
-              <P Name="StorageClass" Class="double">[]</P>
-              <P Name="ServicePort" Class="double">[]</P>
-              <P Name="CSCAttributes" Class="char"/>
-              <P Name="MemorySection" Class="double">[]</P>
-              <P Name="Identifier" Class="char"/>
-            </Object>
-            <P Name="BlockSID" Class="char">688:748</P>
-            <P Name="StereotypeProperties" Class="char"/>
-          </Object>
-        </Array>
-        <Object PropName="DefaultsMapping" ObjectID="45" ClassName="Simulink.CoderDictionary.DefaultsMapping">
+        <P Name="States" Class="double">[]</P>
+        <Object PropName="DefaultsMapping" ObjectID="5" ClassName="Simulink.CoderDictionary.DefaultsMapping">
           <Object Reference="true" PropName="ParentMapping" ObjectID="4"/>
-          <Object PropName="Inports" ObjectID="46" ClassName="Simulink.DataReferenceClass">
+          <Object PropName="Inports" ObjectID="6" ClassName="Simulink.DataReferenceClass">
             <P Name="MappedTo" Class="char">StorageClass</P>
             <P Name="StorageClass" Class="double">[]</P>
             <P Name="ServicePort" Class="double">[]</P>
@@ -475,7 +174,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
             <P Name="MemorySection" Class="double">[]</P>
             <P Name="Identifier" Class="char"/>
           </Object>
-          <Object PropName="Outports" ObjectID="47" ClassName="Simulink.DataReferenceClass">
+          <Object PropName="Outports" ObjectID="7" ClassName="Simulink.DataReferenceClass">
             <P Name="MappedTo" Class="char">StorageClass</P>
             <P Name="StorageClass" Class="double">[]</P>
             <P Name="ServicePort" Class="double">[]</P>
@@ -483,7 +182,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
             <P Name="MemorySection" Class="double">[]</P>
             <P Name="Identifier" Class="char"/>
           </Object>
-          <Object PropName="GlobalParameters" ObjectID="48" ClassName="Simulink.DataReferenceClass">
+          <Object PropName="GlobalParameters" ObjectID="8" ClassName="Simulink.DataReferenceClass">
             <P Name="MappedTo" Class="char">StorageClass</P>
             <P Name="StorageClass" Class="double">[]</P>
             <P Name="ServicePort" Class="double">[]</P>
@@ -491,7 +190,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
             <P Name="MemorySection" Class="double">[]</P>
             <P Name="Identifier" Class="char"/>
           </Object>
-          <Object PropName="SharedParameters" ObjectID="49" ClassName="Simulink.DataReferenceClass">
+          <Object PropName="SharedParameters" ObjectID="9" ClassName="Simulink.DataReferenceClass">
             <P Name="MappedTo" Class="char">StorageClass</P>
             <P Name="StorageClass" Class="double">[]</P>
             <P Name="ServicePort" Class="double">[]</P>
@@ -499,7 +198,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
             <P Name="MemorySection" Class="double">[]</P>
             <P Name="Identifier" Class="char"/>
           </Object>
-          <Object PropName="PerInstanceParameters" ObjectID="50" ClassName="Simulink.DataReferenceClass">
+          <Object PropName="PerInstanceParameters" ObjectID="10" ClassName="Simulink.DataReferenceClass">
             <P Name="MappedTo" Class="char">StorageClass</P>
             <P Name="StorageClass" Class="double">[]</P>
             <P Name="ServicePort" Class="double">[]</P>
@@ -507,7 +206,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
             <P Name="MemorySection" Class="double">[]</P>
             <P Name="Identifier" Class="char"/>
           </Object>
-          <Object PropName="SharedLocalDataStores" ObjectID="51" ClassName="Simulink.DataReferenceClass">
+          <Object PropName="SharedLocalDataStores" ObjectID="11" ClassName="Simulink.DataReferenceClass">
             <P Name="MappedTo" Class="char">StorageClass</P>
             <P Name="StorageClass" Class="double">[]</P>
             <P Name="ServicePort" Class="double">[]</P>
@@ -515,7 +214,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
             <P Name="MemorySection" Class="double">[]</P>
             <P Name="Identifier" Class="char"/>
           </Object>
-          <Object PropName="GlobalDataStores" ObjectID="52" ClassName="Simulink.DataReferenceClass">
+          <Object PropName="GlobalDataStores" ObjectID="12" ClassName="Simulink.DataReferenceClass">
             <P Name="MappedTo" Class="char">StorageClass</P>
             <P Name="StorageClass" Class="double">[]</P>
             <P Name="ServicePort" Class="double">[]</P>
@@ -523,7 +222,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
             <P Name="MemorySection" Class="double">[]</P>
             <P Name="Identifier" Class="char"/>
           </Object>
-          <Object PropName="InternalData" ObjectID="53" ClassName="Simulink.DataReferenceClass">
+          <Object PropName="InternalData" ObjectID="13" ClassName="Simulink.DataReferenceClass">
             <P Name="MappedTo" Class="char">StorageClass</P>
             <P Name="StorageClass" Class="double">[]</P>
             <P Name="ServicePort" Class="double">[]</P>
@@ -531,7 +230,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
             <P Name="MemorySection" Class="double">[]</P>
             <P Name="Identifier" Class="char"/>
           </Object>
-          <Object PropName="Constants" ObjectID="54" ClassName="Simulink.DataReferenceClass">
+          <Object PropName="Constants" ObjectID="14" ClassName="Simulink.DataReferenceClass">
             <P Name="MappedTo" Class="char">StorageClass</P>
             <P Name="StorageClass" Class="double">[]</P>
             <P Name="ServicePort" Class="double">[]</P>
@@ -539,15 +238,15 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
             <P Name="MemorySection" Class="double">[]</P>
             <P Name="Identifier" Class="char"/>
           </Object>
-          <Object PropName="InitTermFunctions" ObjectID="55" ClassName="Simulink.FunctionReferenceClass">
+          <Object PropName="InitTermFunctions" ObjectID="15" ClassName="Simulink.FunctionReferenceClass">
             <P Name="FunctionClass" Class="double">[]</P>
             <P Name="MemorySection" Class="double">[]</P>
           </Object>
-          <Object PropName="ExecutionFunctions" ObjectID="56" ClassName="Simulink.FunctionReferenceClass">
+          <Object PropName="ExecutionFunctions" ObjectID="16" ClassName="Simulink.FunctionReferenceClass">
             <P Name="FunctionClass" Class="double">[]</P>
             <P Name="MemorySection" Class="double">[]</P>
           </Object>
-          <Object PropName="SharedUtilityFunctions" ObjectID="57" ClassName="Simulink.FunctionReferenceClass">
+          <Object PropName="SharedUtilityFunctions" ObjectID="17" ClassName="Simulink.FunctionReferenceClass">
             <P Name="FunctionClass" Class="double">[]</P>
             <P Name="MemorySection" Class="double">[]</P>
           </Object>
@@ -1481,32 +1180,20 @@ Gain</P>
   </ExternalFileReference>
   <ExternalFileReference>
     <P Name="Reference">slpidlib/PID Controller</P>
-    <P Name="Path">$bdroot/Discrete PID Controller</P>
-    <P Name="SID">668</P>
+    <P Name="Path">$bdroot/Airspeed Controller/Discrete PID Controller4</P>
+    <P Name="SID">747</P>
     <P Name="Type">LIBRARY_BLOCK</P>
   </ExternalFileReference>
   <ExternalFileReference>
     <P Name="Reference">slpidlib/PID Controller</P>
-    <P Name="Path">$bdroot/Discrete PID Controller1</P>
-    <P Name="SID">671</P>
+    <P Name="Path">$bdroot/Altitude Controller/Discrete PID Controller</P>
+    <P Name="SID">753</P>
     <P Name="Type">LIBRARY_BLOCK</P>
   </ExternalFileReference>
   <ExternalFileReference>
     <P Name="Reference">slpidlib/PID Controller</P>
-    <P Name="Path">$bdroot/Discrete PID Controller2</P>
-    <P Name="SID">675</P>
-    <P Name="Type">LIBRARY_BLOCK</P>
-  </ExternalFileReference>
-  <ExternalFileReference>
-    <P Name="Reference">slpidlib/PID Controller</P>
-    <P Name="Path">$bdroot/Discrete PID Controller3</P>
-    <P Name="SID">678</P>
-    <P Name="Type">LIBRARY_BLOCK</P>
-  </ExternalFileReference>
-  <ExternalFileReference>
-    <P Name="Reference">slpidlib/PID Controller</P>
-    <P Name="Path">$bdroot/Discrete PID Controller4</P>
-    <P Name="SID">688</P>
+    <P Name="Path">$bdroot/Altitude Controller/Discrete PID Controller1</P>
+    <P Name="SID">754</P>
     <P Name="Type">LIBRARY_BLOCK</P>
   </ExternalFileReference>
   <ExternalFileReference>
@@ -1525,6 +1212,18 @@ Gain</P>
     <P Name="Reference">uavalgslib/Waypoint Follower</P>
     <P Name="Path">$bdroot/Waypoint Follower</P>
     <P Name="SID">728</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">slpidlib/PID Controller</P>
+    <P Name="Path">$bdroot/Yaw Controller/Discrete PID Controller2</P>
+    <P Name="SID">764</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">slpidlib/PID Controller</P>
+    <P Name="Path">$bdroot/Yaw Controller/Discrete PID Controller3</P>
+    <P Name="SID">765</P>
     <P Name="Type">LIBRARY_BLOCK</P>
   </ExternalFileReference>
   <P Name="OrderedModelArguments">0</P>
@@ -1831,6 +1530,9 @@ __MWOPC_PART_BEGIN__ /simulink/systems/_rels/system_root.xml.rels
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
   <Relationship Id="system_1" Target="system_1.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
+  <Relationship Id="system_742" Target="system_742.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
+  <Relationship Id="system_750" Target="system_750.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
+  <Relationship Id="system_761" Target="system_761.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
 </Relationships>
 
 __MWOPC_PART_BEGIN__ /simulink/systems/system_1.xml
@@ -10135,6 +9837,1333 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_7.xml
   </Line>
 </System>
 
+__MWOPC_PART_BEGIN__ /simulink/systems/system_742.xml
+<?xml version="1.0" encoding="utf-8"?>
+<System>
+  <P Name="Location">[-1, -7, 1707, 1068]</P>
+  <P Name="ZoomFactor">200</P>
+  <Block BlockType="Inport" Name="airspeed_desired" SID="743">
+    <P Name="Position">[110, 103, 140, 117]</P>
+    <P Name="ZOrder">-1</P>
+  </Block>
+  <Block BlockType="Inport" Name="airspeed_measured" SID="745">
+    <P Name="Position">[110, 148, 140, 162]</P>
+    <P Name="ZOrder">1</P>
+    <P Name="Port">2</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="PropagatedSignals">Vx</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Reference" Name="Discrete PID Controller4" SID="747">
+    <PortCounts in="1" out="1"/>
+    <P Name="Position">[340, 117, 380, 153]</P>
+    <P Name="ZOrder">2232</P>
+    <P Name="LibrarySourceBlock">simulink/Discrete/Discrete PID Controller</P>
+    <P Name="LibraryVersion">6.5</P>
+    <P Name="SourceBlock">slpidlib/PID Controller</P>
+    <P Name="SourceType">PID 1dof</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">on</P>
+      <P Name="Controller">PID</P>
+      <P Name="Form">Parallel</P>
+      <P Name="TimeDomain">Discrete-time</P>
+      <P Name="UseExternalTs">off</P>
+      <P Name="SampleTime">-1</P>
+      <P Name="IntegratorMethod">Forward Euler</P>
+      <P Name="FilterMethod">Forward Euler</P>
+      <P Name="ControllerParametersSource">internal</P>
+      <P Name="P">.7</P>
+      <P Name="I">0.0145240090706121</P>
+      <P Name="UseKiTs">off</P>
+      <P Name="D">0</P>
+      <P Name="N">0</P>
+      <P Name="UseFilter">off</P>
+      <P Name="TunerSelectOption">Frequency Response Based</P>
+      <P Name="ZeroCross">on</P>
+      <P Name="InitialConditionSource">internal</P>
+      <P Name="InitialConditionForIntegrator">0</P>
+      <P Name="InitialConditionForFilter">0</P>
+      <P Name="DifferentiatorICPrevScaledInput">0</P>
+      <P Name="ExternalReset">none</P>
+      <P Name="IgnoreLimit">off</P>
+      <P Name="TrackingMode">off</P>
+      <P Name="Kt">1</P>
+      <P Name="LimitOutput">on</P>
+      <P Name="SatLimitsSource">internal</P>
+      <P Name="UpperSaturationLimit">2</P>
+      <P Name="LowerSaturationLimit">0</P>
+      <P Name="LinearizeAsGain">off</P>
+      <P Name="AntiWindupMode">none</P>
+      <P Name="Kb">1</P>
+      <P Name="LimitIntegrator">off</P>
+      <P Name="UpperIntegratorSaturationLimit">inf</P>
+      <P Name="LowerIntegratorSaturationLimit">-inf</P>
+      <P Name="RndMeth">Floor</P>
+      <P Name="SaturateOnIntegerOverflow">off</P>
+      <P Name="LockScale">off</P>
+      <P Name="PGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="PProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="POutMin">[]</P>
+      <P Name="POutMax">[]</P>
+      <P Name="IGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IOutMin">[]</P>
+      <P Name="IOutMax">[]</P>
+      <P Name="DGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DOutMin">[]</P>
+      <P Name="DOutMax">[]</P>
+      <P Name="NGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NOutMin">[]</P>
+      <P Name="NOutMax">[]</P>
+      <P Name="SumOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumOutMin">[]</P>
+      <P Name="SumOutMax">[]</P>
+      <P Name="SaturationOutDataTypeStr">Inherit: Same as input</P>
+      <P Name="SaturationOutMin">[]</P>
+      <P Name="SaturationOutMax">[]</P>
+      <P Name="PParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="PParamMin">[]</P>
+      <P Name="PParamMax">[]</P>
+      <P Name="IParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IParamMin">[]</P>
+      <P Name="IParamMax">[]</P>
+      <P Name="DParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DParamMin">[]</P>
+      <P Name="DParamMax">[]</P>
+      <P Name="NParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NParamMin">[]</P>
+      <P Name="NParamMax">[]</P>
+      <P Name="KbParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KbParamMin">[]</P>
+      <P Name="KbParamMax">[]</P>
+      <P Name="KtParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KtParamMin">[]</P>
+      <P Name="KtParamMax">[]</P>
+      <P Name="KbOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KbOutMin">[]</P>
+      <P Name="KbOutMax">[]</P>
+      <P Name="KtOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KtOutMin">[]</P>
+      <P Name="KtOutMax">[]</P>
+      <P Name="IntegratorOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IntegratorOutMin">[]</P>
+      <P Name="IntegratorOutMax">[]</P>
+      <P Name="FilterOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterOutMin">[]</P>
+      <P Name="FilterOutMax">[]</P>
+      <P Name="SumI1OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI1OutMin">[]</P>
+      <P Name="SumI1OutMax">[]</P>
+      <P Name="SumI2OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI2OutMin">[]</P>
+      <P Name="SumI2OutMax">[]</P>
+      <P Name="SumI3OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI3OutMin">[]</P>
+      <P Name="SumI3OutMax">[]</P>
+      <P Name="SumI4OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI4OutMin">[]</P>
+      <P Name="SumI4OutMax">[]</P>
+      <P Name="SumDOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumDOutMin">[]</P>
+      <P Name="SumDOutMax">[]</P>
+      <P Name="SumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI1AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI2AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI3AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI4AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumDAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DifferentiatorOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DifferentiatorOutMin">[]</P>
+      <P Name="DifferentiatorOutMax">[]</P>
+      <P Name="FilterDiffNumProductOutputDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffDenProductOutputDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffNumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffDenAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffOutCoefDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffOutCoefMin">[]</P>
+      <P Name="FilterDiffOutCoefMax">[]</P>
+      <P Name="ReciprocalOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="ReciprocalOutMin">[]</P>
+      <P Name="ReciprocalOutMax">[]</P>
+      <P Name="SumDenOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumDenOutMin">[]</P>
+      <P Name="SumDenOutMax">[]</P>
+      <P Name="SumNumOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumNumOutMin">[]</P>
+      <P Name="SumNumOutMax">[]</P>
+      <P Name="SumDenAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumNumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DivideOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DivideOutMin">[]</P>
+      <P Name="DivideOutMax">[]</P>
+      <P Name="UdiffTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="UdiffTsProdOutMin">[]</P>
+      <P Name="UdiffTsProdOutMax">[]</P>
+      <P Name="NTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NTsProdOutMin">[]</P>
+      <P Name="NTsProdOutMax">[]</P>
+      <P Name="UintegralTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="UintegralTsProdOutMin">[]</P>
+      <P Name="UintegralTsProdOutMax">[]</P>
+      <P Name="UngainTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="UngainTsProdOutMin">[]</P>
+      <P Name="UngainTsProdOutMax">[]</P>
+      <P Name="ClampingZeroOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="ClampingZeroOutMin">[]</P>
+      <P Name="ClampingZeroOutMax">[]</P>
+      <P Name="FilterDenConstantOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="FilterDenConstantOutMin">[]</P>
+      <P Name="FilterDenConstantOutMax">[]</P>
+      <P Name="PCopyOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="PCopyOutMin">[]</P>
+      <P Name="PCopyOutMax">[]</P>
+      <P Name="NCopyOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="NCopyOutMin">[]</P>
+      <P Name="NCopyOutMax">[]</P>
+      <P Name="IntegratorContinuousStateAttributes">&apos;&apos;</P>
+      <P Name="IntegratorStateMustResolveToSignalObject">off</P>
+      <P Name="IntegratorRTWStateStorageClass">Auto</P>
+      <P Name="FilterContinuousStateAttributes">&apos;&apos;</P>
+      <P Name="FilterStateMustResolveToSignalObject">off</P>
+      <P Name="FilterRTWStateStorageClass">Auto</P>
+      <P Name="ParallelPVariant">InternalParameters</P>
+      <P Name="IdealPVariant">Disabled</P>
+      <P Name="IVariant">InternalParameters</P>
+      <P Name="DVariant">InternalParameters</P>
+      <P Name="IntegratorVariant">Discrete</P>
+      <P Name="SatVariant">Enabled</P>
+      <P Name="AWVariant">Passthrough</P>
+      <P Name="PCopyVariant">Disabled</P>
+      <P Name="TRVariant">Disabled</P>
+      <P Name="FdbkBlocksVariant">Forward</P>
+      <P Name="IdealPFdbkVariant">Disabled</P>
+      <P Name="SatFdbkVariant">Disabled</P>
+      <P Name="DerivativeFilterVariant">Differentiator</P>
+      <P Name="NVariant">Passthrough</P>
+      <P Name="NCopyVariant">Disabled_SignalSpec</P>
+      <P Name="FilterICVariant">InternalICsDifferentiator</P>
+      <P Name="IntegratorICVariant">InternalICs</P>
+      <P Name="ExternalResetVariant">Disabled</P>
+      <P Name="TRSumVariant">Passthrough</P>
+      <P Name="SumFdbkVariant">Disabled</P>
+      <P Name="SumVariant">Sum_PID</P>
+      <P Name="TsampFilterVariant">InternalTs</P>
+      <P Name="TsampNgainVariant">Passthrough</P>
+      <P Name="TsampIntegralVariant">Disabled_SignalSpec</P>
+      <P Name="ExternalSaturationOutDataTypeStr">Inherit: Same as second input</P>
+      <P Name="InitialConditionSetting">Auto</P>
+    </InstanceData>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="Name">Throttle</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Sum" Name="Subtract4" SID="748">
+    <PortCounts in="2" out="1"/>
+    <P Name="Position">[205, 117, 235, 148]</P>
+    <P Name="ZOrder">2231</P>
+    <P Name="IconShape">rectangular</P>
+    <P Name="Inputs">+-</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="Name">airspeed_error</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Outport" Name="throttle_control" SID="744">
+    <P Name="Position">[460, 128, 490, 142]</P>
+    <P Name="ZOrder">-2</P>
+  </Block>
+  <Line>
+    <P Name="Name">airspeed_error</P>
+    <P Name="ZOrder">2</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">748#out:1</P>
+    <P Name="Dst">747#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">4</P>
+    <P Name="Src">743#out:1</P>
+    <P Name="Points">[38, 0; 0, 15]</P>
+    <P Name="Dst">748#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">5</P>
+    <P Name="Src">745#out:1</P>
+    <P Name="Points">[35, 0; 0, -15]</P>
+    <P Name="Dst">748#in:2</P>
+  </Line>
+  <Line>
+    <P Name="Name">Throttle</P>
+    <P Name="ZOrder">6</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">747#out:1</P>
+    <P Name="Dst">744#in:1</P>
+  </Line>
+</System>
+
+__MWOPC_PART_BEGIN__ /simulink/systems/system_750.xml
+<?xml version="1.0" encoding="utf-8"?>
+<System>
+  <P Name="Location">[-1, -7, 1707, 1068]</P>
+  <P Name="ZoomFactor">200</P>
+  <Block BlockType="Inport" Name="altitude_desired" SID="751">
+    <P Name="Position">[110, 103, 140, 117]</P>
+    <P Name="ZOrder">-1</P>
+  </Block>
+  <Block BlockType="Inport" Name="altitude_measured" SID="758">
+    <P Name="Position">[110, 158, 140, 172]</P>
+    <P Name="ZOrder">1095</P>
+    <P Name="Port">2</P>
+  </Block>
+  <Block BlockType="Inport" Name="pitch_measured" SID="760">
+    <P Name="Position">[110, 213, 140, 227]</P>
+    <P Name="ZOrder">1097</P>
+    <P Name="Port">3</P>
+  </Block>
+  <Block BlockType="Reference" Name="Discrete PID Controller" SID="753">
+    <PortCounts in="1" out="1"/>
+    <P Name="Position">[310, 122, 350, 158]</P>
+    <P Name="ZOrder">1092</P>
+    <P Name="LibrarySourceBlock">simulink/Discrete/Discrete PID Controller</P>
+    <P Name="LibraryVersion">6.5</P>
+    <P Name="SourceBlock">slpidlib/PID Controller</P>
+    <P Name="SourceType">PID 1dof</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">on</P>
+      <P Name="Controller">PID</P>
+      <P Name="Form">Parallel</P>
+      <P Name="TimeDomain">Discrete-time</P>
+      <P Name="UseExternalTs">off</P>
+      <P Name="SampleTime">-1</P>
+      <P Name="IntegratorMethod">Forward Euler</P>
+      <P Name="FilterMethod">Forward Euler</P>
+      <P Name="ControllerParametersSource">internal</P>
+      <P Name="P">-0.5</P>
+      <P Name="I">0</P>
+      <P Name="UseKiTs">off</P>
+      <P Name="D">0</P>
+      <P Name="N">100</P>
+      <P Name="UseFilter">off</P>
+      <P Name="TunerSelectOption">Transfer Function Based (PID Tuner App)</P>
+      <P Name="ZeroCross">on</P>
+      <P Name="InitialConditionSource">internal</P>
+      <P Name="InitialConditionForIntegrator">0</P>
+      <P Name="InitialConditionForFilter">0</P>
+      <P Name="DifferentiatorICPrevScaledInput">0</P>
+      <P Name="ExternalReset">none</P>
+      <P Name="IgnoreLimit">off</P>
+      <P Name="TrackingMode">off</P>
+      <P Name="Kt">1</P>
+      <P Name="LimitOutput">off</P>
+      <P Name="SatLimitsSource">internal</P>
+      <P Name="UpperSaturationLimit">inf</P>
+      <P Name="LowerSaturationLimit">-inf</P>
+      <P Name="LinearizeAsGain">off</P>
+      <P Name="AntiWindupMode">none</P>
+      <P Name="Kb">1</P>
+      <P Name="LimitIntegrator">off</P>
+      <P Name="UpperIntegratorSaturationLimit">inf</P>
+      <P Name="LowerIntegratorSaturationLimit">-inf</P>
+      <P Name="RndMeth">Floor</P>
+      <P Name="SaturateOnIntegerOverflow">off</P>
+      <P Name="LockScale">off</P>
+      <P Name="PGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="PProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="POutMin">[]</P>
+      <P Name="POutMax">[]</P>
+      <P Name="IGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IOutMin">[]</P>
+      <P Name="IOutMax">[]</P>
+      <P Name="DGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DOutMin">[]</P>
+      <P Name="DOutMax">[]</P>
+      <P Name="NGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NOutMin">[]</P>
+      <P Name="NOutMax">[]</P>
+      <P Name="SumOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumOutMin">[]</P>
+      <P Name="SumOutMax">[]</P>
+      <P Name="SaturationOutDataTypeStr">Inherit: Same as input</P>
+      <P Name="SaturationOutMin">[]</P>
+      <P Name="SaturationOutMax">[]</P>
+      <P Name="PParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="PParamMin">[]</P>
+      <P Name="PParamMax">[]</P>
+      <P Name="IParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IParamMin">[]</P>
+      <P Name="IParamMax">[]</P>
+      <P Name="DParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DParamMin">[]</P>
+      <P Name="DParamMax">[]</P>
+      <P Name="NParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NParamMin">[]</P>
+      <P Name="NParamMax">[]</P>
+      <P Name="KbParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KbParamMin">[]</P>
+      <P Name="KbParamMax">[]</P>
+      <P Name="KtParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KtParamMin">[]</P>
+      <P Name="KtParamMax">[]</P>
+      <P Name="KbOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KbOutMin">[]</P>
+      <P Name="KbOutMax">[]</P>
+      <P Name="KtOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KtOutMin">[]</P>
+      <P Name="KtOutMax">[]</P>
+      <P Name="IntegratorOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IntegratorOutMin">[]</P>
+      <P Name="IntegratorOutMax">[]</P>
+      <P Name="FilterOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterOutMin">[]</P>
+      <P Name="FilterOutMax">[]</P>
+      <P Name="SumI1OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI1OutMin">[]</P>
+      <P Name="SumI1OutMax">[]</P>
+      <P Name="SumI2OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI2OutMin">[]</P>
+      <P Name="SumI2OutMax">[]</P>
+      <P Name="SumI3OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI3OutMin">[]</P>
+      <P Name="SumI3OutMax">[]</P>
+      <P Name="SumI4OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI4OutMin">[]</P>
+      <P Name="SumI4OutMax">[]</P>
+      <P Name="SumDOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumDOutMin">[]</P>
+      <P Name="SumDOutMax">[]</P>
+      <P Name="SumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI1AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI2AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI3AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI4AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumDAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DifferentiatorOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DifferentiatorOutMin">[]</P>
+      <P Name="DifferentiatorOutMax">[]</P>
+      <P Name="FilterDiffNumProductOutputDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffDenProductOutputDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffNumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffDenAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffOutCoefDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffOutCoefMin">[]</P>
+      <P Name="FilterDiffOutCoefMax">[]</P>
+      <P Name="ReciprocalOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="ReciprocalOutMin">[]</P>
+      <P Name="ReciprocalOutMax">[]</P>
+      <P Name="SumDenOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumDenOutMin">[]</P>
+      <P Name="SumDenOutMax">[]</P>
+      <P Name="SumNumOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumNumOutMin">[]</P>
+      <P Name="SumNumOutMax">[]</P>
+      <P Name="SumDenAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumNumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DivideOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DivideOutMin">[]</P>
+      <P Name="DivideOutMax">[]</P>
+      <P Name="UdiffTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="UdiffTsProdOutMin">[]</P>
+      <P Name="UdiffTsProdOutMax">[]</P>
+      <P Name="NTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NTsProdOutMin">[]</P>
+      <P Name="NTsProdOutMax">[]</P>
+      <P Name="UintegralTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="UintegralTsProdOutMin">[]</P>
+      <P Name="UintegralTsProdOutMax">[]</P>
+      <P Name="UngainTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="UngainTsProdOutMin">[]</P>
+      <P Name="UngainTsProdOutMax">[]</P>
+      <P Name="ClampingZeroOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="ClampingZeroOutMin">[]</P>
+      <P Name="ClampingZeroOutMax">[]</P>
+      <P Name="FilterDenConstantOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="FilterDenConstantOutMin">[]</P>
+      <P Name="FilterDenConstantOutMax">[]</P>
+      <P Name="PCopyOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="PCopyOutMin">[]</P>
+      <P Name="PCopyOutMax">[]</P>
+      <P Name="NCopyOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="NCopyOutMin">[]</P>
+      <P Name="NCopyOutMax">[]</P>
+      <P Name="IntegratorContinuousStateAttributes">&apos;&apos;</P>
+      <P Name="IntegratorStateMustResolveToSignalObject">off</P>
+      <P Name="IntegratorRTWStateStorageClass">Auto</P>
+      <P Name="FilterContinuousStateAttributes">&apos;&apos;</P>
+      <P Name="FilterStateMustResolveToSignalObject">off</P>
+      <P Name="FilterRTWStateStorageClass">Auto</P>
+      <P Name="ParallelPVariant">InternalParameters</P>
+      <P Name="IdealPVariant">Disabled</P>
+      <P Name="IVariant">InternalParameters</P>
+      <P Name="DVariant">InternalParameters</P>
+      <P Name="IntegratorVariant">Discrete</P>
+      <P Name="SatVariant">Disabled</P>
+      <P Name="AWVariant">Passthrough</P>
+      <P Name="PCopyVariant">Disabled</P>
+      <P Name="TRVariant">Disabled</P>
+      <P Name="FdbkBlocksVariant">Forward</P>
+      <P Name="IdealPFdbkVariant">Disabled</P>
+      <P Name="SatFdbkVariant">Disabled</P>
+      <P Name="DerivativeFilterVariant">Differentiator</P>
+      <P Name="NVariant">Passthrough</P>
+      <P Name="NCopyVariant">Disabled_SignalSpec</P>
+      <P Name="FilterICVariant">InternalICsDifferentiator</P>
+      <P Name="IntegratorICVariant">InternalICs</P>
+      <P Name="ExternalResetVariant">Disabled</P>
+      <P Name="TRSumVariant">Passthrough</P>
+      <P Name="SumFdbkVariant">Disabled</P>
+      <P Name="SumVariant">Sum_PID</P>
+      <P Name="TsampFilterVariant">InternalTs</P>
+      <P Name="TsampNgainVariant">Passthrough</P>
+      <P Name="TsampIntegralVariant">Disabled_SignalSpec</P>
+      <P Name="ExternalSaturationOutDataTypeStr">Inherit: Same as second input</P>
+      <P Name="InitialConditionSetting">Auto</P>
+    </InstanceData>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="Name">pitch_desired</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Reference" Name="Discrete PID Controller1" SID="754">
+    <PortCounts in="1" out="1"/>
+    <P Name="Position">[540, 132, 580, 168]</P>
+    <P Name="ZOrder">1094</P>
+    <P Name="LibrarySourceBlock">simulink/Discrete/Discrete PID Controller</P>
+    <P Name="LibraryVersion">6.5</P>
+    <P Name="SourceBlock">slpidlib/PID Controller</P>
+    <P Name="SourceType">PID 1dof</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">on</P>
+      <P Name="Controller">PID</P>
+      <P Name="Form">Parallel</P>
+      <P Name="TimeDomain">Discrete-time</P>
+      <P Name="UseExternalTs">off</P>
+      <P Name="SampleTime">-1</P>
+      <P Name="IntegratorMethod">Forward Euler</P>
+      <P Name="FilterMethod">Forward Euler</P>
+      <P Name="ControllerParametersSource">internal</P>
+      <P Name="P">.8</P>
+      <P Name="I">.01</P>
+      <P Name="UseKiTs">off</P>
+      <P Name="D">.5</P>
+      <P Name="N">100</P>
+      <P Name="UseFilter">off</P>
+      <P Name="TunerSelectOption">Transfer Function Based (PID Tuner App)</P>
+      <P Name="ZeroCross">on</P>
+      <P Name="InitialConditionSource">internal</P>
+      <P Name="InitialConditionForIntegrator">0</P>
+      <P Name="InitialConditionForFilter">0</P>
+      <P Name="DifferentiatorICPrevScaledInput">0</P>
+      <P Name="ExternalReset">none</P>
+      <P Name="IgnoreLimit">off</P>
+      <P Name="TrackingMode">off</P>
+      <P Name="Kt">1</P>
+      <P Name="LimitOutput">on</P>
+      <P Name="SatLimitsSource">internal</P>
+      <P Name="UpperSaturationLimit">5</P>
+      <P Name="LowerSaturationLimit">-2</P>
+      <P Name="LinearizeAsGain">off</P>
+      <P Name="AntiWindupMode">none</P>
+      <P Name="Kb">1</P>
+      <P Name="LimitIntegrator">off</P>
+      <P Name="UpperIntegratorSaturationLimit">inf</P>
+      <P Name="LowerIntegratorSaturationLimit">-inf</P>
+      <P Name="RndMeth">Floor</P>
+      <P Name="SaturateOnIntegerOverflow">off</P>
+      <P Name="LockScale">off</P>
+      <P Name="PGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="PProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="POutMin">[]</P>
+      <P Name="POutMax">[]</P>
+      <P Name="IGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IOutMin">[]</P>
+      <P Name="IOutMax">[]</P>
+      <P Name="DGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DOutMin">[]</P>
+      <P Name="DOutMax">[]</P>
+      <P Name="NGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NOutMin">[]</P>
+      <P Name="NOutMax">[]</P>
+      <P Name="SumOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumOutMin">[]</P>
+      <P Name="SumOutMax">[]</P>
+      <P Name="SaturationOutDataTypeStr">Inherit: Same as input</P>
+      <P Name="SaturationOutMin">[]</P>
+      <P Name="SaturationOutMax">[]</P>
+      <P Name="PParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="PParamMin">[]</P>
+      <P Name="PParamMax">[]</P>
+      <P Name="IParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IParamMin">[]</P>
+      <P Name="IParamMax">[]</P>
+      <P Name="DParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DParamMin">[]</P>
+      <P Name="DParamMax">[]</P>
+      <P Name="NParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NParamMin">[]</P>
+      <P Name="NParamMax">[]</P>
+      <P Name="KbParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KbParamMin">[]</P>
+      <P Name="KbParamMax">[]</P>
+      <P Name="KtParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KtParamMin">[]</P>
+      <P Name="KtParamMax">[]</P>
+      <P Name="KbOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KbOutMin">[]</P>
+      <P Name="KbOutMax">[]</P>
+      <P Name="KtOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KtOutMin">[]</P>
+      <P Name="KtOutMax">[]</P>
+      <P Name="IntegratorOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IntegratorOutMin">[]</P>
+      <P Name="IntegratorOutMax">[]</P>
+      <P Name="FilterOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterOutMin">[]</P>
+      <P Name="FilterOutMax">[]</P>
+      <P Name="SumI1OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI1OutMin">[]</P>
+      <P Name="SumI1OutMax">[]</P>
+      <P Name="SumI2OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI2OutMin">[]</P>
+      <P Name="SumI2OutMax">[]</P>
+      <P Name="SumI3OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI3OutMin">[]</P>
+      <P Name="SumI3OutMax">[]</P>
+      <P Name="SumI4OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI4OutMin">[]</P>
+      <P Name="SumI4OutMax">[]</P>
+      <P Name="SumDOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumDOutMin">[]</P>
+      <P Name="SumDOutMax">[]</P>
+      <P Name="SumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI1AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI2AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI3AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI4AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumDAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DifferentiatorOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DifferentiatorOutMin">[]</P>
+      <P Name="DifferentiatorOutMax">[]</P>
+      <P Name="FilterDiffNumProductOutputDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffDenProductOutputDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffNumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffDenAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffOutCoefDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffOutCoefMin">[]</P>
+      <P Name="FilterDiffOutCoefMax">[]</P>
+      <P Name="ReciprocalOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="ReciprocalOutMin">[]</P>
+      <P Name="ReciprocalOutMax">[]</P>
+      <P Name="SumDenOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumDenOutMin">[]</P>
+      <P Name="SumDenOutMax">[]</P>
+      <P Name="SumNumOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumNumOutMin">[]</P>
+      <P Name="SumNumOutMax">[]</P>
+      <P Name="SumDenAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumNumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DivideOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DivideOutMin">[]</P>
+      <P Name="DivideOutMax">[]</P>
+      <P Name="UdiffTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="UdiffTsProdOutMin">[]</P>
+      <P Name="UdiffTsProdOutMax">[]</P>
+      <P Name="NTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NTsProdOutMin">[]</P>
+      <P Name="NTsProdOutMax">[]</P>
+      <P Name="UintegralTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="UintegralTsProdOutMin">[]</P>
+      <P Name="UintegralTsProdOutMax">[]</P>
+      <P Name="UngainTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="UngainTsProdOutMin">[]</P>
+      <P Name="UngainTsProdOutMax">[]</P>
+      <P Name="ClampingZeroOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="ClampingZeroOutMin">[]</P>
+      <P Name="ClampingZeroOutMax">[]</P>
+      <P Name="FilterDenConstantOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="FilterDenConstantOutMin">[]</P>
+      <P Name="FilterDenConstantOutMax">[]</P>
+      <P Name="PCopyOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="PCopyOutMin">[]</P>
+      <P Name="PCopyOutMax">[]</P>
+      <P Name="NCopyOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="NCopyOutMin">[]</P>
+      <P Name="NCopyOutMax">[]</P>
+      <P Name="IntegratorContinuousStateAttributes">&apos;&apos;</P>
+      <P Name="IntegratorStateMustResolveToSignalObject">off</P>
+      <P Name="IntegratorRTWStateStorageClass">Auto</P>
+      <P Name="FilterContinuousStateAttributes">&apos;&apos;</P>
+      <P Name="FilterStateMustResolveToSignalObject">off</P>
+      <P Name="FilterRTWStateStorageClass">Auto</P>
+      <P Name="ParallelPVariant">InternalParameters</P>
+      <P Name="IdealPVariant">Disabled</P>
+      <P Name="IVariant">InternalParameters</P>
+      <P Name="DVariant">InternalParameters</P>
+      <P Name="IntegratorVariant">Discrete</P>
+      <P Name="SatVariant">Enabled</P>
+      <P Name="AWVariant">Passthrough</P>
+      <P Name="PCopyVariant">Disabled</P>
+      <P Name="TRVariant">Disabled</P>
+      <P Name="FdbkBlocksVariant">Forward</P>
+      <P Name="IdealPFdbkVariant">Disabled</P>
+      <P Name="SatFdbkVariant">Disabled</P>
+      <P Name="DerivativeFilterVariant">Differentiator</P>
+      <P Name="NVariant">Passthrough</P>
+      <P Name="NCopyVariant">Disabled_SignalSpec</P>
+      <P Name="FilterICVariant">InternalICsDifferentiator</P>
+      <P Name="IntegratorICVariant">InternalICs</P>
+      <P Name="ExternalResetVariant">Disabled</P>
+      <P Name="TRSumVariant">Passthrough</P>
+      <P Name="SumFdbkVariant">Disabled</P>
+      <P Name="SumVariant">Sum_PID</P>
+      <P Name="TsampFilterVariant">InternalTs</P>
+      <P Name="TsampNgainVariant">Passthrough</P>
+      <P Name="TsampIntegralVariant">Disabled_SignalSpec</P>
+      <P Name="ExternalSaturationOutDataTypeStr">Inherit: Same as second input</P>
+      <P Name="InitialConditionSetting">Auto</P>
+    </InstanceData>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="Name">elevon control</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Sum" Name="Subtract" SID="755">
+    <PortCounts in="2" out="1"/>
+    <P Name="Position">[200, 122, 230, 153]</P>
+    <P Name="ZOrder">1091</P>
+    <P Name="IconShape">rectangular</P>
+    <P Name="Inputs">+-</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="Name">altitude_error</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Sum" Name="Subtract1" SID="756">
+    <PortCounts in="2" out="1"/>
+    <P Name="Position">[430, 132, 460, 163]</P>
+    <P Name="ZOrder">1093</P>
+    <P Name="IconShape">rectangular</P>
+    <P Name="Inputs">+-</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="Name">pitch_error</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Outport" Name="elevon_control" SID="752">
+    <P Name="Position">[660, 143, 690, 157]</P>
+    <P Name="ZOrder">-2</P>
+  </Block>
+  <Line>
+    <P Name="Name">pitch_error</P>
+    <P Name="ZOrder">2</P>
+    <P Name="Labels">[1, 1]</P>
+    <P Name="Src">756#out:1</P>
+    <P Name="Dst">754#in:1</P>
+  </Line>
+  <Line>
+    <P Name="Name">altitude_error</P>
+    <P Name="ZOrder">4</P>
+    <P Name="Labels">[1, 1]</P>
+    <P Name="Src">755#out:1</P>
+    <P Name="Dst">753#in:1</P>
+  </Line>
+  <Line>
+    <P Name="Name">pitch_desired</P>
+    <P Name="ZOrder">7</P>
+    <P Name="Labels">[1, 1]</P>
+    <P Name="Src">753#out:1</P>
+    <P Name="Dst">756#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">10</P>
+    <P Name="Src">758#out:1</P>
+    <P Name="Points">[20, 0; 0, -20]</P>
+    <P Name="Dst">755#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">11</P>
+    <P Name="Src">751#out:1</P>
+    <P Name="Points">[20, 0; 0, 20]</P>
+    <P Name="Dst">755#in:1</P>
+  </Line>
+  <Line>
+    <P Name="Name">elevon control</P>
+    <P Name="ZOrder">12</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">754#out:1</P>
+    <P Name="Dst">752#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">13</P>
+    <P Name="Src">760#out:1</P>
+    <P Name="Points">[250, 0; 0, -65]</P>
+    <P Name="Dst">756#in:2</P>
+  </Line>
+</System>
+
+__MWOPC_PART_BEGIN__ /simulink/systems/system_761.xml
+<?xml version="1.0" encoding="utf-8"?>
+<System>
+  <P Name="Location">[-1, -7, 1707, 1068]</P>
+  <P Name="ZoomFactor">200</P>
+  <Block BlockType="Inport" Name="yaw_desired" SID="762">
+    <P Name="Position">[110, 103, 140, 117]</P>
+    <P Name="ZOrder">-1</P>
+  </Block>
+  <Block BlockType="Inport" Name="yaw_measured" SID="769">
+    <P Name="Position">[110, 148, 140, 162]</P>
+    <P Name="ZOrder">2251</P>
+    <P Name="Port">2</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="Name">yaw_mesured</P>
+        <P Name="PropagatedSignals">yaw_mesured</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Inport" Name="roll_measured" SID="770">
+    <P Name="Position">[110, 193, 140, 207]</P>
+    <P Name="ZOrder">2252</P>
+    <P Name="Port">3</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="Name">roll_measured</P>
+        <P Name="PropagatedSignals">roll_measured</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Reference" Name="Discrete PID Controller2" SID="764">
+    <PortCounts in="1" out="1"/>
+    <P Name="Position">[295, 117, 335, 153]</P>
+    <P Name="ZOrder">2247</P>
+    <P Name="LibrarySourceBlock">simulink/Discrete/Discrete PID Controller</P>
+    <P Name="LibraryVersion">6.5</P>
+    <P Name="SourceBlock">slpidlib/PID Controller</P>
+    <P Name="SourceType">PID 1dof</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">on</P>
+      <P Name="Controller">PID</P>
+      <P Name="Form">Parallel</P>
+      <P Name="TimeDomain">Discrete-time</P>
+      <P Name="UseExternalTs">off</P>
+      <P Name="SampleTime">-1</P>
+      <P Name="IntegratorMethod">Forward Euler</P>
+      <P Name="FilterMethod">Forward Euler</P>
+      <P Name="ControllerParametersSource">internal</P>
+      <P Name="P">0.5</P>
+      <P Name="I">0</P>
+      <P Name="UseKiTs">off</P>
+      <P Name="D">0</P>
+      <P Name="N">100</P>
+      <P Name="UseFilter">on</P>
+      <P Name="TunerSelectOption">Transfer Function Based (PID Tuner App)</P>
+      <P Name="ZeroCross">on</P>
+      <P Name="InitialConditionSource">internal</P>
+      <P Name="InitialConditionForIntegrator">0</P>
+      <P Name="InitialConditionForFilter">0</P>
+      <P Name="DifferentiatorICPrevScaledInput">0</P>
+      <P Name="ExternalReset">none</P>
+      <P Name="IgnoreLimit">off</P>
+      <P Name="TrackingMode">off</P>
+      <P Name="Kt">1</P>
+      <P Name="LimitOutput">off</P>
+      <P Name="SatLimitsSource">internal</P>
+      <P Name="UpperSaturationLimit">inf</P>
+      <P Name="LowerSaturationLimit">-inf</P>
+      <P Name="LinearizeAsGain">off</P>
+      <P Name="AntiWindupMode">none</P>
+      <P Name="Kb">1</P>
+      <P Name="LimitIntegrator">off</P>
+      <P Name="UpperIntegratorSaturationLimit">inf</P>
+      <P Name="LowerIntegratorSaturationLimit">-inf</P>
+      <P Name="RndMeth">Floor</P>
+      <P Name="SaturateOnIntegerOverflow">off</P>
+      <P Name="LockScale">off</P>
+      <P Name="PGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="PProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="POutMin">[]</P>
+      <P Name="POutMax">[]</P>
+      <P Name="IGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IOutMin">[]</P>
+      <P Name="IOutMax">[]</P>
+      <P Name="DGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DOutMin">[]</P>
+      <P Name="DOutMax">[]</P>
+      <P Name="NGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NOutMin">[]</P>
+      <P Name="NOutMax">[]</P>
+      <P Name="SumOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumOutMin">[]</P>
+      <P Name="SumOutMax">[]</P>
+      <P Name="SaturationOutDataTypeStr">Inherit: Same as input</P>
+      <P Name="SaturationOutMin">[]</P>
+      <P Name="SaturationOutMax">[]</P>
+      <P Name="PParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="PParamMin">[]</P>
+      <P Name="PParamMax">[]</P>
+      <P Name="IParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IParamMin">[]</P>
+      <P Name="IParamMax">[]</P>
+      <P Name="DParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DParamMin">[]</P>
+      <P Name="DParamMax">[]</P>
+      <P Name="NParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NParamMin">[]</P>
+      <P Name="NParamMax">[]</P>
+      <P Name="KbParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KbParamMin">[]</P>
+      <P Name="KbParamMax">[]</P>
+      <P Name="KtParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KtParamMin">[]</P>
+      <P Name="KtParamMax">[]</P>
+      <P Name="KbOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KbOutMin">[]</P>
+      <P Name="KbOutMax">[]</P>
+      <P Name="KtOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KtOutMin">[]</P>
+      <P Name="KtOutMax">[]</P>
+      <P Name="IntegratorOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IntegratorOutMin">[]</P>
+      <P Name="IntegratorOutMax">[]</P>
+      <P Name="FilterOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterOutMin">[]</P>
+      <P Name="FilterOutMax">[]</P>
+      <P Name="SumI1OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI1OutMin">[]</P>
+      <P Name="SumI1OutMax">[]</P>
+      <P Name="SumI2OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI2OutMin">[]</P>
+      <P Name="SumI2OutMax">[]</P>
+      <P Name="SumI3OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI3OutMin">[]</P>
+      <P Name="SumI3OutMax">[]</P>
+      <P Name="SumI4OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI4OutMin">[]</P>
+      <P Name="SumI4OutMax">[]</P>
+      <P Name="SumDOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumDOutMin">[]</P>
+      <P Name="SumDOutMax">[]</P>
+      <P Name="SumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI1AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI2AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI3AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI4AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumDAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DifferentiatorOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DifferentiatorOutMin">[]</P>
+      <P Name="DifferentiatorOutMax">[]</P>
+      <P Name="FilterDiffNumProductOutputDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffDenProductOutputDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffNumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffDenAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffOutCoefDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffOutCoefMin">[]</P>
+      <P Name="FilterDiffOutCoefMax">[]</P>
+      <P Name="ReciprocalOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="ReciprocalOutMin">[]</P>
+      <P Name="ReciprocalOutMax">[]</P>
+      <P Name="SumDenOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumDenOutMin">[]</P>
+      <P Name="SumDenOutMax">[]</P>
+      <P Name="SumNumOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumNumOutMin">[]</P>
+      <P Name="SumNumOutMax">[]</P>
+      <P Name="SumDenAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumNumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DivideOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DivideOutMin">[]</P>
+      <P Name="DivideOutMax">[]</P>
+      <P Name="UdiffTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="UdiffTsProdOutMin">[]</P>
+      <P Name="UdiffTsProdOutMax">[]</P>
+      <P Name="NTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NTsProdOutMin">[]</P>
+      <P Name="NTsProdOutMax">[]</P>
+      <P Name="UintegralTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="UintegralTsProdOutMin">[]</P>
+      <P Name="UintegralTsProdOutMax">[]</P>
+      <P Name="UngainTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="UngainTsProdOutMin">[]</P>
+      <P Name="UngainTsProdOutMax">[]</P>
+      <P Name="ClampingZeroOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="ClampingZeroOutMin">[]</P>
+      <P Name="ClampingZeroOutMax">[]</P>
+      <P Name="FilterDenConstantOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="FilterDenConstantOutMin">[]</P>
+      <P Name="FilterDenConstantOutMax">[]</P>
+      <P Name="PCopyOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="PCopyOutMin">[]</P>
+      <P Name="PCopyOutMax">[]</P>
+      <P Name="NCopyOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="NCopyOutMin">[]</P>
+      <P Name="NCopyOutMax">[]</P>
+      <P Name="IntegratorContinuousStateAttributes">&apos;&apos;</P>
+      <P Name="IntegratorStateMustResolveToSignalObject">off</P>
+      <P Name="IntegratorRTWStateStorageClass">Auto</P>
+      <P Name="FilterContinuousStateAttributes">&apos;&apos;</P>
+      <P Name="FilterStateMustResolveToSignalObject">off</P>
+      <P Name="FilterRTWStateStorageClass">Auto</P>
+      <P Name="ParallelPVariant">InternalParameters</P>
+      <P Name="IdealPVariant">Disabled</P>
+      <P Name="IVariant">InternalParameters</P>
+      <P Name="DVariant">InternalParameters</P>
+      <P Name="IntegratorVariant">Discrete</P>
+      <P Name="SatVariant">Disabled</P>
+      <P Name="AWVariant">Passthrough</P>
+      <P Name="PCopyVariant">Disabled</P>
+      <P Name="TRVariant">Disabled</P>
+      <P Name="FdbkBlocksVariant">Forward</P>
+      <P Name="IdealPFdbkVariant">Disabled</P>
+      <P Name="SatFdbkVariant">Disabled</P>
+      <P Name="DerivativeFilterVariant">ForwardEulerFilter</P>
+      <P Name="NVariant">InternalParameters</P>
+      <P Name="NCopyVariant">Disabled</P>
+      <P Name="FilterICVariant">InternalICsFilter</P>
+      <P Name="IntegratorICVariant">InternalICs</P>
+      <P Name="ExternalResetVariant">Disabled</P>
+      <P Name="TRSumVariant">Passthrough</P>
+      <P Name="SumFdbkVariant">Disabled</P>
+      <P Name="SumVariant">Sum_PID</P>
+      <P Name="TsampFilterVariant">InternalTs</P>
+      <P Name="TsampNgainVariant">Passthrough</P>
+      <P Name="TsampIntegralVariant">Disabled_SignalSpec</P>
+      <P Name="ExternalSaturationOutDataTypeStr">Inherit: Same as second input</P>
+      <P Name="InitialConditionSetting">Auto</P>
+    </InstanceData>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="Name">roll_desired</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Reference" Name="Discrete PID Controller3" SID="765">
+    <PortCounts in="1" out="1"/>
+    <P Name="Position">[505, 127, 545, 163]</P>
+    <P Name="ZOrder">2249</P>
+    <P Name="LibrarySourceBlock">simulink/Discrete/Discrete PID Controller</P>
+    <P Name="LibraryVersion">6.5</P>
+    <P Name="SourceBlock">slpidlib/PID Controller</P>
+    <P Name="SourceType">PID 1dof</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">on</P>
+      <P Name="Controller">PID</P>
+      <P Name="Form">Parallel</P>
+      <P Name="TimeDomain">Discrete-time</P>
+      <P Name="UseExternalTs">off</P>
+      <P Name="SampleTime">-1</P>
+      <P Name="IntegratorMethod">Forward Euler</P>
+      <P Name="FilterMethod">Forward Euler</P>
+      <P Name="ControllerParametersSource">internal</P>
+      <P Name="P">.5</P>
+      <P Name="I">0</P>
+      <P Name="UseKiTs">off</P>
+      <P Name="D">5</P>
+      <P Name="N">100</P>
+      <P Name="UseFilter">on</P>
+      <P Name="TunerSelectOption">Transfer Function Based (PID Tuner App)</P>
+      <P Name="ZeroCross">on</P>
+      <P Name="InitialConditionSource">internal</P>
+      <P Name="InitialConditionForIntegrator">0</P>
+      <P Name="InitialConditionForFilter">0</P>
+      <P Name="DifferentiatorICPrevScaledInput">0</P>
+      <P Name="ExternalReset">none</P>
+      <P Name="IgnoreLimit">off</P>
+      <P Name="TrackingMode">off</P>
+      <P Name="Kt">1</P>
+      <P Name="LimitOutput">on</P>
+      <P Name="SatLimitsSource">internal</P>
+      <P Name="UpperSaturationLimit">1</P>
+      <P Name="LowerSaturationLimit">-1</P>
+      <P Name="LinearizeAsGain">off</P>
+      <P Name="AntiWindupMode">none</P>
+      <P Name="Kb">1</P>
+      <P Name="LimitIntegrator">off</P>
+      <P Name="UpperIntegratorSaturationLimit">inf</P>
+      <P Name="LowerIntegratorSaturationLimit">-inf</P>
+      <P Name="RndMeth">Floor</P>
+      <P Name="SaturateOnIntegerOverflow">off</P>
+      <P Name="LockScale">off</P>
+      <P Name="PGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="PProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="POutMin">[]</P>
+      <P Name="POutMax">[]</P>
+      <P Name="IGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IOutMin">[]</P>
+      <P Name="IOutMax">[]</P>
+      <P Name="DGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DOutMin">[]</P>
+      <P Name="DOutMax">[]</P>
+      <P Name="NGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NOutMin">[]</P>
+      <P Name="NOutMax">[]</P>
+      <P Name="SumOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumOutMin">[]</P>
+      <P Name="SumOutMax">[]</P>
+      <P Name="SaturationOutDataTypeStr">Inherit: Same as input</P>
+      <P Name="SaturationOutMin">[]</P>
+      <P Name="SaturationOutMax">[]</P>
+      <P Name="PParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="PParamMin">[]</P>
+      <P Name="PParamMax">[]</P>
+      <P Name="IParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IParamMin">[]</P>
+      <P Name="IParamMax">[]</P>
+      <P Name="DParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DParamMin">[]</P>
+      <P Name="DParamMax">[]</P>
+      <P Name="NParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NParamMin">[]</P>
+      <P Name="NParamMax">[]</P>
+      <P Name="KbParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KbParamMin">[]</P>
+      <P Name="KbParamMax">[]</P>
+      <P Name="KtParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KtParamMin">[]</P>
+      <P Name="KtParamMax">[]</P>
+      <P Name="KbOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KbOutMin">[]</P>
+      <P Name="KbOutMax">[]</P>
+      <P Name="KtOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KtOutMin">[]</P>
+      <P Name="KtOutMax">[]</P>
+      <P Name="IntegratorOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IntegratorOutMin">[]</P>
+      <P Name="IntegratorOutMax">[]</P>
+      <P Name="FilterOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterOutMin">[]</P>
+      <P Name="FilterOutMax">[]</P>
+      <P Name="SumI1OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI1OutMin">[]</P>
+      <P Name="SumI1OutMax">[]</P>
+      <P Name="SumI2OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI2OutMin">[]</P>
+      <P Name="SumI2OutMax">[]</P>
+      <P Name="SumI3OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI3OutMin">[]</P>
+      <P Name="SumI3OutMax">[]</P>
+      <P Name="SumI4OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI4OutMin">[]</P>
+      <P Name="SumI4OutMax">[]</P>
+      <P Name="SumDOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumDOutMin">[]</P>
+      <P Name="SumDOutMax">[]</P>
+      <P Name="SumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI1AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI2AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI3AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI4AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumDAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DifferentiatorOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DifferentiatorOutMin">[]</P>
+      <P Name="DifferentiatorOutMax">[]</P>
+      <P Name="FilterDiffNumProductOutputDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffDenProductOutputDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffNumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffDenAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffOutCoefDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffOutCoefMin">[]</P>
+      <P Name="FilterDiffOutCoefMax">[]</P>
+      <P Name="ReciprocalOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="ReciprocalOutMin">[]</P>
+      <P Name="ReciprocalOutMax">[]</P>
+      <P Name="SumDenOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumDenOutMin">[]</P>
+      <P Name="SumDenOutMax">[]</P>
+      <P Name="SumNumOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumNumOutMin">[]</P>
+      <P Name="SumNumOutMax">[]</P>
+      <P Name="SumDenAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumNumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DivideOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DivideOutMin">[]</P>
+      <P Name="DivideOutMax">[]</P>
+      <P Name="UdiffTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="UdiffTsProdOutMin">[]</P>
+      <P Name="UdiffTsProdOutMax">[]</P>
+      <P Name="NTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NTsProdOutMin">[]</P>
+      <P Name="NTsProdOutMax">[]</P>
+      <P Name="UintegralTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="UintegralTsProdOutMin">[]</P>
+      <P Name="UintegralTsProdOutMax">[]</P>
+      <P Name="UngainTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="UngainTsProdOutMin">[]</P>
+      <P Name="UngainTsProdOutMax">[]</P>
+      <P Name="ClampingZeroOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="ClampingZeroOutMin">[]</P>
+      <P Name="ClampingZeroOutMax">[]</P>
+      <P Name="FilterDenConstantOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="FilterDenConstantOutMin">[]</P>
+      <P Name="FilterDenConstantOutMax">[]</P>
+      <P Name="PCopyOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="PCopyOutMin">[]</P>
+      <P Name="PCopyOutMax">[]</P>
+      <P Name="NCopyOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="NCopyOutMin">[]</P>
+      <P Name="NCopyOutMax">[]</P>
+      <P Name="IntegratorContinuousStateAttributes">&apos;&apos;</P>
+      <P Name="IntegratorStateMustResolveToSignalObject">off</P>
+      <P Name="IntegratorRTWStateStorageClass">Auto</P>
+      <P Name="FilterContinuousStateAttributes">&apos;&apos;</P>
+      <P Name="FilterStateMustResolveToSignalObject">off</P>
+      <P Name="FilterRTWStateStorageClass">Auto</P>
+      <P Name="ParallelPVariant">InternalParameters</P>
+      <P Name="IdealPVariant">Disabled</P>
+      <P Name="IVariant">InternalParameters</P>
+      <P Name="DVariant">InternalParameters</P>
+      <P Name="IntegratorVariant">Discrete</P>
+      <P Name="SatVariant">Enabled</P>
+      <P Name="AWVariant">Passthrough</P>
+      <P Name="PCopyVariant">Disabled</P>
+      <P Name="TRVariant">Disabled</P>
+      <P Name="FdbkBlocksVariant">Forward</P>
+      <P Name="IdealPFdbkVariant">Disabled</P>
+      <P Name="SatFdbkVariant">Disabled</P>
+      <P Name="DerivativeFilterVariant">ForwardEulerFilter</P>
+      <P Name="NVariant">InternalParameters</P>
+      <P Name="NCopyVariant">Disabled</P>
+      <P Name="FilterICVariant">InternalICsFilter</P>
+      <P Name="IntegratorICVariant">InternalICs</P>
+      <P Name="ExternalResetVariant">Disabled</P>
+      <P Name="TRSumVariant">Passthrough</P>
+      <P Name="SumFdbkVariant">Disabled</P>
+      <P Name="SumVariant">Sum_PID</P>
+      <P Name="TsampFilterVariant">InternalTs</P>
+      <P Name="TsampNgainVariant">Passthrough</P>
+      <P Name="TsampIntegralVariant">Disabled_SignalSpec</P>
+      <P Name="ExternalSaturationOutDataTypeStr">Inherit: Same as second input</P>
+      <P Name="InitialConditionSetting">Auto</P>
+    </InstanceData>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="Name">aileron_control</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Sum" Name="Subtract2" SID="767">
+    <PortCounts in="2" out="1"/>
+    <P Name="Position">[205, 117, 235, 148]</P>
+    <P Name="ZOrder">2250</P>
+    <P Name="IconShape">rectangular</P>
+    <P Name="Inputs">+-</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="Name">yaw_error</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Sum" Name="Subtract3" SID="768">
+    <PortCounts in="2" out="1"/>
+    <P Name="Position">[415, 127, 445, 158]</P>
+    <P Name="ZOrder">2248</P>
+    <P Name="IconShape">rectangular</P>
+    <P Name="Inputs">+-</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="Name">roll_error</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Outport" Name="aileron_control" SID="763">
+    <P Name="Position">[635, 138, 665, 152]</P>
+    <P Name="ZOrder">-2</P>
+  </Block>
+  <Line>
+    <P Name="Name">yaw_error</P>
+    <P Name="ZOrder">4</P>
+    <P Name="Labels">[1, 0]</P>
+    <P Name="Src">767#out:1</P>
+    <P Name="Dst">764#in:1</P>
+  </Line>
+  <Line>
+    <P Name="Name">roll_desired</P>
+    <P Name="ZOrder">5</P>
+    <P Name="Labels">[1, 1]</P>
+    <P Name="Src">764#out:1</P>
+    <P Name="Dst">768#in:1</P>
+  </Line>
+  <Line>
+    <P Name="Name">roll_measured</P>
+    <P Name="ZOrder">17</P>
+    <P Name="Src">770#out:1</P>
+    <P Name="Points">[235, 0; 0, -50]</P>
+    <P Name="Dst">768#in:2</P>
+  </Line>
+  <Line>
+    <P Name="Name">roll_error</P>
+    <P Name="ZOrder">18</P>
+    <P Name="Labels">[-1, 1]</P>
+    <P Name="Src">768#out:1</P>
+    <P Name="Dst">765#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">14</P>
+    <P Name="Src">762#out:1</P>
+    <P Name="Points">[23, 0; 0, 15]</P>
+    <P Name="Dst">767#in:1</P>
+  </Line>
+  <Line>
+    <P Name="Name">yaw_mesured</P>
+    <P Name="ZOrder">16</P>
+    <P Name="Src">769#out:1</P>
+    <P Name="Points">[23, 0; 0, -15]</P>
+    <P Name="Dst">767#in:2</P>
+  </Line>
+  <Line>
+    <P Name="Name">aileron_control</P>
+    <P Name="ZOrder">19</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">765#out:1</P>
+    <P Name="Dst">763#in:1</P>
+  </Line>
+</System>
+
 __MWOPC_PART_BEGIN__ /simulink/systems/system_92.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
@@ -10350,9 +11379,9 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
 <System>
   <P Name="Location">[-1, -7, 1707, 1068]</P>
   <P Name="Open">on</P>
-  <P Name="ZoomFactor">50</P>
+  <P Name="ZoomFactor">80</P>
   <P Name="ReportName">simulink-default.rpt</P>
-  <P Name="SIDHighWatermark">740</P>
+  <P Name="SIDHighWatermark">770</P>
   <Block BlockType="SubSystem" Name="A/C" SID="1">
     <PortCounts in="4" out="6"/>
     <P Name="Position">[370, 121, 480, 324]</P>
@@ -10363,6 +11392,30 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
       </Port>
     </PortProperties>
     <System Ref="system_1"/>
+  </Block>
+  <Block BlockType="SubSystem" Name="Airspeed Controller" SID="742">
+    <PortCounts in="2" out="1"/>
+    <P Name="Position">[820, 214, 1000, 256]</P>
+    <P Name="ZOrder">2263</P>
+    <P Name="ContentPreviewEnabled">on</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="Name">Throttle</P>
+      </Port>
+    </PortProperties>
+    <System Ref="system_742"/>
+  </Block>
+  <Block BlockType="SubSystem" Name="Altitude Controller" SID="750">
+    <PortCounts in="3" out="1"/>
+    <P Name="Position">[670, -2, 840, 32]</P>
+    <P Name="ZOrder">2264</P>
+    <P Name="ContentPreviewEnabled">on</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="Name">elevon control</P>
+      </Port>
+    </PortProperties>
+    <System Ref="system_750"/>
   </Block>
   <Block BlockType="Constant" Name="Constant" SID="735">
     <P Name="Position">[1175, 390, 1205, 420]</P>
@@ -10381,1068 +11434,8 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <P Name="ZOrder">2254</P>
     <P Name="Value">500</P>
   </Block>
-  <Block BlockType="Reference" Name="Discrete PID Controller" SID="668">
-    <PortCounts in="1" out="1"/>
-    <P Name="Position">[645, -3, 685, 33]</P>
-    <P Name="ZOrder">1086</P>
-    <P Name="LibrarySourceBlock">simulink/Discrete/Discrete PID Controller</P>
-    <P Name="LibraryVersion">6.5</P>
-    <P Name="SourceBlock">slpidlib/PID Controller</P>
-    <P Name="SourceType">PID 1dof</P>
-    <InstanceData>
-      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
-      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
-      <P Name="RTWMemSecDataConstants">Inherit from model</P>
-      <P Name="RTWMemSecDataInternal">Inherit from model</P>
-      <P Name="RTWMemSecDataParameters">Inherit from model</P>
-      <P Name="ContentPreviewEnabled">on</P>
-      <P Name="Controller">PID</P>
-      <P Name="Form">Parallel</P>
-      <P Name="TimeDomain">Discrete-time</P>
-      <P Name="UseExternalTs">off</P>
-      <P Name="SampleTime">-1</P>
-      <P Name="IntegratorMethod">Forward Euler</P>
-      <P Name="FilterMethod">Forward Euler</P>
-      <P Name="ControllerParametersSource">internal</P>
-      <P Name="P">-0.5</P>
-      <P Name="I">0</P>
-      <P Name="UseKiTs">off</P>
-      <P Name="D">0</P>
-      <P Name="N">100</P>
-      <P Name="UseFilter">off</P>
-      <P Name="TunerSelectOption">Transfer Function Based (PID Tuner App)</P>
-      <P Name="ZeroCross">on</P>
-      <P Name="InitialConditionSource">internal</P>
-      <P Name="InitialConditionForIntegrator">0</P>
-      <P Name="InitialConditionForFilter">0</P>
-      <P Name="DifferentiatorICPrevScaledInput">0</P>
-      <P Name="ExternalReset">none</P>
-      <P Name="IgnoreLimit">off</P>
-      <P Name="TrackingMode">off</P>
-      <P Name="Kt">1</P>
-      <P Name="LimitOutput">off</P>
-      <P Name="SatLimitsSource">internal</P>
-      <P Name="UpperSaturationLimit">inf</P>
-      <P Name="LowerSaturationLimit">-inf</P>
-      <P Name="LinearizeAsGain">off</P>
-      <P Name="AntiWindupMode">none</P>
-      <P Name="Kb">1</P>
-      <P Name="LimitIntegrator">off</P>
-      <P Name="UpperIntegratorSaturationLimit">inf</P>
-      <P Name="LowerIntegratorSaturationLimit">-inf</P>
-      <P Name="RndMeth">Floor</P>
-      <P Name="SaturateOnIntegerOverflow">off</P>
-      <P Name="LockScale">off</P>
-      <P Name="PGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="PProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="POutMin">[]</P>
-      <P Name="POutMax">[]</P>
-      <P Name="IGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="IProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="IOutMin">[]</P>
-      <P Name="IOutMax">[]</P>
-      <P Name="DGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DOutMin">[]</P>
-      <P Name="DOutMax">[]</P>
-      <P Name="NGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="NProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="NOutMin">[]</P>
-      <P Name="NOutMax">[]</P>
-      <P Name="SumOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumOutMin">[]</P>
-      <P Name="SumOutMax">[]</P>
-      <P Name="SaturationOutDataTypeStr">Inherit: Same as input</P>
-      <P Name="SaturationOutMin">[]</P>
-      <P Name="SaturationOutMax">[]</P>
-      <P Name="PParamDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="PParamMin">[]</P>
-      <P Name="PParamMax">[]</P>
-      <P Name="IParamDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="IParamMin">[]</P>
-      <P Name="IParamMax">[]</P>
-      <P Name="DParamDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DParamMin">[]</P>
-      <P Name="DParamMax">[]</P>
-      <P Name="NParamDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="NParamMin">[]</P>
-      <P Name="NParamMax">[]</P>
-      <P Name="KbParamDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="KbParamMin">[]</P>
-      <P Name="KbParamMax">[]</P>
-      <P Name="KtParamDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="KtParamMin">[]</P>
-      <P Name="KtParamMax">[]</P>
-      <P Name="KbOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="KbOutMin">[]</P>
-      <P Name="KbOutMax">[]</P>
-      <P Name="KtOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="KtOutMin">[]</P>
-      <P Name="KtOutMax">[]</P>
-      <P Name="IntegratorOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="IntegratorOutMin">[]</P>
-      <P Name="IntegratorOutMax">[]</P>
-      <P Name="FilterOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="FilterOutMin">[]</P>
-      <P Name="FilterOutMax">[]</P>
-      <P Name="SumI1OutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI1OutMin">[]</P>
-      <P Name="SumI1OutMax">[]</P>
-      <P Name="SumI2OutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI2OutMin">[]</P>
-      <P Name="SumI2OutMax">[]</P>
-      <P Name="SumI3OutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI3OutMin">[]</P>
-      <P Name="SumI3OutMax">[]</P>
-      <P Name="SumI4OutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI4OutMin">[]</P>
-      <P Name="SumI4OutMax">[]</P>
-      <P Name="SumDOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumDOutMin">[]</P>
-      <P Name="SumDOutMax">[]</P>
-      <P Name="SumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI1AccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI2AccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI3AccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI4AccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumDAccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DifferentiatorOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DifferentiatorOutMin">[]</P>
-      <P Name="DifferentiatorOutMax">[]</P>
-      <P Name="FilterDiffNumProductOutputDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="FilterDiffDenProductOutputDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="FilterDiffNumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="FilterDiffDenAccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="FilterDiffOutCoefDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="FilterDiffOutCoefMin">[]</P>
-      <P Name="FilterDiffOutCoefMax">[]</P>
-      <P Name="ReciprocalOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="ReciprocalOutMin">[]</P>
-      <P Name="ReciprocalOutMax">[]</P>
-      <P Name="SumDenOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumDenOutMin">[]</P>
-      <P Name="SumDenOutMax">[]</P>
-      <P Name="SumNumOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumNumOutMin">[]</P>
-      <P Name="SumNumOutMax">[]</P>
-      <P Name="SumDenAccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumNumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DivideOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DivideOutMin">[]</P>
-      <P Name="DivideOutMax">[]</P>
-      <P Name="UdiffTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="UdiffTsProdOutMin">[]</P>
-      <P Name="UdiffTsProdOutMax">[]</P>
-      <P Name="NTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="NTsProdOutMin">[]</P>
-      <P Name="NTsProdOutMax">[]</P>
-      <P Name="UintegralTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="UintegralTsProdOutMin">[]</P>
-      <P Name="UintegralTsProdOutMax">[]</P>
-      <P Name="UngainTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="UngainTsProdOutMin">[]</P>
-      <P Name="UngainTsProdOutMax">[]</P>
-      <P Name="ClampingZeroOutDataTypeStr">Inherit: Inherit via back propagation</P>
-      <P Name="ClampingZeroOutMin">[]</P>
-      <P Name="ClampingZeroOutMax">[]</P>
-      <P Name="FilterDenConstantOutDataTypeStr">Inherit: Inherit via back propagation</P>
-      <P Name="FilterDenConstantOutMin">[]</P>
-      <P Name="FilterDenConstantOutMax">[]</P>
-      <P Name="PCopyOutDataTypeStr">Inherit: Inherit via back propagation</P>
-      <P Name="PCopyOutMin">[]</P>
-      <P Name="PCopyOutMax">[]</P>
-      <P Name="NCopyOutDataTypeStr">Inherit: Inherit via back propagation</P>
-      <P Name="NCopyOutMin">[]</P>
-      <P Name="NCopyOutMax">[]</P>
-      <P Name="IntegratorContinuousStateAttributes">&apos;&apos;</P>
-      <P Name="IntegratorStateMustResolveToSignalObject">off</P>
-      <P Name="IntegratorRTWStateStorageClass">Auto</P>
-      <P Name="FilterContinuousStateAttributes">&apos;&apos;</P>
-      <P Name="FilterStateMustResolveToSignalObject">off</P>
-      <P Name="FilterRTWStateStorageClass">Auto</P>
-      <P Name="ParallelPVariant">InternalParameters</P>
-      <P Name="IdealPVariant">Disabled</P>
-      <P Name="IVariant">InternalParameters</P>
-      <P Name="DVariant">InternalParameters</P>
-      <P Name="IntegratorVariant">Discrete</P>
-      <P Name="SatVariant">Disabled</P>
-      <P Name="AWVariant">Passthrough</P>
-      <P Name="PCopyVariant">Disabled</P>
-      <P Name="TRVariant">Disabled</P>
-      <P Name="FdbkBlocksVariant">Forward</P>
-      <P Name="IdealPFdbkVariant">Disabled</P>
-      <P Name="SatFdbkVariant">Disabled</P>
-      <P Name="DerivativeFilterVariant">Differentiator</P>
-      <P Name="NVariant">Passthrough</P>
-      <P Name="NCopyVariant">Disabled_SignalSpec</P>
-      <P Name="FilterICVariant">InternalICsDifferentiator</P>
-      <P Name="IntegratorICVariant">InternalICs</P>
-      <P Name="ExternalResetVariant">Disabled</P>
-      <P Name="TRSumVariant">Passthrough</P>
-      <P Name="SumFdbkVariant">Disabled</P>
-      <P Name="SumVariant">Sum_PID</P>
-      <P Name="TsampFilterVariant">InternalTs</P>
-      <P Name="TsampNgainVariant">Passthrough</P>
-      <P Name="TsampIntegralVariant">Disabled_SignalSpec</P>
-      <P Name="ExternalSaturationOutDataTypeStr">Inherit: Same as second input</P>
-      <P Name="InitialConditionSetting">Auto</P>
-    </InstanceData>
-    <PortProperties>
-      <Port Type="out" Index="1">
-        <P Name="Name">pitch_desired</P>
-      </Port>
-    </PortProperties>
-  </Block>
-  <Block BlockType="Reference" Name="Discrete PID Controller1" SID="671">
-    <PortCounts in="1" out="1"/>
-    <P Name="Position">[1070, 22, 1110, 58]</P>
-    <P Name="ZOrder">1089</P>
-    <P Name="LibrarySourceBlock">simulink/Discrete/Discrete PID Controller</P>
-    <P Name="LibraryVersion">6.5</P>
-    <P Name="SourceBlock">slpidlib/PID Controller</P>
-    <P Name="SourceType">PID 1dof</P>
-    <InstanceData>
-      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
-      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
-      <P Name="RTWMemSecDataConstants">Inherit from model</P>
-      <P Name="RTWMemSecDataInternal">Inherit from model</P>
-      <P Name="RTWMemSecDataParameters">Inherit from model</P>
-      <P Name="ContentPreviewEnabled">on</P>
-      <P Name="Controller">PID</P>
-      <P Name="Form">Parallel</P>
-      <P Name="TimeDomain">Discrete-time</P>
-      <P Name="UseExternalTs">off</P>
-      <P Name="SampleTime">-1</P>
-      <P Name="IntegratorMethod">Forward Euler</P>
-      <P Name="FilterMethod">Forward Euler</P>
-      <P Name="ControllerParametersSource">internal</P>
-      <P Name="P">.8</P>
-      <P Name="I">.01</P>
-      <P Name="UseKiTs">off</P>
-      <P Name="D">.5</P>
-      <P Name="N">100</P>
-      <P Name="UseFilter">off</P>
-      <P Name="TunerSelectOption">Transfer Function Based (PID Tuner App)</P>
-      <P Name="ZeroCross">on</P>
-      <P Name="InitialConditionSource">internal</P>
-      <P Name="InitialConditionForIntegrator">0</P>
-      <P Name="InitialConditionForFilter">0</P>
-      <P Name="DifferentiatorICPrevScaledInput">0</P>
-      <P Name="ExternalReset">none</P>
-      <P Name="IgnoreLimit">off</P>
-      <P Name="TrackingMode">off</P>
-      <P Name="Kt">1</P>
-      <P Name="LimitOutput">on</P>
-      <P Name="SatLimitsSource">internal</P>
-      <P Name="UpperSaturationLimit">5</P>
-      <P Name="LowerSaturationLimit">-2</P>
-      <P Name="LinearizeAsGain">off</P>
-      <P Name="AntiWindupMode">none</P>
-      <P Name="Kb">1</P>
-      <P Name="LimitIntegrator">off</P>
-      <P Name="UpperIntegratorSaturationLimit">inf</P>
-      <P Name="LowerIntegratorSaturationLimit">-inf</P>
-      <P Name="RndMeth">Floor</P>
-      <P Name="SaturateOnIntegerOverflow">off</P>
-      <P Name="LockScale">off</P>
-      <P Name="PGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="PProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="POutMin">[]</P>
-      <P Name="POutMax">[]</P>
-      <P Name="IGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="IProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="IOutMin">[]</P>
-      <P Name="IOutMax">[]</P>
-      <P Name="DGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DOutMin">[]</P>
-      <P Name="DOutMax">[]</P>
-      <P Name="NGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="NProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="NOutMin">[]</P>
-      <P Name="NOutMax">[]</P>
-      <P Name="SumOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumOutMin">[]</P>
-      <P Name="SumOutMax">[]</P>
-      <P Name="SaturationOutDataTypeStr">Inherit: Same as input</P>
-      <P Name="SaturationOutMin">[]</P>
-      <P Name="SaturationOutMax">[]</P>
-      <P Name="PParamDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="PParamMin">[]</P>
-      <P Name="PParamMax">[]</P>
-      <P Name="IParamDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="IParamMin">[]</P>
-      <P Name="IParamMax">[]</P>
-      <P Name="DParamDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DParamMin">[]</P>
-      <P Name="DParamMax">[]</P>
-      <P Name="NParamDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="NParamMin">[]</P>
-      <P Name="NParamMax">[]</P>
-      <P Name="KbParamDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="KbParamMin">[]</P>
-      <P Name="KbParamMax">[]</P>
-      <P Name="KtParamDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="KtParamMin">[]</P>
-      <P Name="KtParamMax">[]</P>
-      <P Name="KbOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="KbOutMin">[]</P>
-      <P Name="KbOutMax">[]</P>
-      <P Name="KtOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="KtOutMin">[]</P>
-      <P Name="KtOutMax">[]</P>
-      <P Name="IntegratorOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="IntegratorOutMin">[]</P>
-      <P Name="IntegratorOutMax">[]</P>
-      <P Name="FilterOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="FilterOutMin">[]</P>
-      <P Name="FilterOutMax">[]</P>
-      <P Name="SumI1OutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI1OutMin">[]</P>
-      <P Name="SumI1OutMax">[]</P>
-      <P Name="SumI2OutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI2OutMin">[]</P>
-      <P Name="SumI2OutMax">[]</P>
-      <P Name="SumI3OutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI3OutMin">[]</P>
-      <P Name="SumI3OutMax">[]</P>
-      <P Name="SumI4OutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI4OutMin">[]</P>
-      <P Name="SumI4OutMax">[]</P>
-      <P Name="SumDOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumDOutMin">[]</P>
-      <P Name="SumDOutMax">[]</P>
-      <P Name="SumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI1AccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI2AccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI3AccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI4AccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumDAccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DifferentiatorOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DifferentiatorOutMin">[]</P>
-      <P Name="DifferentiatorOutMax">[]</P>
-      <P Name="FilterDiffNumProductOutputDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="FilterDiffDenProductOutputDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="FilterDiffNumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="FilterDiffDenAccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="FilterDiffOutCoefDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="FilterDiffOutCoefMin">[]</P>
-      <P Name="FilterDiffOutCoefMax">[]</P>
-      <P Name="ReciprocalOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="ReciprocalOutMin">[]</P>
-      <P Name="ReciprocalOutMax">[]</P>
-      <P Name="SumDenOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumDenOutMin">[]</P>
-      <P Name="SumDenOutMax">[]</P>
-      <P Name="SumNumOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumNumOutMin">[]</P>
-      <P Name="SumNumOutMax">[]</P>
-      <P Name="SumDenAccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumNumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DivideOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DivideOutMin">[]</P>
-      <P Name="DivideOutMax">[]</P>
-      <P Name="UdiffTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="UdiffTsProdOutMin">[]</P>
-      <P Name="UdiffTsProdOutMax">[]</P>
-      <P Name="NTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="NTsProdOutMin">[]</P>
-      <P Name="NTsProdOutMax">[]</P>
-      <P Name="UintegralTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="UintegralTsProdOutMin">[]</P>
-      <P Name="UintegralTsProdOutMax">[]</P>
-      <P Name="UngainTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="UngainTsProdOutMin">[]</P>
-      <P Name="UngainTsProdOutMax">[]</P>
-      <P Name="ClampingZeroOutDataTypeStr">Inherit: Inherit via back propagation</P>
-      <P Name="ClampingZeroOutMin">[]</P>
-      <P Name="ClampingZeroOutMax">[]</P>
-      <P Name="FilterDenConstantOutDataTypeStr">Inherit: Inherit via back propagation</P>
-      <P Name="FilterDenConstantOutMin">[]</P>
-      <P Name="FilterDenConstantOutMax">[]</P>
-      <P Name="PCopyOutDataTypeStr">Inherit: Inherit via back propagation</P>
-      <P Name="PCopyOutMin">[]</P>
-      <P Name="PCopyOutMax">[]</P>
-      <P Name="NCopyOutDataTypeStr">Inherit: Inherit via back propagation</P>
-      <P Name="NCopyOutMin">[]</P>
-      <P Name="NCopyOutMax">[]</P>
-      <P Name="IntegratorContinuousStateAttributes">&apos;&apos;</P>
-      <P Name="IntegratorStateMustResolveToSignalObject">off</P>
-      <P Name="IntegratorRTWStateStorageClass">Auto</P>
-      <P Name="FilterContinuousStateAttributes">&apos;&apos;</P>
-      <P Name="FilterStateMustResolveToSignalObject">off</P>
-      <P Name="FilterRTWStateStorageClass">Auto</P>
-      <P Name="ParallelPVariant">InternalParameters</P>
-      <P Name="IdealPVariant">Disabled</P>
-      <P Name="IVariant">InternalParameters</P>
-      <P Name="DVariant">InternalParameters</P>
-      <P Name="IntegratorVariant">Discrete</P>
-      <P Name="SatVariant">Enabled</P>
-      <P Name="AWVariant">Passthrough</P>
-      <P Name="PCopyVariant">Disabled</P>
-      <P Name="TRVariant">Disabled</P>
-      <P Name="FdbkBlocksVariant">Forward</P>
-      <P Name="IdealPFdbkVariant">Disabled</P>
-      <P Name="SatFdbkVariant">Disabled</P>
-      <P Name="DerivativeFilterVariant">Differentiator</P>
-      <P Name="NVariant">Passthrough</P>
-      <P Name="NCopyVariant">Disabled_SignalSpec</P>
-      <P Name="FilterICVariant">InternalICsDifferentiator</P>
-      <P Name="IntegratorICVariant">InternalICs</P>
-      <P Name="ExternalResetVariant">Disabled</P>
-      <P Name="TRSumVariant">Passthrough</P>
-      <P Name="SumFdbkVariant">Disabled</P>
-      <P Name="SumVariant">Sum_PID</P>
-      <P Name="TsampFilterVariant">InternalTs</P>
-      <P Name="TsampNgainVariant">Passthrough</P>
-      <P Name="TsampIntegralVariant">Disabled_SignalSpec</P>
-      <P Name="ExternalSaturationOutDataTypeStr">Inherit: Same as second input</P>
-      <P Name="InitialConditionSetting">Auto</P>
-    </InstanceData>
-    <PortProperties>
-      <Port Type="out" Index="1">
-        <P Name="Name">elevon control</P>
-      </Port>
-    </PortProperties>
-  </Block>
-  <Block BlockType="Reference" Name="Discrete PID Controller2" SID="675">
-    <PortCounts in="1" out="1"/>
-    <P Name="Position">[770, 287, 810, 323]</P>
-    <P Name="ZOrder">1094</P>
-    <P Name="LibrarySourceBlock">simulink/Discrete/Discrete PID Controller</P>
-    <P Name="LibraryVersion">6.5</P>
-    <P Name="SourceBlock">slpidlib/PID Controller</P>
-    <P Name="SourceType">PID 1dof</P>
-    <InstanceData>
-      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
-      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
-      <P Name="RTWMemSecDataConstants">Inherit from model</P>
-      <P Name="RTWMemSecDataInternal">Inherit from model</P>
-      <P Name="RTWMemSecDataParameters">Inherit from model</P>
-      <P Name="ContentPreviewEnabled">on</P>
-      <P Name="Controller">PID</P>
-      <P Name="Form">Parallel</P>
-      <P Name="TimeDomain">Discrete-time</P>
-      <P Name="UseExternalTs">off</P>
-      <P Name="SampleTime">-1</P>
-      <P Name="IntegratorMethod">Forward Euler</P>
-      <P Name="FilterMethod">Forward Euler</P>
-      <P Name="ControllerParametersSource">internal</P>
-      <P Name="P">0.5</P>
-      <P Name="I">0</P>
-      <P Name="UseKiTs">off</P>
-      <P Name="D">0</P>
-      <P Name="N">100</P>
-      <P Name="UseFilter">on</P>
-      <P Name="TunerSelectOption">Transfer Function Based (PID Tuner App)</P>
-      <P Name="ZeroCross">on</P>
-      <P Name="InitialConditionSource">internal</P>
-      <P Name="InitialConditionForIntegrator">0</P>
-      <P Name="InitialConditionForFilter">0</P>
-      <P Name="DifferentiatorICPrevScaledInput">0</P>
-      <P Name="ExternalReset">none</P>
-      <P Name="IgnoreLimit">off</P>
-      <P Name="TrackingMode">off</P>
-      <P Name="Kt">1</P>
-      <P Name="LimitOutput">off</P>
-      <P Name="SatLimitsSource">internal</P>
-      <P Name="UpperSaturationLimit">inf</P>
-      <P Name="LowerSaturationLimit">-inf</P>
-      <P Name="LinearizeAsGain">off</P>
-      <P Name="AntiWindupMode">none</P>
-      <P Name="Kb">1</P>
-      <P Name="LimitIntegrator">off</P>
-      <P Name="UpperIntegratorSaturationLimit">inf</P>
-      <P Name="LowerIntegratorSaturationLimit">-inf</P>
-      <P Name="RndMeth">Floor</P>
-      <P Name="SaturateOnIntegerOverflow">off</P>
-      <P Name="LockScale">off</P>
-      <P Name="PGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="PProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="POutMin">[]</P>
-      <P Name="POutMax">[]</P>
-      <P Name="IGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="IProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="IOutMin">[]</P>
-      <P Name="IOutMax">[]</P>
-      <P Name="DGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DOutMin">[]</P>
-      <P Name="DOutMax">[]</P>
-      <P Name="NGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="NProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="NOutMin">[]</P>
-      <P Name="NOutMax">[]</P>
-      <P Name="SumOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumOutMin">[]</P>
-      <P Name="SumOutMax">[]</P>
-      <P Name="SaturationOutDataTypeStr">Inherit: Same as input</P>
-      <P Name="SaturationOutMin">[]</P>
-      <P Name="SaturationOutMax">[]</P>
-      <P Name="PParamDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="PParamMin">[]</P>
-      <P Name="PParamMax">[]</P>
-      <P Name="IParamDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="IParamMin">[]</P>
-      <P Name="IParamMax">[]</P>
-      <P Name="DParamDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DParamMin">[]</P>
-      <P Name="DParamMax">[]</P>
-      <P Name="NParamDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="NParamMin">[]</P>
-      <P Name="NParamMax">[]</P>
-      <P Name="KbParamDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="KbParamMin">[]</P>
-      <P Name="KbParamMax">[]</P>
-      <P Name="KtParamDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="KtParamMin">[]</P>
-      <P Name="KtParamMax">[]</P>
-      <P Name="KbOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="KbOutMin">[]</P>
-      <P Name="KbOutMax">[]</P>
-      <P Name="KtOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="KtOutMin">[]</P>
-      <P Name="KtOutMax">[]</P>
-      <P Name="IntegratorOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="IntegratorOutMin">[]</P>
-      <P Name="IntegratorOutMax">[]</P>
-      <P Name="FilterOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="FilterOutMin">[]</P>
-      <P Name="FilterOutMax">[]</P>
-      <P Name="SumI1OutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI1OutMin">[]</P>
-      <P Name="SumI1OutMax">[]</P>
-      <P Name="SumI2OutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI2OutMin">[]</P>
-      <P Name="SumI2OutMax">[]</P>
-      <P Name="SumI3OutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI3OutMin">[]</P>
-      <P Name="SumI3OutMax">[]</P>
-      <P Name="SumI4OutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI4OutMin">[]</P>
-      <P Name="SumI4OutMax">[]</P>
-      <P Name="SumDOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumDOutMin">[]</P>
-      <P Name="SumDOutMax">[]</P>
-      <P Name="SumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI1AccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI2AccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI3AccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI4AccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumDAccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DifferentiatorOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DifferentiatorOutMin">[]</P>
-      <P Name="DifferentiatorOutMax">[]</P>
-      <P Name="FilterDiffNumProductOutputDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="FilterDiffDenProductOutputDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="FilterDiffNumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="FilterDiffDenAccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="FilterDiffOutCoefDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="FilterDiffOutCoefMin">[]</P>
-      <P Name="FilterDiffOutCoefMax">[]</P>
-      <P Name="ReciprocalOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="ReciprocalOutMin">[]</P>
-      <P Name="ReciprocalOutMax">[]</P>
-      <P Name="SumDenOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumDenOutMin">[]</P>
-      <P Name="SumDenOutMax">[]</P>
-      <P Name="SumNumOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumNumOutMin">[]</P>
-      <P Name="SumNumOutMax">[]</P>
-      <P Name="SumDenAccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumNumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DivideOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DivideOutMin">[]</P>
-      <P Name="DivideOutMax">[]</P>
-      <P Name="UdiffTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="UdiffTsProdOutMin">[]</P>
-      <P Name="UdiffTsProdOutMax">[]</P>
-      <P Name="NTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="NTsProdOutMin">[]</P>
-      <P Name="NTsProdOutMax">[]</P>
-      <P Name="UintegralTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="UintegralTsProdOutMin">[]</P>
-      <P Name="UintegralTsProdOutMax">[]</P>
-      <P Name="UngainTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="UngainTsProdOutMin">[]</P>
-      <P Name="UngainTsProdOutMax">[]</P>
-      <P Name="ClampingZeroOutDataTypeStr">Inherit: Inherit via back propagation</P>
-      <P Name="ClampingZeroOutMin">[]</P>
-      <P Name="ClampingZeroOutMax">[]</P>
-      <P Name="FilterDenConstantOutDataTypeStr">Inherit: Inherit via back propagation</P>
-      <P Name="FilterDenConstantOutMin">[]</P>
-      <P Name="FilterDenConstantOutMax">[]</P>
-      <P Name="PCopyOutDataTypeStr">Inherit: Inherit via back propagation</P>
-      <P Name="PCopyOutMin">[]</P>
-      <P Name="PCopyOutMax">[]</P>
-      <P Name="NCopyOutDataTypeStr">Inherit: Inherit via back propagation</P>
-      <P Name="NCopyOutMin">[]</P>
-      <P Name="NCopyOutMax">[]</P>
-      <P Name="IntegratorContinuousStateAttributes">&apos;&apos;</P>
-      <P Name="IntegratorStateMustResolveToSignalObject">off</P>
-      <P Name="IntegratorRTWStateStorageClass">Auto</P>
-      <P Name="FilterContinuousStateAttributes">&apos;&apos;</P>
-      <P Name="FilterStateMustResolveToSignalObject">off</P>
-      <P Name="FilterRTWStateStorageClass">Auto</P>
-      <P Name="ParallelPVariant">InternalParameters</P>
-      <P Name="IdealPVariant">Disabled</P>
-      <P Name="IVariant">InternalParameters</P>
-      <P Name="DVariant">InternalParameters</P>
-      <P Name="IntegratorVariant">Discrete</P>
-      <P Name="SatVariant">Disabled</P>
-      <P Name="AWVariant">Passthrough</P>
-      <P Name="PCopyVariant">Disabled</P>
-      <P Name="TRVariant">Disabled</P>
-      <P Name="FdbkBlocksVariant">Forward</P>
-      <P Name="IdealPFdbkVariant">Disabled</P>
-      <P Name="SatFdbkVariant">Disabled</P>
-      <P Name="DerivativeFilterVariant">ForwardEulerFilter</P>
-      <P Name="NVariant">InternalParameters</P>
-      <P Name="NCopyVariant">Disabled</P>
-      <P Name="FilterICVariant">InternalICsFilter</P>
-      <P Name="IntegratorICVariant">InternalICs</P>
-      <P Name="ExternalResetVariant">Disabled</P>
-      <P Name="TRSumVariant">Passthrough</P>
-      <P Name="SumFdbkVariant">Disabled</P>
-      <P Name="SumVariant">Sum_PID</P>
-      <P Name="TsampFilterVariant">InternalTs</P>
-      <P Name="TsampNgainVariant">Passthrough</P>
-      <P Name="TsampIntegralVariant">Disabled_SignalSpec</P>
-      <P Name="ExternalSaturationOutDataTypeStr">Inherit: Same as second input</P>
-      <P Name="InitialConditionSetting">Auto</P>
-    </InstanceData>
-    <PortProperties>
-      <Port Type="out" Index="1">
-        <P Name="Name">roll_desired</P>
-      </Port>
-    </PortProperties>
-  </Block>
-  <Block BlockType="Reference" Name="Discrete PID Controller3" SID="678">
-    <PortCounts in="1" out="1"/>
-    <P Name="Position">[935, 432, 975, 468]</P>
-    <P Name="ZOrder">1097</P>
-    <P Name="LibrarySourceBlock">simulink/Discrete/Discrete PID Controller</P>
-    <P Name="LibraryVersion">6.5</P>
-    <P Name="SourceBlock">slpidlib/PID Controller</P>
-    <P Name="SourceType">PID 1dof</P>
-    <InstanceData>
-      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
-      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
-      <P Name="RTWMemSecDataConstants">Inherit from model</P>
-      <P Name="RTWMemSecDataInternal">Inherit from model</P>
-      <P Name="RTWMemSecDataParameters">Inherit from model</P>
-      <P Name="ContentPreviewEnabled">on</P>
-      <P Name="Controller">PID</P>
-      <P Name="Form">Parallel</P>
-      <P Name="TimeDomain">Discrete-time</P>
-      <P Name="UseExternalTs">off</P>
-      <P Name="SampleTime">-1</P>
-      <P Name="IntegratorMethod">Forward Euler</P>
-      <P Name="FilterMethod">Forward Euler</P>
-      <P Name="ControllerParametersSource">internal</P>
-      <P Name="P">.5</P>
-      <P Name="I">0</P>
-      <P Name="UseKiTs">off</P>
-      <P Name="D">5</P>
-      <P Name="N">100</P>
-      <P Name="UseFilter">on</P>
-      <P Name="TunerSelectOption">Transfer Function Based (PID Tuner App)</P>
-      <P Name="ZeroCross">on</P>
-      <P Name="InitialConditionSource">internal</P>
-      <P Name="InitialConditionForIntegrator">0</P>
-      <P Name="InitialConditionForFilter">0</P>
-      <P Name="DifferentiatorICPrevScaledInput">0</P>
-      <P Name="ExternalReset">none</P>
-      <P Name="IgnoreLimit">off</P>
-      <P Name="TrackingMode">off</P>
-      <P Name="Kt">1</P>
-      <P Name="LimitOutput">on</P>
-      <P Name="SatLimitsSource">internal</P>
-      <P Name="UpperSaturationLimit">1</P>
-      <P Name="LowerSaturationLimit">-1</P>
-      <P Name="LinearizeAsGain">off</P>
-      <P Name="AntiWindupMode">none</P>
-      <P Name="Kb">1</P>
-      <P Name="LimitIntegrator">off</P>
-      <P Name="UpperIntegratorSaturationLimit">inf</P>
-      <P Name="LowerIntegratorSaturationLimit">-inf</P>
-      <P Name="RndMeth">Floor</P>
-      <P Name="SaturateOnIntegerOverflow">off</P>
-      <P Name="LockScale">off</P>
-      <P Name="PGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="PProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="POutMin">[]</P>
-      <P Name="POutMax">[]</P>
-      <P Name="IGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="IProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="IOutMin">[]</P>
-      <P Name="IOutMax">[]</P>
-      <P Name="DGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DOutMin">[]</P>
-      <P Name="DOutMax">[]</P>
-      <P Name="NGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="NProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="NOutMin">[]</P>
-      <P Name="NOutMax">[]</P>
-      <P Name="SumOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumOutMin">[]</P>
-      <P Name="SumOutMax">[]</P>
-      <P Name="SaturationOutDataTypeStr">Inherit: Same as input</P>
-      <P Name="SaturationOutMin">[]</P>
-      <P Name="SaturationOutMax">[]</P>
-      <P Name="PParamDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="PParamMin">[]</P>
-      <P Name="PParamMax">[]</P>
-      <P Name="IParamDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="IParamMin">[]</P>
-      <P Name="IParamMax">[]</P>
-      <P Name="DParamDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DParamMin">[]</P>
-      <P Name="DParamMax">[]</P>
-      <P Name="NParamDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="NParamMin">[]</P>
-      <P Name="NParamMax">[]</P>
-      <P Name="KbParamDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="KbParamMin">[]</P>
-      <P Name="KbParamMax">[]</P>
-      <P Name="KtParamDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="KtParamMin">[]</P>
-      <P Name="KtParamMax">[]</P>
-      <P Name="KbOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="KbOutMin">[]</P>
-      <P Name="KbOutMax">[]</P>
-      <P Name="KtOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="KtOutMin">[]</P>
-      <P Name="KtOutMax">[]</P>
-      <P Name="IntegratorOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="IntegratorOutMin">[]</P>
-      <P Name="IntegratorOutMax">[]</P>
-      <P Name="FilterOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="FilterOutMin">[]</P>
-      <P Name="FilterOutMax">[]</P>
-      <P Name="SumI1OutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI1OutMin">[]</P>
-      <P Name="SumI1OutMax">[]</P>
-      <P Name="SumI2OutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI2OutMin">[]</P>
-      <P Name="SumI2OutMax">[]</P>
-      <P Name="SumI3OutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI3OutMin">[]</P>
-      <P Name="SumI3OutMax">[]</P>
-      <P Name="SumI4OutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI4OutMin">[]</P>
-      <P Name="SumI4OutMax">[]</P>
-      <P Name="SumDOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumDOutMin">[]</P>
-      <P Name="SumDOutMax">[]</P>
-      <P Name="SumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI1AccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI2AccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI3AccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI4AccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumDAccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DifferentiatorOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DifferentiatorOutMin">[]</P>
-      <P Name="DifferentiatorOutMax">[]</P>
-      <P Name="FilterDiffNumProductOutputDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="FilterDiffDenProductOutputDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="FilterDiffNumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="FilterDiffDenAccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="FilterDiffOutCoefDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="FilterDiffOutCoefMin">[]</P>
-      <P Name="FilterDiffOutCoefMax">[]</P>
-      <P Name="ReciprocalOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="ReciprocalOutMin">[]</P>
-      <P Name="ReciprocalOutMax">[]</P>
-      <P Name="SumDenOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumDenOutMin">[]</P>
-      <P Name="SumDenOutMax">[]</P>
-      <P Name="SumNumOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumNumOutMin">[]</P>
-      <P Name="SumNumOutMax">[]</P>
-      <P Name="SumDenAccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumNumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DivideOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DivideOutMin">[]</P>
-      <P Name="DivideOutMax">[]</P>
-      <P Name="UdiffTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="UdiffTsProdOutMin">[]</P>
-      <P Name="UdiffTsProdOutMax">[]</P>
-      <P Name="NTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="NTsProdOutMin">[]</P>
-      <P Name="NTsProdOutMax">[]</P>
-      <P Name="UintegralTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="UintegralTsProdOutMin">[]</P>
-      <P Name="UintegralTsProdOutMax">[]</P>
-      <P Name="UngainTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="UngainTsProdOutMin">[]</P>
-      <P Name="UngainTsProdOutMax">[]</P>
-      <P Name="ClampingZeroOutDataTypeStr">Inherit: Inherit via back propagation</P>
-      <P Name="ClampingZeroOutMin">[]</P>
-      <P Name="ClampingZeroOutMax">[]</P>
-      <P Name="FilterDenConstantOutDataTypeStr">Inherit: Inherit via back propagation</P>
-      <P Name="FilterDenConstantOutMin">[]</P>
-      <P Name="FilterDenConstantOutMax">[]</P>
-      <P Name="PCopyOutDataTypeStr">Inherit: Inherit via back propagation</P>
-      <P Name="PCopyOutMin">[]</P>
-      <P Name="PCopyOutMax">[]</P>
-      <P Name="NCopyOutDataTypeStr">Inherit: Inherit via back propagation</P>
-      <P Name="NCopyOutMin">[]</P>
-      <P Name="NCopyOutMax">[]</P>
-      <P Name="IntegratorContinuousStateAttributes">&apos;&apos;</P>
-      <P Name="IntegratorStateMustResolveToSignalObject">off</P>
-      <P Name="IntegratorRTWStateStorageClass">Auto</P>
-      <P Name="FilterContinuousStateAttributes">&apos;&apos;</P>
-      <P Name="FilterStateMustResolveToSignalObject">off</P>
-      <P Name="FilterRTWStateStorageClass">Auto</P>
-      <P Name="ParallelPVariant">InternalParameters</P>
-      <P Name="IdealPVariant">Disabled</P>
-      <P Name="IVariant">InternalParameters</P>
-      <P Name="DVariant">InternalParameters</P>
-      <P Name="IntegratorVariant">Discrete</P>
-      <P Name="SatVariant">Enabled</P>
-      <P Name="AWVariant">Passthrough</P>
-      <P Name="PCopyVariant">Disabled</P>
-      <P Name="TRVariant">Disabled</P>
-      <P Name="FdbkBlocksVariant">Forward</P>
-      <P Name="IdealPFdbkVariant">Disabled</P>
-      <P Name="SatFdbkVariant">Disabled</P>
-      <P Name="DerivativeFilterVariant">ForwardEulerFilter</P>
-      <P Name="NVariant">InternalParameters</P>
-      <P Name="NCopyVariant">Disabled</P>
-      <P Name="FilterICVariant">InternalICsFilter</P>
-      <P Name="IntegratorICVariant">InternalICs</P>
-      <P Name="ExternalResetVariant">Disabled</P>
-      <P Name="TRSumVariant">Passthrough</P>
-      <P Name="SumFdbkVariant">Disabled</P>
-      <P Name="SumVariant">Sum_PID</P>
-      <P Name="TsampFilterVariant">InternalTs</P>
-      <P Name="TsampNgainVariant">Passthrough</P>
-      <P Name="TsampIntegralVariant">Disabled_SignalSpec</P>
-      <P Name="ExternalSaturationOutDataTypeStr">Inherit: Same as second input</P>
-      <P Name="InitialConditionSetting">Auto</P>
-    </InstanceData>
-    <PortProperties>
-      <Port Type="out" Index="1">
-        <P Name="Name">aileron_control</P>
-      </Port>
-    </PortProperties>
-  </Block>
-  <Block BlockType="Reference" Name="Discrete PID Controller4" SID="688">
-    <PortCounts in="1" out="1"/>
-    <P Name="Position">[975, 232, 1015, 268]</P>
-    <P Name="ZOrder">2229</P>
-    <P Name="LibrarySourceBlock">simulink/Discrete/Discrete PID Controller</P>
-    <P Name="LibraryVersion">6.5</P>
-    <P Name="SourceBlock">slpidlib/PID Controller</P>
-    <P Name="SourceType">PID 1dof</P>
-    <InstanceData>
-      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
-      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
-      <P Name="RTWMemSecDataConstants">Inherit from model</P>
-      <P Name="RTWMemSecDataInternal">Inherit from model</P>
-      <P Name="RTWMemSecDataParameters">Inherit from model</P>
-      <P Name="ContentPreviewEnabled">on</P>
-      <P Name="Controller">PID</P>
-      <P Name="Form">Parallel</P>
-      <P Name="TimeDomain">Discrete-time</P>
-      <P Name="UseExternalTs">off</P>
-      <P Name="SampleTime">-1</P>
-      <P Name="IntegratorMethod">Forward Euler</P>
-      <P Name="FilterMethod">Forward Euler</P>
-      <P Name="ControllerParametersSource">internal</P>
-      <P Name="P">.7</P>
-      <P Name="I">0.0145240090706121</P>
-      <P Name="UseKiTs">off</P>
-      <P Name="D">0</P>
-      <P Name="N">0</P>
-      <P Name="UseFilter">off</P>
-      <P Name="TunerSelectOption">Frequency Response Based</P>
-      <P Name="ZeroCross">on</P>
-      <P Name="InitialConditionSource">internal</P>
-      <P Name="InitialConditionForIntegrator">0</P>
-      <P Name="InitialConditionForFilter">0</P>
-      <P Name="DifferentiatorICPrevScaledInput">0</P>
-      <P Name="ExternalReset">none</P>
-      <P Name="IgnoreLimit">off</P>
-      <P Name="TrackingMode">off</P>
-      <P Name="Kt">1</P>
-      <P Name="LimitOutput">on</P>
-      <P Name="SatLimitsSource">internal</P>
-      <P Name="UpperSaturationLimit">2</P>
-      <P Name="LowerSaturationLimit">0</P>
-      <P Name="LinearizeAsGain">off</P>
-      <P Name="AntiWindupMode">none</P>
-      <P Name="Kb">1</P>
-      <P Name="LimitIntegrator">off</P>
-      <P Name="UpperIntegratorSaturationLimit">inf</P>
-      <P Name="LowerIntegratorSaturationLimit">-inf</P>
-      <P Name="RndMeth">Floor</P>
-      <P Name="SaturateOnIntegerOverflow">off</P>
-      <P Name="LockScale">off</P>
-      <P Name="PGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="PProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="POutMin">[]</P>
-      <P Name="POutMax">[]</P>
-      <P Name="IGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="IProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="IOutMin">[]</P>
-      <P Name="IOutMax">[]</P>
-      <P Name="DGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DOutMin">[]</P>
-      <P Name="DOutMax">[]</P>
-      <P Name="NGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="NProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="NOutMin">[]</P>
-      <P Name="NOutMax">[]</P>
-      <P Name="SumOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumOutMin">[]</P>
-      <P Name="SumOutMax">[]</P>
-      <P Name="SaturationOutDataTypeStr">Inherit: Same as input</P>
-      <P Name="SaturationOutMin">[]</P>
-      <P Name="SaturationOutMax">[]</P>
-      <P Name="PParamDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="PParamMin">[]</P>
-      <P Name="PParamMax">[]</P>
-      <P Name="IParamDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="IParamMin">[]</P>
-      <P Name="IParamMax">[]</P>
-      <P Name="DParamDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DParamMin">[]</P>
-      <P Name="DParamMax">[]</P>
-      <P Name="NParamDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="NParamMin">[]</P>
-      <P Name="NParamMax">[]</P>
-      <P Name="KbParamDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="KbParamMin">[]</P>
-      <P Name="KbParamMax">[]</P>
-      <P Name="KtParamDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="KtParamMin">[]</P>
-      <P Name="KtParamMax">[]</P>
-      <P Name="KbOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="KbOutMin">[]</P>
-      <P Name="KbOutMax">[]</P>
-      <P Name="KtOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="KtOutMin">[]</P>
-      <P Name="KtOutMax">[]</P>
-      <P Name="IntegratorOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="IntegratorOutMin">[]</P>
-      <P Name="IntegratorOutMax">[]</P>
-      <P Name="FilterOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="FilterOutMin">[]</P>
-      <P Name="FilterOutMax">[]</P>
-      <P Name="SumI1OutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI1OutMin">[]</P>
-      <P Name="SumI1OutMax">[]</P>
-      <P Name="SumI2OutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI2OutMin">[]</P>
-      <P Name="SumI2OutMax">[]</P>
-      <P Name="SumI3OutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI3OutMin">[]</P>
-      <P Name="SumI3OutMax">[]</P>
-      <P Name="SumI4OutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI4OutMin">[]</P>
-      <P Name="SumI4OutMax">[]</P>
-      <P Name="SumDOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumDOutMin">[]</P>
-      <P Name="SumDOutMax">[]</P>
-      <P Name="SumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI1AccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI2AccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI3AccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumI4AccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumDAccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DifferentiatorOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DifferentiatorOutMin">[]</P>
-      <P Name="DifferentiatorOutMax">[]</P>
-      <P Name="FilterDiffNumProductOutputDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="FilterDiffDenProductOutputDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="FilterDiffNumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="FilterDiffDenAccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="FilterDiffOutCoefDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="FilterDiffOutCoefMin">[]</P>
-      <P Name="FilterDiffOutCoefMax">[]</P>
-      <P Name="ReciprocalOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="ReciprocalOutMin">[]</P>
-      <P Name="ReciprocalOutMax">[]</P>
-      <P Name="SumDenOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumDenOutMin">[]</P>
-      <P Name="SumDenOutMax">[]</P>
-      <P Name="SumNumOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumNumOutMin">[]</P>
-      <P Name="SumNumOutMax">[]</P>
-      <P Name="SumDenAccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="SumNumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DivideOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="DivideOutMin">[]</P>
-      <P Name="DivideOutMax">[]</P>
-      <P Name="UdiffTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="UdiffTsProdOutMin">[]</P>
-      <P Name="UdiffTsProdOutMax">[]</P>
-      <P Name="NTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="NTsProdOutMin">[]</P>
-      <P Name="NTsProdOutMax">[]</P>
-      <P Name="UintegralTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="UintegralTsProdOutMin">[]</P>
-      <P Name="UintegralTsProdOutMax">[]</P>
-      <P Name="UngainTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
-      <P Name="UngainTsProdOutMin">[]</P>
-      <P Name="UngainTsProdOutMax">[]</P>
-      <P Name="ClampingZeroOutDataTypeStr">Inherit: Inherit via back propagation</P>
-      <P Name="ClampingZeroOutMin">[]</P>
-      <P Name="ClampingZeroOutMax">[]</P>
-      <P Name="FilterDenConstantOutDataTypeStr">Inherit: Inherit via back propagation</P>
-      <P Name="FilterDenConstantOutMin">[]</P>
-      <P Name="FilterDenConstantOutMax">[]</P>
-      <P Name="PCopyOutDataTypeStr">Inherit: Inherit via back propagation</P>
-      <P Name="PCopyOutMin">[]</P>
-      <P Name="PCopyOutMax">[]</P>
-      <P Name="NCopyOutDataTypeStr">Inherit: Inherit via back propagation</P>
-      <P Name="NCopyOutMin">[]</P>
-      <P Name="NCopyOutMax">[]</P>
-      <P Name="IntegratorContinuousStateAttributes">&apos;&apos;</P>
-      <P Name="IntegratorStateMustResolveToSignalObject">off</P>
-      <P Name="IntegratorRTWStateStorageClass">Auto</P>
-      <P Name="FilterContinuousStateAttributes">&apos;&apos;</P>
-      <P Name="FilterStateMustResolveToSignalObject">off</P>
-      <P Name="FilterRTWStateStorageClass">Auto</P>
-      <P Name="ParallelPVariant">InternalParameters</P>
-      <P Name="IdealPVariant">Disabled</P>
-      <P Name="IVariant">InternalParameters</P>
-      <P Name="DVariant">InternalParameters</P>
-      <P Name="IntegratorVariant">Discrete</P>
-      <P Name="SatVariant">Enabled</P>
-      <P Name="AWVariant">Passthrough</P>
-      <P Name="PCopyVariant">Disabled</P>
-      <P Name="TRVariant">Disabled</P>
-      <P Name="FdbkBlocksVariant">Forward</P>
-      <P Name="IdealPFdbkVariant">Disabled</P>
-      <P Name="SatFdbkVariant">Disabled</P>
-      <P Name="DerivativeFilterVariant">Differentiator</P>
-      <P Name="NVariant">Passthrough</P>
-      <P Name="NCopyVariant">Disabled_SignalSpec</P>
-      <P Name="FilterICVariant">InternalICsDifferentiator</P>
-      <P Name="IntegratorICVariant">InternalICs</P>
-      <P Name="ExternalResetVariant">Disabled</P>
-      <P Name="TRSumVariant">Passthrough</P>
-      <P Name="SumFdbkVariant">Disabled</P>
-      <P Name="SumVariant">Sum_PID</P>
-      <P Name="TsampFilterVariant">InternalTs</P>
-      <P Name="TsampNgainVariant">Passthrough</P>
-      <P Name="TsampIntegralVariant">Disabled_SignalSpec</P>
-      <P Name="ExternalSaturationOutDataTypeStr">Inherit: Same as second input</P>
-      <P Name="InitialConditionSetting">Auto</P>
-    </InstanceData>
-    <PortProperties>
-      <Port Type="out" Index="1">
-        <P Name="Name">Throttle</P>
-      </Port>
-    </PortProperties>
-  </Block>
   <Block BlockType="From" Name="From" SID="672">
-    <P Name="Position">[515, 288, 620, 312]</P>
+    <P Name="Position">[545, 298, 650, 322]</P>
     <P Name="ZOrder">1091</P>
     <P Name="GotoTag">yaw_desired</P>
   </Block>
@@ -11477,27 +11470,11 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
       <P Name="aMode">aMode</P>
     </InstanceData>
   </Block>
-  <Block BlockType="Scope" Name="Scope" SID="727">
-    <PortCounts in="1"/>
-    <P Name="Position">[995, 319, 1025, 351]</P>
-    <P Name="ZOrder">2252</P>
-    <P Name="ScopeSpecificationString">Simulink.scopes.TimeScopeBlockCfg(&apos;CurrentConfiguration&apos;, extmgr.ConfigurationSet(extmgr.Configuration(&apos;Core&apos;,&apos;General UI&apos;,true),extmgr.Configuration(&apos;Core&apos;,&apos;Source UI&apos;,true),extmgr.Configuration(&apos;Sources&apos;,&apos;WiredSimulink&apos;,true,&apos;DataLoggingVariableName&apos;,&apos;ScopeData4&apos;),extmgr.Configuration(&apos;Visuals&apos;,&apos;Time Domain&apos;,true,&apos;SerializedDisplays&apos;,{struct(&apos;MinYLimReal&apos;,&apos;-2.33803&apos;,&apos;MaxYLimReal&apos;,&apos;8.87531&apos;,&apos;YLabelReal&apos;,&apos;&apos;,&apos;MinYLimMag&apos;,&apos;0.00000&apos;,&apos;MaxYLimMag&apos;,&apos;8.87531&apos;,&apos;LegendVisibility&apos;,&apos;off&apos;,&apos;XGrid&apos;,true,&apos;YGrid&apos;,true,&apos;PlotMagPhase&apos;,false,&apos;AxesColor&apos;,[0 0 0],&apos;AxesTickColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;ColorOrder&apos;,[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],&apos;Title&apos;,&apos;%&lt;SignalLabel&gt;&apos;,&apos;LinePropertiesCache&apos;,{{}},&apos;UserDefinedChannelNames&apos;,{{}},&apos;NumLines&apos;,1,&apos;LineNames&apos;,{{&apos;roll_error&apos;}},&apos;ShowContent&apos;,true,&apos;Placement&apos;,1)},&apos;DisplayPropertyDefaults&apos;,struct(&apos;MinYLimReal&apos;,&apos;-2.33803&apos;,&apos;MaxYLimReal&apos;,&apos;8.87531&apos;,&apos;YLabelReal&apos;,&apos;&apos;,&apos;MinYLimMag&apos;,&apos;0.00000&apos;,&apos;MaxYLimMag&apos;,&apos;8.87531&apos;,&apos;LegendVisibility&apos;,&apos;off&apos;,&apos;XGrid&apos;,true,&apos;YGrid&apos;,true,&apos;PlotMagPhase&apos;,false,&apos;AxesColor&apos;,[0 0 0],&apos;AxesTickColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;ColorOrder&apos;,[0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;1 1 0.0666666666666667;0.717647058823529 0.274509803921569 1;0.392156862745098 0.831372549019608 0.0745098039215686;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863])),extmgr.Configuration(&apos;Tools&apos;,&apos;Plot Navigation&apos;,true,&apos;OnceAtStop&apos;,false,&apos;PreviousAutoscale&apos;,&apos;XY&apos;),extmgr.Configuration(&apos;Tools&apos;,&apos;Measurements&apos;,true,&apos;Version&apos;,&apos;2023a&apos;)),&apos;Version&apos;,&apos;2023a&apos;,&apos;Position&apos;,[573.333333333333 323.333333333333 560 419.666666666667])</P>
-    <P Name="NumInputPorts">1</P>
-    <P Name="Floating">off</P>
-  </Block>
   <Block BlockType="Scope" Name="Scope1" SID="686">
     <PortCounts in="1"/>
     <P Name="Position">[775, 144, 805, 176]</P>
     <P Name="ZOrder">1105</P>
     <P Name="ScopeSpecificationString">Simulink.scopes.TimeScopeBlockCfg(&apos;CurrentConfiguration&apos;, extmgr.ConfigurationSet(extmgr.Configuration(&apos;Core&apos;,&apos;General UI&apos;,true),extmgr.Configuration(&apos;Core&apos;,&apos;Source UI&apos;,true),extmgr.Configuration(&apos;Sources&apos;,&apos;WiredSimulink&apos;,true,&apos;DataLoggingVariableName&apos;,&apos;ScopeData1&apos;),extmgr.Configuration(&apos;Visuals&apos;,&apos;Time Domain&apos;,true,&apos;SerializedDisplays&apos;,{struct(&apos;MinYLimReal&apos;,&apos;-13043.37819&apos;,&apos;MaxYLimReal&apos;,&apos;4153.67405&apos;,&apos;YLabelReal&apos;,&apos;&apos;,&apos;MinYLimMag&apos;,&apos;   0.00000&apos;,&apos;MaxYLimMag&apos;,&apos;13043.37819&apos;,&apos;LegendVisibility&apos;,&apos;off&apos;,&apos;XGrid&apos;,true,&apos;YGrid&apos;,true,&apos;PlotMagPhase&apos;,false,&apos;AxesColor&apos;,[0 0 0],&apos;AxesTickColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;ColorOrder&apos;,[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],&apos;Title&apos;,&apos;%&lt;SignalLabel&gt;&apos;,&apos;LinePropertiesCache&apos;,{{}},&apos;UserDefinedChannelNames&apos;,{{}},&apos;NumLines&apos;,3,&apos;LineNames&apos;,{{&apos;north, east, alt:1&apos;,&apos;north, east, alt:2&apos;,&apos;north, east, alt:3&apos;}},&apos;ShowContent&apos;,true,&apos;Placement&apos;,1)},&apos;DisplayPropertyDefaults&apos;,struct(&apos;MinYLimReal&apos;,&apos;-13043.37819&apos;,&apos;MaxYLimReal&apos;,&apos;4153.67405&apos;,&apos;YLabelReal&apos;,&apos;&apos;,&apos;MinYLimMag&apos;,&apos;   0.00000&apos;,&apos;MaxYLimMag&apos;,&apos;13043.37819&apos;,&apos;LegendVisibility&apos;,&apos;off&apos;,&apos;XGrid&apos;,true,&apos;YGrid&apos;,true,&apos;PlotMagPhase&apos;,false,&apos;AxesColor&apos;,[0 0 0],&apos;AxesTickColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;ColorOrder&apos;,[0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;1 1 0.0666666666666667;0.717647058823529 0.274509803921569 1;0.392156862745098 0.831372549019608 0.0745098039215686;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863])),extmgr.Configuration(&apos;Tools&apos;,&apos;Plot Navigation&apos;,true,&apos;PreviousAutoscale&apos;,&apos;XY&apos;),extmgr.Configuration(&apos;Tools&apos;,&apos;Measurements&apos;,true,&apos;Version&apos;,&apos;2023a&apos;)),&apos;Version&apos;,&apos;2023a&apos;,&apos;Position&apos;,[573.333333333333 323.333333333333 560 419.666666666667])</P>
-    <P Name="NumInputPorts">1</P>
-    <P Name="Floating">off</P>
-  </Block>
-  <Block BlockType="Scope" Name="Scope10" SID="716">
-    <PortCounts in="1"/>
-    <P Name="Position">[780, 359, 810, 391]</P>
-    <P Name="ZOrder">2241</P>
-    <P Name="ScopeSpecificationString">Simulink.scopes.TimeScopeBlockCfg(&apos;CurrentConfiguration&apos;, extmgr.ConfigurationSet(extmgr.Configuration(&apos;Core&apos;,&apos;General UI&apos;,true),extmgr.Configuration(&apos;Core&apos;,&apos;Source UI&apos;,true),extmgr.Configuration(&apos;Sources&apos;,&apos;WiredSimulink&apos;,true,&apos;DataLoggingVariableName&apos;,&apos;ScopeData2&apos;),extmgr.Configuration(&apos;Visuals&apos;,&apos;Time Domain&apos;,true,&apos;SerializedDisplays&apos;,{struct(&apos;MinYLimReal&apos;,&apos;-7.49774&apos;,&apos;MaxYLimReal&apos;,&apos;6.40531&apos;,&apos;YLabelReal&apos;,&apos;&apos;,&apos;MinYLimMag&apos;,&apos;0.00000&apos;,&apos;MaxYLimMag&apos;,&apos;7.49774&apos;,&apos;LegendVisibility&apos;,&apos;off&apos;,&apos;XGrid&apos;,true,&apos;YGrid&apos;,true,&apos;PlotMagPhase&apos;,false,&apos;AxesColor&apos;,[0 0 0],&apos;AxesTickColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;ColorOrder&apos;,[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],&apos;Title&apos;,&apos;%&lt;SignalLabel&gt;&apos;,&apos;LinePropertiesCache&apos;,{{struct(&apos;Marker&apos;,&apos;o&apos;,&apos;MarkerSize&apos;,8)}},&apos;UserDefinedChannelNames&apos;,{{}},&apos;NumLines&apos;,1,&apos;LineNames&apos;,{{&apos;yaw_error&apos;}},&apos;ShowContent&apos;,true,&apos;Placement&apos;,1)},&apos;DisplayPropertyDefaults&apos;,struct(&apos;MinYLimReal&apos;,&apos;-7.49774&apos;,&apos;MaxYLimReal&apos;,&apos;6.40531&apos;,&apos;YLabelReal&apos;,&apos;&apos;,&apos;MinYLimMag&apos;,&apos;0.00000&apos;,&apos;MaxYLimMag&apos;,&apos;7.49774&apos;,&apos;LegendVisibility&apos;,&apos;off&apos;,&apos;XGrid&apos;,true,&apos;YGrid&apos;,true,&apos;PlotMagPhase&apos;,false,&apos;AxesColor&apos;,[0 0 0],&apos;AxesTickColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;ColorOrder&apos;,[0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;1 1 0.0666666666666667;0.717647058823529 0.274509803921569 1;0.392156862745098 0.831372549019608 0.0745098039215686;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863])),extmgr.Configuration(&apos;Tools&apos;,&apos;Plot Navigation&apos;,true,&apos;PreviousAutoscale&apos;,&apos;XY&apos;),extmgr.Configuration(&apos;Tools&apos;,&apos;Measurements&apos;,true,&apos;Version&apos;,&apos;2023a&apos;)),&apos;Version&apos;,&apos;2023a&apos;,&apos;Position&apos;,[1115 256.333333333333 560.666666666667 420])</P>
     <P Name="NumInputPorts">1</P>
     <P Name="Floating">off</P>
   </Block>
@@ -11541,27 +11518,11 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <P Name="NumInputPorts">1</P>
     <P Name="Floating">off</P>
   </Block>
-  <Block BlockType="Scope" Name="Scope6" SID="707">
-    <PortCounts in="1"/>
-    <P Name="Position">[835, -41, 865, -9]</P>
-    <P Name="ZOrder">2232</P>
-    <P Name="ScopeSpecificationString">Simulink.scopes.TimeScopeBlockCfg(&apos;CurrentConfiguration&apos;, extmgr.ConfigurationSet(extmgr.Configuration(&apos;Core&apos;,&apos;General UI&apos;,true),extmgr.Configuration(&apos;Core&apos;,&apos;Source UI&apos;,true),extmgr.Configuration(&apos;Sources&apos;,&apos;WiredSimulink&apos;,true,&apos;DataLoggingVariableName&apos;,&apos;ScopeData4&apos;),extmgr.Configuration(&apos;Visuals&apos;,&apos;Time Domain&apos;,true,&apos;SerializedDisplays&apos;,{struct(&apos;MinYLimReal&apos;,&apos;-3.63298&apos;,&apos;MaxYLimReal&apos;,&apos;14.56298&apos;,&apos;YLabelReal&apos;,&apos;&apos;,&apos;MinYLimMag&apos;,&apos;0.00000&apos;,&apos;MaxYLimMag&apos;,&apos;14.56298&apos;,&apos;LegendVisibility&apos;,&apos;On&apos;,&apos;XGrid&apos;,true,&apos;YGrid&apos;,true,&apos;PlotMagPhase&apos;,false,&apos;AxesColor&apos;,[0 0 0],&apos;AxesTickColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;ColorOrder&apos;,[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],&apos;Title&apos;,&apos;%&lt;SignalLabel&gt;&apos;,&apos;LinePropertiesCache&apos;,{{}},&apos;UserDefinedChannelNames&apos;,{{}},&apos;NumLines&apos;,1,&apos;LineNames&apos;,{{&apos;pitch_desired&apos;}},&apos;ShowContent&apos;,true,&apos;Placement&apos;,1)},&apos;DisplayPropertyDefaults&apos;,struct(&apos;MinYLimReal&apos;,&apos;-3.63298&apos;,&apos;MaxYLimReal&apos;,&apos;14.56298&apos;,&apos;YLabelReal&apos;,&apos;&apos;,&apos;MinYLimMag&apos;,&apos;0.00000&apos;,&apos;MaxYLimMag&apos;,&apos;14.56298&apos;,&apos;LegendVisibility&apos;,&apos;On&apos;,&apos;XGrid&apos;,true,&apos;YGrid&apos;,true,&apos;PlotMagPhase&apos;,false,&apos;AxesColor&apos;,[0 0 0],&apos;AxesTickColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;ColorOrder&apos;,[0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;1 1 0.0666666666666667;0.717647058823529 0.274509803921569 1;0.392156862745098 0.831372549019608 0.0745098039215686;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863])),extmgr.Configuration(&apos;Tools&apos;,&apos;Plot Navigation&apos;,true,&apos;PreviousAutoscale&apos;,&apos;XY&apos;),extmgr.Configuration(&apos;Tools&apos;,&apos;Measurements&apos;,true,&apos;Version&apos;,&apos;2023a&apos;)),&apos;Version&apos;,&apos;2023a&apos;,&apos;Position&apos;,[288.333333333333 122.333333333333 560 420])</P>
-    <P Name="NumInputPorts">1</P>
-    <P Name="Floating">off</P>
-  </Block>
   <Block BlockType="Scope" Name="Scope7" SID="709">
     <PortCounts in="1"/>
     <P Name="Position">[325, 534, 355, 566]</P>
     <P Name="ZOrder">2234</P>
     <P Name="ScopeSpecificationString">Simulink.scopes.TimeScopeBlockCfg(&apos;CurrentConfiguration&apos;, extmgr.ConfigurationSet(extmgr.Configuration(&apos;Core&apos;,&apos;General UI&apos;,true),extmgr.Configuration(&apos;Core&apos;,&apos;Source UI&apos;,true),extmgr.Configuration(&apos;Sources&apos;,&apos;WiredSimulink&apos;,true,&apos;DataLoggingVariableName&apos;,&apos;ScopeData5&apos;),extmgr.Configuration(&apos;Visuals&apos;,&apos;Time Domain&apos;,true,&apos;SerializedDisplays&apos;,{struct(&apos;MinYLimReal&apos;,&apos;-1.25&apos;,&apos;MaxYLimReal&apos;,&apos;1.25&apos;,&apos;YLabelReal&apos;,&apos;&apos;,&apos;MinYLimMag&apos;,&apos;0.00000&apos;,&apos;MaxYLimMag&apos;,&apos;1.25&apos;,&apos;LegendVisibility&apos;,&apos;off&apos;,&apos;XGrid&apos;,true,&apos;YGrid&apos;,true,&apos;PlotMagPhase&apos;,false,&apos;AxesColor&apos;,[0 0 0],&apos;AxesTickColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;ColorOrder&apos;,[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],&apos;Title&apos;,&apos;%&lt;SignalLabel&gt;&apos;,&apos;LinePropertiesCache&apos;,{{}},&apos;UserDefinedChannelNames&apos;,{{}},&apos;NumLines&apos;,1,&apos;LineNames&apos;,{{&apos;aileron_control&apos;}},&apos;ShowContent&apos;,true,&apos;Placement&apos;,1)},&apos;DisplayPropertyDefaults&apos;,struct(&apos;MinYLimReal&apos;,&apos;-1.25&apos;,&apos;MaxYLimReal&apos;,&apos;1.25&apos;,&apos;YLabelReal&apos;,&apos;&apos;,&apos;MinYLimMag&apos;,&apos;0.00000&apos;,&apos;MaxYLimMag&apos;,&apos;1.25&apos;,&apos;LegendVisibility&apos;,&apos;off&apos;,&apos;XGrid&apos;,true,&apos;YGrid&apos;,true,&apos;PlotMagPhase&apos;,false,&apos;AxesColor&apos;,[0 0 0],&apos;AxesTickColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;ColorOrder&apos;,[0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;1 1 0.0666666666666667;0.717647058823529 0.274509803921569 1;0.392156862745098 0.831372549019608 0.0745098039215686;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863])),extmgr.Configuration(&apos;Tools&apos;,&apos;Plot Navigation&apos;,true,&apos;PreviousAutoscale&apos;,&apos;XY&apos;),extmgr.Configuration(&apos;Tools&apos;,&apos;Measurements&apos;,true,&apos;Version&apos;,&apos;2023a&apos;)),&apos;Version&apos;,&apos;2023a&apos;,&apos;Position&apos;,[401 311 560 420])</P>
-    <P Name="NumInputPorts">1</P>
-    <P Name="Floating">off</P>
-  </Block>
-  <Block BlockType="Scope" Name="Scope8" SID="710">
-    <PortCounts in="1"/>
-    <P Name="Position">[550, 334, 580, 366]</P>
-    <P Name="ZOrder">2235</P>
-    <P Name="ScopeSpecificationString">Simulink.scopes.TimeScopeBlockCfg(&apos;CurrentConfiguration&apos;, extmgr.ConfigurationSet(extmgr.Configuration(&apos;Core&apos;,&apos;General UI&apos;,true),extmgr.Configuration(&apos;Core&apos;,&apos;Source UI&apos;,true),extmgr.Configuration(&apos;Sources&apos;,&apos;WiredSimulink&apos;,true,&apos;DataLoggingVariableName&apos;,&apos;ScopeData6&apos;),extmgr.Configuration(&apos;Visuals&apos;,&apos;Time Domain&apos;,true,&apos;SerializedDisplays&apos;,{struct(&apos;MinYLimReal&apos;,&apos;-3.92688&apos;,&apos;MaxYLimReal&apos;,&apos;3.92688&apos;,&apos;YLabelReal&apos;,&apos;&apos;,&apos;MinYLimMag&apos;,&apos;0.00000&apos;,&apos;MaxYLimMag&apos;,&apos;3.92688&apos;,&apos;LegendVisibility&apos;,&apos;off&apos;,&apos;XGrid&apos;,true,&apos;YGrid&apos;,true,&apos;PlotMagPhase&apos;,false,&apos;AxesColor&apos;,[0 0 0],&apos;AxesTickColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;ColorOrder&apos;,[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],&apos;Title&apos;,&apos;%&lt;SignalLabel&gt;&apos;,&apos;LinePropertiesCache&apos;,{{struct(&apos;Marker&apos;,&apos;o&apos;,&apos;MarkerSize&apos;,8)}},&apos;UserDefinedChannelNames&apos;,{{}},&apos;NumLines&apos;,1,&apos;LineNames&apos;,{{&apos;Waypoint Follower/3&apos;}},&apos;ShowContent&apos;,true,&apos;Placement&apos;,1)},&apos;DisplayPropertyDefaults&apos;,struct(&apos;MinYLimReal&apos;,&apos;-3.92688&apos;,&apos;MaxYLimReal&apos;,&apos;3.92688&apos;,&apos;YLabelReal&apos;,&apos;&apos;,&apos;MinYLimMag&apos;,&apos;0.00000&apos;,&apos;MaxYLimMag&apos;,&apos;3.92688&apos;,&apos;LegendVisibility&apos;,&apos;off&apos;,&apos;XGrid&apos;,true,&apos;YGrid&apos;,true,&apos;PlotMagPhase&apos;,false,&apos;AxesColor&apos;,[0 0 0],&apos;AxesTickColor&apos;,[0.686274509803922 0.686274509803922 0.686274509803922],&apos;ColorOrder&apos;,[0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;1 1 0.0666666666666667;0.717647058823529 0.274509803921569 1;0.392156862745098 0.831372549019608 0.0745098039215686;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863])),extmgr.Configuration(&apos;Tools&apos;,&apos;Plot Navigation&apos;,true,&apos;PreviousAutoscale&apos;,&apos;XY&apos;),extmgr.Configuration(&apos;Tools&apos;,&apos;Measurements&apos;,true,&apos;Version&apos;,&apos;2023a&apos;)),&apos;Version&apos;,&apos;2023a&apos;,&apos;Position&apos;,[943.666666666667 62.3333333333333 560 420])</P>
     <P Name="NumInputPorts">1</P>
     <P Name="Floating">off</P>
   </Block>
@@ -11633,61 +11594,6 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
       </Port>
     </PortProperties>
   </Block>
-  <Block BlockType="Sum" Name="Subtract" SID="667">
-    <PortCounts in="2" out="1"/>
-    <P Name="Position">[510, -3, 540, 28]</P>
-    <P Name="ZOrder">1085</P>
-    <P Name="IconShape">rectangular</P>
-    <P Name="Inputs">+-</P>
-  </Block>
-  <Block BlockType="Sum" Name="Subtract1" SID="669">
-    <PortCounts in="2" out="1"/>
-    <P Name="Position">[885, 22, 915, 53]</P>
-    <P Name="ZOrder">1087</P>
-    <P Name="IconShape">rectangular</P>
-    <P Name="Inputs">+-</P>
-    <PortProperties>
-      <Port Type="out" Index="1">
-        <P Name="Name">pitch_error</P>
-      </Port>
-    </PortProperties>
-  </Block>
-  <Block BlockType="Sum" Name="Subtract2" SID="720">
-    <PortCounts in="2" out="1"/>
-    <P Name="Position">[675, 332, 705, 363]</P>
-    <P Name="ZOrder">2245</P>
-    <P Name="IconShape">rectangular</P>
-    <P Name="Inputs">+-</P>
-    <PortProperties>
-      <Port Type="out" Index="1">
-        <P Name="Name">yaw_error</P>
-      </Port>
-    </PortProperties>
-  </Block>
-  <Block BlockType="Sum" Name="Subtract3" SID="677">
-    <PortCounts in="2" out="1"/>
-    <P Name="Position">[905, 297, 935, 328]</P>
-    <P Name="ZOrder">1096</P>
-    <P Name="IconShape">rectangular</P>
-    <P Name="Inputs">+-</P>
-    <PortProperties>
-      <Port Type="out" Index="1">
-        <P Name="Name">roll_error</P>
-      </Port>
-    </PortProperties>
-  </Block>
-  <Block BlockType="Sum" Name="Subtract4" SID="692">
-    <PortCounts in="2" out="1"/>
-    <P Name="Position">[815, 232, 845, 263]</P>
-    <P Name="ZOrder">1111</P>
-    <P Name="IconShape">rectangular</P>
-    <P Name="Inputs">+-</P>
-    <PortProperties>
-      <Port Type="out" Index="1">
-        <P Name="Name">airspeed_error</P>
-      </Port>
-    </PortProperties>
-  </Block>
   <Block BlockType="Reference" Name="UAV Animation" SID="712">
     <PortCounts in="2"/>
     <P Name="Position">[1265, -66, 1425, 61]</P>
@@ -11725,6 +11631,18 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
       <P Name="ShowStatusOutput">off</P>
       <P Name="SimulateUsing">Interpreted execution</P>
     </InstanceData>
+  </Block>
+  <Block BlockType="SubSystem" Name="Yaw Controller" SID="761">
+    <PortCounts in="3" out="1"/>
+    <P Name="Position">[765, 304, 930, 346]</P>
+    <P Name="ZOrder">2265</P>
+    <P Name="ContentPreviewEnabled">on</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="Name">aileron_control</P>
+      </Port>
+    </PortProperties>
+    <System Ref="system_761"/>
   </Block>
   <Block BlockType="Constant" Name="airpseed_desired" SID="689">
     <P Name="Position">[725, 210, 755, 240]</P>
@@ -11774,9 +11692,9 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <P Name="Src">607#out:1</P>
     <P Name="Points">[18, 0]</P>
     <Branch>
-      <P Name="ZOrder">236</P>
-      <P Name="Points">[0, -63; -134, 0; 0, -52]</P>
-      <P Name="Dst">667#in:2</P>
+      <P Name="ZOrder">499</P>
+      <P Name="Points">[0, -120]</P>
+      <P Name="Dst">750#in:2</P>
     </Branch>
     <Branch>
       <P Name="ZOrder">235</P>
@@ -11784,51 +11702,22 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     </Branch>
   </Line>
   <Line>
-    <P Name="ZOrder">234</P>
+    <P Name="ZOrder">498</P>
     <P Name="Src">666#out:1</P>
-    <P Name="Dst">667#in:1</P>
+    <P Name="Dst">750#in:1</P>
   </Line>
   <Line>
-    <P Name="ZOrder">237</P>
-    <P Name="Src">667#out:1</P>
-    <P Name="Dst">668#in:1</P>
-  </Line>
-  <Line>
-    <P Name="Name">pitch_desired</P>
-    <P Name="ZOrder">239</P>
-    <P Name="Labels">[1, 1]</P>
-    <P Name="Src">668#out:1</P>
-    <P Name="Points">[95, 0]</P>
-    <Branch>
-      <P Name="ZOrder">376</P>
-      <P Name="Points">[0, 15]</P>
-      <P Name="Dst">669#in:1</P>
-    </Branch>
-    <Branch>
-      <P Name="ZOrder">375</P>
-      <P Name="Points">[0, -40]</P>
-      <P Name="Dst">707#in:1</P>
-    </Branch>
-  </Line>
-  <Line>
-    <P Name="ZOrder">242</P>
+    <P Name="ZOrder">497</P>
     <P Name="Src">670#out:1</P>
-    <P Name="Points">[74, 0; 0, -205]</P>
-    <P Name="Dst">669#in:2</P>
-  </Line>
-  <Line>
-    <P Name="Name">pitch_error</P>
-    <P Name="ZOrder">243</P>
-    <P Name="Labels">[1, 1]</P>
-    <P Name="Src">669#out:1</P>
-    <P Name="Dst">671#in:1</P>
+    <P Name="Points">[19, 0; 0, -225]</P>
+    <P Name="Dst">750#in:3</P>
   </Line>
   <Line>
     <P Name="Name">elevon control</P>
-    <P Name="ZOrder">365</P>
+    <P Name="ZOrder">495</P>
     <P Name="Labels">[3, 1]</P>
-    <P Name="Src">671#out:1</P>
-    <P Name="Points">[19, 0; 0, -129; -438, 0]</P>
+    <P Name="Src">750#out:1</P>
+    <P Name="Points">[19, 0; 0, -104; -168, 0]</P>
     <Branch>
       <P Name="ZOrder">379</P>
       <P Name="Labels">[2, 1]</P>
@@ -11842,37 +11731,15 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     </Branch>
   </Line>
   <Line>
-    <P Name="ZOrder">249</P>
-    <P Name="Src">672#out:1</P>
-    <P Name="Points">[18, 0; 0, 23]</P>
-    <Branch>
-      <P Name="ZOrder">429</P>
-      <P Name="Points">[0, 17]</P>
-      <P Name="Dst">720#in:1</P>
-    </Branch>
-    <Branch>
-      <P Name="ZOrder">385</P>
-      <P Name="Points">[-117, 0; 0, 27]</P>
-      <P Name="Dst">710#in:1</P>
-    </Branch>
-  </Line>
-  <Line>
-    <P Name="Name">roll_desired</P>
-    <P Name="ZOrder">254</P>
-    <P Name="Labels">[1, 1]</P>
-    <P Name="Src">675#out:1</P>
-    <P Name="Dst">677#in:1</P>
-  </Line>
-  <Line>
     <P Name="Name">roll_measured</P>
     <P Name="ZOrder">448</P>
     <P Name="Src">725#out:1</P>
     <P Name="Points">[10, 0]</P>
     <Branch>
-      <P Name="ZOrder">452</P>
-      <P Name="Labels">[2, 1]</P>
-      <P Name="Points">[0, 35; 248, 0; 0, -155]</P>
-      <P Name="Dst">677#in:2</P>
+      <P Name="ZOrder">501</P>
+      <P Name="Labels">[1, 1]</P>
+      <P Name="Points">[0, -100]</P>
+      <P Name="Dst">761#in:3</P>
     </Branch>
     <Branch>
       <P Name="ZOrder">451</P>
@@ -11881,29 +11748,14 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     </Branch>
   </Line>
   <Line>
-    <P Name="Name">roll_error</P>
-    <P Name="ZOrder">258</P>
-    <P Name="Src">677#out:1</P>
-    <P Name="Points">[19, 0; 0, 20]</P>
-    <Branch>
-      <P Name="ZOrder">454</P>
-      <P Name="Dst">727#in:1</P>
-    </Branch>
-    <Branch>
-      <P Name="ZOrder">453</P>
-      <P Name="Labels">[1, 1]</P>
-      <P Name="Points">[0, 44; -48, 0; 0, 71]</P>
-      <P Name="Dst">678#in:1</P>
-    </Branch>
-  </Line>
-  <Line>
     <P Name="Name">aileron_control</P>
-    <P Name="ZOrder">380</P>
-    <P Name="Labels">[0, 0]</P>
-    <P Name="Src">678#out:1</P>
-    <P Name="Points">[19, 0; 0, 53; -698, 0]</P>
+    <P Name="ZOrder">500</P>
+    <P Name="Labels">[2, 0]</P>
+    <P Name="Src">761#out:1</P>
+    <P Name="Points">[19, 0; 0, 178; -653, 0]</P>
     <Branch>
       <P Name="ZOrder">419</P>
+      <P Name="Labels">[2, 1]</P>
       <P Name="Points">[0, -303]</P>
       <P Name="Dst">1#in:2</P>
     </Branch>
@@ -11924,8 +11776,9 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
       <P Name="Labels">[1, 0]</P>
       <P Name="Points">[0, -75; 33, 0]</P>
       <Branch>
-        <P Name="ZOrder">436</P>
-        <P Name="Dst">720#in:2</P>
+        <P Name="ZOrder">502</P>
+        <P Name="Points">[0, -205]</P>
+        <P Name="Dst">761#in:2</P>
       </Branch>
       <Branch>
         <P Name="ZOrder">435</P>
@@ -11945,35 +11798,27 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <P Name="Src">687#out:1</P>
     <P Name="Points">[19, 0]</P>
     <Branch>
+      <P Name="ZOrder">491</P>
+      <P Name="Points">[84, 0; 0, -30]</P>
+      <P Name="Dst">742#in:2</P>
+    </Branch>
+    <Branch>
       <P Name="ZOrder">338</P>
       <P Name="Points">[0, 112; -313, 0; 0, 53]</P>
       <P Name="Dst">698#in:1</P>
     </Branch>
-    <Branch>
-      <P Name="ZOrder">337</P>
-      <P Name="Points">[81, 0; 0, -20]</P>
-      <P Name="Dst">692#in:2</P>
-    </Branch>
   </Line>
   <Line>
-    <P Name="ZOrder">310</P>
+    <P Name="ZOrder">490</P>
     <P Name="Src">689#out:1</P>
-    <P Name="Points">[35, 0; 0, 15]</P>
-    <P Name="Dst">692#in:1</P>
-  </Line>
-  <Line>
-    <P Name="Name">airspeed_error</P>
-    <P Name="ZOrder">354</P>
-    <P Name="Labels">[0, 0]</P>
-    <P Name="Src">692#out:1</P>
-    <P Name="Dst">688#in:1</P>
+    <P Name="Dst">742#in:1</P>
   </Line>
   <Line>
     <P Name="Name">Throttle</P>
-    <P Name="ZOrder">353</P>
-    <P Name="Labels">[0, 0]</P>
-    <P Name="Src">688#out:1</P>
-    <P Name="Points">[19, 0; 0, 144; -693, 0]</P>
+    <P Name="ZOrder">494</P>
+    <P Name="Labels">[1, 1]</P>
+    <P Name="Src">742#out:1</P>
+    <P Name="Points">[34, 0; 0, 167; -693, 0; 0, -8]</P>
     <Branch>
       <P Name="ZOrder">349</P>
       <P Name="Points">[0, -94]</P>
@@ -11995,23 +11840,6 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <P Name="ZOrder">459</P>
     <P Name="Src">728#out:3</P>
     <P Name="Dst">684#in:1</P>
-  </Line>
-  <Line>
-    <P Name="Name">yaw_error</P>
-    <P Name="ZOrder">437</P>
-    <P Name="Src">720#out:1</P>
-    <P Name="Points">[32, 0]</P>
-    <Branch>
-      <P Name="ZOrder">439</P>
-      <P Name="Points">[0, 25]</P>
-      <P Name="Dst">716#in:1</P>
-    </Branch>
-    <Branch>
-      <P Name="ZOrder">438</P>
-      <P Name="Labels">[0, 0]</P>
-      <P Name="Points">[0, -45]</P>
-      <P Name="Dst">675#in:1</P>
-    </Branch>
   </Line>
   <Line>
     <P Name="ZOrder">442</P>
@@ -12067,6 +11895,11 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <P Name="Points">[60, 0; 0, 15]</P>
     <P Name="Dst">728#in:2</P>
   </Line>
+  <Line>
+    <P Name="ZOrder">503</P>
+    <P Name="Src">672#out:1</P>
+    <P Name="Dst">761#in:1</P>
+  </Line>
 </System>
 
 __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
@@ -12087,18 +11920,48 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
       <Object PropName="ExplorerBarInfo" ObjectID="4" ClassName="Simulink.ExplorerBarInfo">
         <P Name="Visible" Class="logical">1</P>
       </Object>
-      <Array PropName="EditorsInfo" Type="Simulink.EditorInfo" Dimension="1*23">
+      <Array PropName="EditorsInfo" Type="Simulink.EditorInfo" Dimension="1*26">
         <Object ObjectID="5">
           <P Name="IsActive" Class="logical">1</P>
           <P Name="IsTabbed" Class="logical">1</P>
           <P Name="ViewObjType" Class="char">SimulinkTopLevel</P>
           <P Name="LoadSaveID" Class="char">0</P>
-          <P Name="Extents" Class="double">[2504.0, 854.0]</P>
-          <P Name="ZoomFactor" Class="double">0.49999999999999994</P>
-          <P Name="Offset" Class="double">[-589.6821180555562, -478.12329077976261]</P>
-          <P Name="SceneRectInView" Class="double">[-589.6821180555562, -478.12329077976261, 3338.666666666667, 1138.6666666666667]</P>
+          <P Name="Extents" Class="double">[2504.0, 1274.0]</P>
+          <P Name="ZoomFactor" Class="double">0.79999999999999993</P>
+          <P Name="Offset" Class="double">[-191.96475808733302, -244.64040212570794]</P>
+          <P Name="SceneRectInView" Class="double">[-191.96475808733302, -244.64040212570794, 2086.666666666667, 1061.6666666666667]</P>
         </Object>
         <Object ObjectID="6">
+          <P Name="IsActive" Class="logical">0</P>
+          <P Name="IsTabbed" Class="logical">0</P>
+          <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
+          <P Name="LoadSaveID" Class="char">742</P>
+          <P Name="Extents" Class="double">[2504.0, 1274.0]</P>
+          <P Name="ZoomFactor" Class="double">1.9999999999999998</P>
+          <P Name="Offset" Class="double">[-128.95238095238125, -63.106734614799592]</P>
+          <P Name="SceneRectInView" Class="double">[-128.95238095238125, -63.106734614799592, 834.66666666666674, 424.66666666666674]</P>
+        </Object>
+        <Object ObjectID="7">
+          <P Name="IsActive" Class="logical">0</P>
+          <P Name="IsTabbed" Class="logical">0</P>
+          <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
+          <P Name="LoadSaveID" Class="char">750</P>
+          <P Name="Extents" Class="double">[2504.0, 1274.0]</P>
+          <P Name="ZoomFactor" Class="double">2.0</P>
+          <P Name="Offset" Class="double">[-25.067428553841943, -42.535965492639825]</P>
+          <P Name="SceneRectInView" Class="double">[-25.067428553841943, -42.535965492639825, 834.66666666666663, 424.66666666666669]</P>
+        </Object>
+        <Object ObjectID="8">
+          <P Name="IsActive" Class="logical">0</P>
+          <P Name="IsTabbed" Class="logical">0</P>
+          <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
+          <P Name="LoadSaveID" Class="char">761</P>
+          <P Name="Extents" Class="double">[2504.0, 1274.0]</P>
+          <P Name="ZoomFactor" Class="double">2.0</P>
+          <P Name="Offset" Class="double">[-24.855917177961516, -53.063492063492248]</P>
+          <P Name="SceneRectInView" Class="double">[-24.855917177961516, -53.063492063492248, 834.66666666666663, 424.66666666666669]</P>
+        </Object>
+        <Object ObjectID="9">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -12108,7 +11971,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[363.17938470626126, 111.82798350433981]</P>
           <P Name="SceneRectInView" Class="double">[363.17938470626126, 111.82798350433981, 1088.0, 455.46666666666664]</P>
         </Object>
-        <Object ObjectID="7">
+        <Object ObjectID="10">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -12118,7 +11981,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[48.789593239154783, -42.565600270865559]</P>
           <P Name="SceneRectInView" Class="double">[48.789593239154783, -42.565600270865559, 886.3897763578276, 371.06709265175721]</P>
         </Object>
-        <Object ObjectID="8">
+        <Object ObjectID="11">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">StudioAdapterBlock</P>
@@ -12128,7 +11991,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[0.0, 0.0]</P>
           <P Name="SceneRectInView" Class="double">[0.0, 0.0, 0.0, 0.0]</P>
         </Object>
-        <Object ObjectID="9">
+        <Object ObjectID="12">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -12138,7 +12001,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-127.71242559523813, -67.310180153157518]</P>
           <P Name="SceneRectInView" Class="double">[-127.71242559523813, -67.310180153157518, 953.904761904762, 485.33333333333343]</P>
         </Object>
-        <Object ObjectID="10">
+        <Object ObjectID="13">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -12148,7 +12011,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[18.547160532273114, -28.796613430933967]</P>
           <P Name="SceneRectInView" Class="double">[18.547160532273114, -28.796613430933967, 777.14285714285722, 395.39936102236425]</P>
         </Object>
-        <Object ObjectID="11">
+        <Object ObjectID="14">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -12158,7 +12021,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-448.61979166666663, -190.16666666666669]</P>
           <P Name="SceneRectInView" Class="double">[-448.61979166666663, -190.16666666666669, 1669.3333333333333, 569.33333333333337]</P>
         </Object>
-        <Object ObjectID="12">
+        <Object ObjectID="15">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -12168,7 +12031,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-62.949728729278576, 10.68253143048133]</P>
           <P Name="SceneRectInView" Class="double">[-62.949728729278576, 10.68253143048133, 777.14285714285722, 270.47619047619054]</P>
         </Object>
-        <Object ObjectID="13">
+        <Object ObjectID="16">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -12178,7 +12041,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-171.72780608807446, -143.97301587301592]</P>
           <P Name="SceneRectInView" Class="double">[-171.72780608807446, -143.97301587301592, 834.66666666666663, 424.66666666666669]</P>
         </Object>
-        <Object ObjectID="14">
+        <Object ObjectID="17">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -12188,7 +12051,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-244.92478287427991, -375.0]</P>
           <P Name="SceneRectInView" Class="double">[-244.92478287427991, -375.0, 1360.0, 849.33333333333337]</P>
         </Object>
-        <Object ObjectID="15">
+        <Object ObjectID="18">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -12198,7 +12061,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-1.7434523809520783, -50.768253968253845]</P>
           <P Name="SceneRectInView" Class="double">[-1.7434523809520783, -50.768253968253845, 777.14285714285711, 270.47619047619048]</P>
         </Object>
-        <Object ObjectID="16">
+        <Object ObjectID="19">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -12208,7 +12071,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-76.805615034871678, -118.3519688293311]</P>
           <P Name="SceneRectInView" Class="double">[-76.805615034871678, -118.3519688293311, 777.14285714285711, 485.33333333333331]</P>
         </Object>
-        <Object ObjectID="17">
+        <Object ObjectID="20">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -12218,7 +12081,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-150.32941091637417, -71.166666666666757]</P>
           <P Name="SceneRectInView" Class="double">[-150.32941091637417, -71.166666666666757, 680.0, 424.66666666666669]</P>
         </Object>
-        <Object ObjectID="18">
+        <Object ObjectID="21">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -12228,7 +12091,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-197.46372767857144, -124.82380952380964]</P>
           <P Name="SceneRectInView" Class="double">[-197.46372767857144, -124.82380952380964, 953.904761904762, 485.33333333333343]</P>
         </Object>
-        <Object ObjectID="19">
+        <Object ObjectID="22">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -12238,7 +12101,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-180.27586016883765, -203.25906046608279]</P>
           <P Name="SceneRectInView" Class="double">[-180.27586016883765, -203.25906046608279, 953.90476190476193, 485.33333333333331]</P>
         </Object>
-        <Object ObjectID="20">
+        <Object ObjectID="23">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -12248,7 +12111,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-159.94751984126981, -89.100000000000108]</P>
           <P Name="SceneRectInView" Class="double">[-159.94751984126981, -89.100000000000108, 834.66666666666663, 424.66666666666669]</P>
         </Object>
-        <Object ObjectID="21">
+        <Object ObjectID="24">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -12258,7 +12121,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-230.8944196428572, -51.5301587301588]</P>
           <P Name="SceneRectInView" Class="double">[-230.8944196428572, -51.5301587301588, 953.904761904762, 485.33333333333343]</P>
         </Object>
-        <Object ObjectID="22">
+        <Object ObjectID="25">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -12268,7 +12131,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-171.01019024033954, 29.390966308893859]</P>
           <P Name="SceneRectInView" Class="double">[-171.01019024033954, 29.390966308893859, 1088.0, 378.66666666666669]</P>
         </Object>
-        <Object ObjectID="23">
+        <Object ObjectID="26">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -12278,7 +12141,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-12.421915140519451, 31.014503596231386]</P>
           <P Name="SceneRectInView" Class="double">[-12.421915140519451, 31.014503596231386, 680.0, 236.66666666666666]</P>
         </Object>
-        <Object ObjectID="24">
+        <Object ObjectID="27">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -12288,7 +12151,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-193.85902125173004, -105.90076304168409]</P>
           <P Name="SceneRectInView" Class="double">[-193.85902125173004, -105.90076304168409, 777.14285714285722, 485.33333333333343]</P>
         </Object>
-        <Object ObjectID="25">
+        <Object ObjectID="28">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -12298,7 +12161,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[129.2590235674578, -62.165079365079379]</P>
           <P Name="SceneRectInView" Class="double">[129.2590235674578, -62.165079365079379, 777.14285714285711, 270.47619047619048]</P>
         </Object>
-        <Object ObjectID="26">
+        <Object ObjectID="29">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -12308,7 +12171,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Offset" Class="double">[-102.21556837228472, -145.67081010638435]</P>
           <P Name="SceneRectInView" Class="double">[-102.21556837228472, -145.67081010638435, 953.904761904762, 485.33333333333343]</P>
         </Object>
-        <Object ObjectID="27">
+        <Object ObjectID="30">
           <P Name="IsActive" Class="logical">0</P>
           <P Name="IsTabbed" Class="logical">0</P>
           <P Name="ViewObjType" Class="char">SimulinkSubsys</P>
@@ -12319,8 +12182,44 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="SceneRectInView" Class="double">[-221.20843253968252, -99.61269841269845, 1112.8888888888889, 566.22222222222217]</P>
         </Object>
       </Array>
-      <Array PropName="DockComponentsInfo" Type="Simulink.DockComponentInfo" Dimension="1*3">
-        <Object ObjectID="28">
+      <Array PropName="DockComponentsInfo" Type="Simulink.DockComponentInfo" Dimension="1*4">
+        <Object ObjectID="31">
+          <P Name="Type" Class="char">LibraryBrowser2 LibraryBrowserStudioComponent</P>
+          <P Name="ID" Class="char">sixdof</P>
+          <P Name="Visible" Class="logical">0</P>
+          <P Name="CreateCallback" Class="char"/>
+          <P Name="UserData" Class="char"/>
+          <P Name="Floating" Class="logical">0</P>
+          <P Name="DockPosition" Class="char">Left</P>
+          <P Name="Width" Class="int32">302</P>
+          <P Name="Height" Class="int32">874</P>
+          <P Name="Minimized" Class="char">Unset</P>
+        </Object>
+        <Object ObjectID="32">
+          <P Name="Type" Class="char">GLUE2:PropertyInspector</P>
+          <P Name="ID" Class="char">Property Inspector</P>
+          <P Name="Visible" Class="logical">0</P>
+          <P Name="CreateCallback" Class="char"/>
+          <P Name="UserData" Class="char"/>
+          <P Name="Floating" Class="logical">0</P>
+          <P Name="DockPosition" Class="char">Right</P>
+          <P Name="Width" Class="int32">426</P>
+          <P Name="Height" Class="int32">320</P>
+          <P Name="Minimized" Class="char">Unset</P>
+        </Object>
+        <Object ObjectID="33">
+          <P Name="Type" Class="char">GLUE2:SpreadSheet</P>
+          <P Name="ID" Class="char">ModelData</P>
+          <P Name="Visible" Class="logical">0</P>
+          <P Name="CreateCallback" Class="char">DataView.createSpreadSheetComponent</P>
+          <P Name="UserData" Class="char"/>
+          <P Name="Floating" Class="logical">0</P>
+          <P Name="DockPosition" Class="char">Bottom</P>
+          <P Name="Width" Class="int32">426</P>
+          <P Name="Height" Class="int32">320</P>
+          <P Name="Minimized" Class="char">Unset</P>
+        </Object>
+        <Object ObjectID="34">
           <P Name="Type" Class="char">Simulink:Editor:ReferencedFiles</P>
           <P Name="ID" Class="char">Referenced Files</P>
           <P Name="Visible" Class="logical">0</P>
@@ -12333,32 +12232,8 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Height" Class="int32">320</P>
           <P Name="Minimized" Class="char">Unset</P>
         </Object>
-        <Object ObjectID="29">
-          <P Name="Type" Class="char">GLUE2:PropertyInspector</P>
-          <P Name="ID" Class="char">Property Inspector</P>
-          <P Name="Visible" Class="logical">0</P>
-          <P Name="CreateCallback" Class="char"/>
-          <P Name="UserData" Class="char"/>
-          <P Name="Floating" Class="logical">0</P>
-          <P Name="DockPosition" Class="char">Right</P>
-          <P Name="Width" Class="int32">426</P>
-          <P Name="Height" Class="int32">320</P>
-          <P Name="Minimized" Class="char">Unset</P>
-        </Object>
-        <Object ObjectID="30">
-          <P Name="Type" Class="char">GLUE2:SpreadSheet</P>
-          <P Name="ID" Class="char">ModelData</P>
-          <P Name="Visible" Class="logical">0</P>
-          <P Name="CreateCallback" Class="char">DataView.createSpreadSheetComponent</P>
-          <P Name="UserData" Class="char"/>
-          <P Name="Floating" Class="logical">0</P>
-          <P Name="DockPosition" Class="char">Bottom</P>
-          <P Name="Width" Class="int32">426</P>
-          <P Name="Height" Class="int32">320</P>
-          <P Name="Minimized" Class="char">Unset</P>
-        </Object>
       </Array>
-      <P Name="WindowState" Class="char">AAAA/wAAAAD9AAAAAwAAAAAAAAHKAAAFSPwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAAAAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD8AAAAtQAABUgAAAAAAP////oAAAABAgAAAAL7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAACTAP////sAAABoAEwAaQBiAHIAYQByAHkAQgByAG8AdwBzAGUAcgAyACAATABpAGIAcgBhAHIAeQBCAHIAbwB3AHMAZQByAFMAdAB1AGQAaQBvAEMAbwBtAHAAbwBuAGUAbgB0AC8AcwBpAHgAZABvAGYBAAAAAP////8AAAAAAAAAAPsAAABgAFMAaQBtAHUAbABpAG4AawA6AEUAZABpAHQAbwByADoAUgBlAGYAZQByAGUAbgBjAGUAZABGAGkAbABlAHMALwBSAGUAZgBlAHIAZQBuAGMAZQBkACAARgBpAGwAZQBzAAAAAAD/////AAAAxwD///8AAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAdABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAoAA////AAAAAwAACgAAAAGe/AEAAAAB/AAAAAAAAAoAAAACAwD////6AAAAAQEAAAAC+wAAADYARwBMAFUARQAyADoAUwBwAHIAZQBhAGQAUwBoAGUAZQB0AC8ATQBvAGQAZQBsAEQAYQB0AGEAAAAAAP////8AAAGDAP////v/////AQAAAAD/////AAACAwD///8AAAoAAAADpAAAAAEAAAACAAAAAQAAAAL8AAAAAwAAAAAAAAAAAAAAAQAAAAAAAAADAAAAAA==</P>
+      <P Name="WindowState" Class="char">AAAA/wAAAAD9AAAAAwAAAAAAAAHKAAAFSPwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAAAAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAtQAABUgAAACTAP////wAAAC1AAAFSAAAAAAA////+v////8CAAAAAvsAAABgAFMAaQBtAHUAbABpAG4AawA6AEUAZABpAHQAbwByADoAUgBlAGYAZQByAGUAbgBjAGUAZABGAGkAbABlAHMALwBSAGUAZgBlAHIAZQBuAGMAZQBkACAARgBpAGwAZQBzAAAAAAD/////AAAAxwD////7AAAAaABMAGkAYgByAGEAcgB5AEIAcgBvAHcAcwBlAHIAMgAgAEwAaQBiAHIAYQByAHkAQgByAG8AdwBzAGUAcgBTAHQAdQBkAGkAbwBDAG8AbQBwAG8AbgBlAG4AdAAvAHMAaQB4AGQAbwBmAAAAAAD/////AAABGAD///8AAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAdABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAoAA////AAAAAwAACgAAAAGe/AEAAAAB/AAAAAAAAAoAAAAAAAD////6/////wEAAAAC+wAAADYARwBMAFUARQAyADoAUwBwAHIAZQBhAGQAUwBoAGUAZQB0AC8ATQBvAGQAZQBsAEQAYQB0AGEAAAAAAP////8AAAGDAP////v/////AAAAAAD/////AAACAwD///8AAAoAAAAFSAAAAAEAAAACAAAAAQAAAAL8AAAAAwAAAAAAAAAAAAAAAQAAAAAAAAADAAAAAA==</P>
       <Array PropName="PersistedApps" Type="Cell" Dimension="0*1"/>
       <P Name="WindowUuid" Class="char">81bd0054-e48a-4aed-9c5c-99d56de8e689</P>
     </Object>
