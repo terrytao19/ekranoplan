@@ -48,8 +48,8 @@ __MWOPC_PART_BEGIN__ /metadata/coreProperties.xml
   <dcterms:created xsi:type="dcterms:W3CDTF">2003-03-13T01:24:05Z</dcterms:created>
   <dc:creator>anouck</dc:creator>
   <cp:lastModifiedBy>terry</cp:lastModifiedBy>
-  <dcterms:modified xsi:type="dcterms:W3CDTF">2023-11-08T03:51:13Z</dcterms:modified>
-  <cp:revision>23.16</cp:revision>
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2023-11-09T03:28:02Z</dcterms:modified>
+  <cp:revision>23.17</cp:revision>
   <cp:version>R2023a</cp:version>
 </cp:coreProperties>
 
@@ -122,7 +122,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
     <ConfigManagerSettings>
       <P Name="ModifiedByFormat">%&lt;Auto&gt;</P>
       <P Name="ModifiedDateFormat">%&lt;Auto&gt;</P>
-      <P Name="ModelVersionFormat">%&lt;AutoIncrement:23.16&gt;</P>
+      <P Name="ModelVersionFormat">%&lt;AutoIncrement:23.17&gt;</P>
     </ConfigManagerSettings>
     <EditorSettings>
       <P Name="LibraryLinkDisplay">none</P>
@@ -163,10 +163,131 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
         <P Name="Parameters" Class="double">[]</P>
         <P Name="Signals" Class="double">[]</P>
         <P Name="DataStores" Class="double">[]</P>
-        <P Name="States" Class="double">[]</P>
-        <Object PropName="DefaultsMapping" ObjectID="5" ClassName="Simulink.CoderDictionary.DefaultsMapping">
+        <Array PropName="States" Type="Simulink.CoderDictionary.StateMapping" Dimension="1*8">
+          <Object ObjectID="5">
+            <P Name="StateIdentifier" Class="int32">0</P>
+            <P Name="Identifier" Class="int32">0</P>
+            <Object Reference="true" PropName="ParentMapping" ObjectID="4"/>
+            <Object PropName="MappedTo" ObjectID="6" ClassName="Simulink.DataReferenceClass">
+              <P Name="MappedTo" Class="char">StorageClass</P>
+              <P Name="StorageClass" Class="double">[]</P>
+              <P Name="ServicePort" Class="double">[]</P>
+              <P Name="CSCAttributes" Class="char"/>
+              <P Name="MemorySection" Class="double">[]</P>
+              <P Name="Identifier" Class="char"/>
+            </Object>
+            <P Name="BlockSID" Class="char">765:843</P>
+            <P Name="StereotypeProperties" Class="char"/>
+          </Object>
+          <Object ObjectID="7">
+            <P Name="StateIdentifier" Class="int32">0</P>
+            <P Name="Identifier" Class="int32">0</P>
+            <Object Reference="true" PropName="ParentMapping" ObjectID="4"/>
+            <Object PropName="MappedTo" ObjectID="8" ClassName="Simulink.DataReferenceClass">
+              <P Name="MappedTo" Class="char">StorageClass</P>
+              <P Name="StorageClass" Class="double">[]</P>
+              <P Name="ServicePort" Class="double">[]</P>
+              <P Name="CSCAttributes" Class="char"/>
+              <P Name="MemorySection" Class="double">[]</P>
+              <P Name="Identifier" Class="char"/>
+            </Object>
+            <P Name="BlockSID" Class="char">765:737</P>
+            <P Name="StereotypeProperties" Class="char"/>
+          </Object>
+          <Object ObjectID="9">
+            <P Name="StateIdentifier" Class="int32">0</P>
+            <P Name="Identifier" Class="int32">0</P>
+            <Object Reference="true" PropName="ParentMapping" ObjectID="4"/>
+            <Object PropName="MappedTo" ObjectID="10" ClassName="Simulink.DataReferenceClass">
+              <P Name="MappedTo" Class="char">StorageClass</P>
+              <P Name="StorageClass" Class="double">[]</P>
+              <P Name="ServicePort" Class="double">[]</P>
+              <P Name="CSCAttributes" Class="char"/>
+              <P Name="MemorySection" Class="double">[]</P>
+              <P Name="Identifier" Class="char"/>
+            </Object>
+            <P Name="BlockSID" Class="char">765:723</P>
+            <P Name="StereotypeProperties" Class="char"/>
+          </Object>
+          <Object ObjectID="11">
+            <P Name="StateIdentifier" Class="int32">0</P>
+            <P Name="Identifier" Class="int32">0</P>
+            <Object Reference="true" PropName="ParentMapping" ObjectID="4"/>
+            <Object PropName="MappedTo" ObjectID="12" ClassName="Simulink.DataReferenceClass">
+              <P Name="MappedTo" Class="char">StorageClass</P>
+              <P Name="StorageClass" Class="double">[]</P>
+              <P Name="ServicePort" Class="double">[]</P>
+              <P Name="CSCAttributes" Class="char"/>
+              <P Name="MemorySection" Class="double">[]</P>
+              <P Name="Identifier" Class="char"/>
+            </Object>
+            <P Name="BlockSID" Class="char">765:748</P>
+            <P Name="StereotypeProperties" Class="char"/>
+          </Object>
+          <Object ObjectID="13">
+            <P Name="StateIdentifier" Class="int32">0</P>
+            <P Name="Identifier" Class="int32">0</P>
+            <Object Reference="true" PropName="ParentMapping" ObjectID="4"/>
+            <Object PropName="MappedTo" ObjectID="14" ClassName="Simulink.DataReferenceClass">
+              <P Name="MappedTo" Class="char">StorageClass</P>
+              <P Name="StorageClass" Class="double">[]</P>
+              <P Name="ServicePort" Class="double">[]</P>
+              <P Name="CSCAttributes" Class="char"/>
+              <P Name="MemorySection" Class="double">[]</P>
+              <P Name="Identifier" Class="char"/>
+            </Object>
+            <P Name="BlockSID" Class="char">764:843</P>
+            <P Name="StereotypeProperties" Class="char"/>
+          </Object>
+          <Object ObjectID="15">
+            <P Name="StateIdentifier" Class="int32">0</P>
+            <P Name="Identifier" Class="int32">0</P>
+            <Object Reference="true" PropName="ParentMapping" ObjectID="4"/>
+            <Object PropName="MappedTo" ObjectID="16" ClassName="Simulink.DataReferenceClass">
+              <P Name="MappedTo" Class="char">StorageClass</P>
+              <P Name="StorageClass" Class="double">[]</P>
+              <P Name="ServicePort" Class="double">[]</P>
+              <P Name="CSCAttributes" Class="char"/>
+              <P Name="MemorySection" Class="double">[]</P>
+              <P Name="Identifier" Class="char"/>
+            </Object>
+            <P Name="BlockSID" Class="char">764:737</P>
+            <P Name="StereotypeProperties" Class="char"/>
+          </Object>
+          <Object ObjectID="17">
+            <P Name="StateIdentifier" Class="int32">0</P>
+            <P Name="Identifier" Class="int32">0</P>
+            <Object Reference="true" PropName="ParentMapping" ObjectID="4"/>
+            <Object PropName="MappedTo" ObjectID="18" ClassName="Simulink.DataReferenceClass">
+              <P Name="MappedTo" Class="char">StorageClass</P>
+              <P Name="StorageClass" Class="double">[]</P>
+              <P Name="ServicePort" Class="double">[]</P>
+              <P Name="CSCAttributes" Class="char"/>
+              <P Name="MemorySection" Class="double">[]</P>
+              <P Name="Identifier" Class="char"/>
+            </Object>
+            <P Name="BlockSID" Class="char">764:723</P>
+            <P Name="StereotypeProperties" Class="char"/>
+          </Object>
+          <Object ObjectID="19">
+            <P Name="StateIdentifier" Class="int32">0</P>
+            <P Name="Identifier" Class="int32">0</P>
+            <Object Reference="true" PropName="ParentMapping" ObjectID="4"/>
+            <Object PropName="MappedTo" ObjectID="20" ClassName="Simulink.DataReferenceClass">
+              <P Name="MappedTo" Class="char">StorageClass</P>
+              <P Name="StorageClass" Class="double">[]</P>
+              <P Name="ServicePort" Class="double">[]</P>
+              <P Name="CSCAttributes" Class="char"/>
+              <P Name="MemorySection" Class="double">[]</P>
+              <P Name="Identifier" Class="char"/>
+            </Object>
+            <P Name="BlockSID" Class="char">764:748</P>
+            <P Name="StereotypeProperties" Class="char"/>
+          </Object>
+        </Array>
+        <Object PropName="DefaultsMapping" ObjectID="21" ClassName="Simulink.CoderDictionary.DefaultsMapping">
           <Object Reference="true" PropName="ParentMapping" ObjectID="4"/>
-          <Object PropName="Inports" ObjectID="6" ClassName="Simulink.DataReferenceClass">
+          <Object PropName="Inports" ObjectID="22" ClassName="Simulink.DataReferenceClass">
             <P Name="MappedTo" Class="char">StorageClass</P>
             <P Name="StorageClass" Class="double">[]</P>
             <P Name="ServicePort" Class="double">[]</P>
@@ -174,7 +295,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
             <P Name="MemorySection" Class="double">[]</P>
             <P Name="Identifier" Class="char"/>
           </Object>
-          <Object PropName="Outports" ObjectID="7" ClassName="Simulink.DataReferenceClass">
+          <Object PropName="Outports" ObjectID="23" ClassName="Simulink.DataReferenceClass">
             <P Name="MappedTo" Class="char">StorageClass</P>
             <P Name="StorageClass" Class="double">[]</P>
             <P Name="ServicePort" Class="double">[]</P>
@@ -182,7 +303,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
             <P Name="MemorySection" Class="double">[]</P>
             <P Name="Identifier" Class="char"/>
           </Object>
-          <Object PropName="GlobalParameters" ObjectID="8" ClassName="Simulink.DataReferenceClass">
+          <Object PropName="GlobalParameters" ObjectID="24" ClassName="Simulink.DataReferenceClass">
             <P Name="MappedTo" Class="char">StorageClass</P>
             <P Name="StorageClass" Class="double">[]</P>
             <P Name="ServicePort" Class="double">[]</P>
@@ -190,7 +311,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
             <P Name="MemorySection" Class="double">[]</P>
             <P Name="Identifier" Class="char"/>
           </Object>
-          <Object PropName="SharedParameters" ObjectID="9" ClassName="Simulink.DataReferenceClass">
+          <Object PropName="SharedParameters" ObjectID="25" ClassName="Simulink.DataReferenceClass">
             <P Name="MappedTo" Class="char">StorageClass</P>
             <P Name="StorageClass" Class="double">[]</P>
             <P Name="ServicePort" Class="double">[]</P>
@@ -198,7 +319,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
             <P Name="MemorySection" Class="double">[]</P>
             <P Name="Identifier" Class="char"/>
           </Object>
-          <Object PropName="PerInstanceParameters" ObjectID="10" ClassName="Simulink.DataReferenceClass">
+          <Object PropName="PerInstanceParameters" ObjectID="26" ClassName="Simulink.DataReferenceClass">
             <P Name="MappedTo" Class="char">StorageClass</P>
             <P Name="StorageClass" Class="double">[]</P>
             <P Name="ServicePort" Class="double">[]</P>
@@ -206,7 +327,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
             <P Name="MemorySection" Class="double">[]</P>
             <P Name="Identifier" Class="char"/>
           </Object>
-          <Object PropName="SharedLocalDataStores" ObjectID="11" ClassName="Simulink.DataReferenceClass">
+          <Object PropName="SharedLocalDataStores" ObjectID="27" ClassName="Simulink.DataReferenceClass">
             <P Name="MappedTo" Class="char">StorageClass</P>
             <P Name="StorageClass" Class="double">[]</P>
             <P Name="ServicePort" Class="double">[]</P>
@@ -214,7 +335,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
             <P Name="MemorySection" Class="double">[]</P>
             <P Name="Identifier" Class="char"/>
           </Object>
-          <Object PropName="GlobalDataStores" ObjectID="12" ClassName="Simulink.DataReferenceClass">
+          <Object PropName="GlobalDataStores" ObjectID="28" ClassName="Simulink.DataReferenceClass">
             <P Name="MappedTo" Class="char">StorageClass</P>
             <P Name="StorageClass" Class="double">[]</P>
             <P Name="ServicePort" Class="double">[]</P>
@@ -222,7 +343,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
             <P Name="MemorySection" Class="double">[]</P>
             <P Name="Identifier" Class="char"/>
           </Object>
-          <Object PropName="InternalData" ObjectID="13" ClassName="Simulink.DataReferenceClass">
+          <Object PropName="InternalData" ObjectID="29" ClassName="Simulink.DataReferenceClass">
             <P Name="MappedTo" Class="char">StorageClass</P>
             <P Name="StorageClass" Class="double">[]</P>
             <P Name="ServicePort" Class="double">[]</P>
@@ -230,7 +351,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
             <P Name="MemorySection" Class="double">[]</P>
             <P Name="Identifier" Class="char"/>
           </Object>
-          <Object PropName="Constants" ObjectID="14" ClassName="Simulink.DataReferenceClass">
+          <Object PropName="Constants" ObjectID="30" ClassName="Simulink.DataReferenceClass">
             <P Name="MappedTo" Class="char">StorageClass</P>
             <P Name="StorageClass" Class="double">[]</P>
             <P Name="ServicePort" Class="double">[]</P>
@@ -238,15 +359,15 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
             <P Name="MemorySection" Class="double">[]</P>
             <P Name="Identifier" Class="char"/>
           </Object>
-          <Object PropName="InitTermFunctions" ObjectID="15" ClassName="Simulink.FunctionReferenceClass">
+          <Object PropName="InitTermFunctions" ObjectID="31" ClassName="Simulink.FunctionReferenceClass">
             <P Name="FunctionClass" Class="double">[]</P>
             <P Name="MemorySection" Class="double">[]</P>
           </Object>
-          <Object PropName="ExecutionFunctions" ObjectID="16" ClassName="Simulink.FunctionReferenceClass">
+          <Object PropName="ExecutionFunctions" ObjectID="32" ClassName="Simulink.FunctionReferenceClass">
             <P Name="FunctionClass" Class="double">[]</P>
             <P Name="MemorySection" Class="double">[]</P>
           </Object>
-          <Object PropName="SharedUtilityFunctions" ObjectID="17" ClassName="Simulink.FunctionReferenceClass">
+          <Object PropName="SharedUtilityFunctions" ObjectID="33" ClassName="Simulink.FunctionReferenceClass">
             <P Name="FunctionClass" Class="double">[]</P>
             <P Name="MemorySection" Class="double">[]</P>
           </Object>
@@ -10647,7 +10768,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_761.xml
     <PortProperties>
       <Port Type="out" Index="1">
         <P Name="Name">yaw_mesured</P>
-        <P Name="PropagatedSignals">yaw_mesured</P>
+        <P Name="PropagatedSignals">yaw_measured</P>
       </Port>
     </PortProperties>
   </Block>
@@ -11131,6 +11252,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_761.xml
   <Line>
     <P Name="Name">roll_measured</P>
     <P Name="ZOrder">17</P>
+    <P Name="Labels">[0, 0]</P>
     <P Name="Src">770#out:1</P>
     <P Name="Points">[235, 0; 0, -50]</P>
     <P Name="Dst">768#in:2</P>
@@ -11151,6 +11273,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_761.xml
   <Line>
     <P Name="Name">yaw_mesured</P>
     <P Name="ZOrder">16</P>
+    <P Name="Labels">[0, 0]</P>
     <P Name="Src">769#out:1</P>
     <P Name="Points">[23, 0; 0, -15]</P>
     <P Name="Dst">767#in:2</P>
@@ -11417,20 +11540,13 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     </PortProperties>
     <System Ref="system_750"/>
   </Block>
-  <Block BlockType="Constant" Name="Constant" SID="735">
-    <P Name="Position">[1175, 390, 1205, 420]</P>
-    <P Name="ZOrder">2260</P>
-    <P Name="Commented">on</P>
-    <P Name="Value">[0,0,20;-664.713083080428,6166.12499690376,20;1768.2288005353,9552.87010040916,20;-1292.01164276719,16317.7432417193,20;-3792.31569923814,20881.3090171676,20;-2328.34750666941,24821.7349663477,20;1972.47921070697,24314.1984249217,20;2277.21078323749,21032.2789096087,20;1361.70226218913,18395.7128605342,20;3042.55659070107,14901.7177932158,20;7659.66632523318,12341.7725869363,20;10231.9206155628,7834.00346972935,20;14719.9957078235,4853.13655048167,20;16767.0422276683,1617.35724008858,20;15643.1025233176,-2255.99968853014,20;10885.2717502224,-3829.26484604196,20;6614.81633364248,-5308.24360271046,20;2521.82074547575,-2553.35789306934,20;0,0,20]</P>
-    <P Name="VectorParams1D">off</P>
-  </Block>
   <Block BlockType="Constant" Name="Constant1" SID="740">
-    <P Name="Position">[1150, 240, 1180, 270]</P>
+    <P Name="Position">[1265, 230, 1295, 290]</P>
     <P Name="ZOrder">2261</P>
     <P Name="Value">[0,0,5;501.717105508643,908.922660414421,5;3007.34596928847,2458.44221262396,5;5143.8601437273,2189.82336415166,5;4248.4135386412,823.96084565673,5;2381.03201490461,241.3162953267,5;0,0,5]</P>
   </Block>
   <Block BlockType="Constant" Name="Constant2" SID="729">
-    <P Name="Position">[1150, 300, 1180, 330]</P>
+    <P Name="Position">[1230, 290, 1260, 320]</P>
     <P Name="ZOrder">2254</P>
     <P Name="Value">500</P>
   </Block>
@@ -11446,7 +11562,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <P Name="TagVisibility">global</P>
   </Block>
   <Block BlockType="Goto" Name="Goto" SID="684">
-    <P Name="Position">[1625, 270, 1725, 300]</P>
+    <P Name="Position">[1530, 260, 1630, 290]</P>
     <P Name="ZOrder">1103</P>
     <P Name="GotoTag">yaw_desired</P>
   </Block>
@@ -11610,12 +11726,12 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
   </Block>
   <Block BlockType="Concatenate" Name="Vector&#xA;Concatenate" SID="680">
     <PortCounts in="2" out="1"/>
-    <P Name="Position">[1090, 181, 1095, 219]</P>
+    <P Name="Position">[1245, 196, 1250, 234]</P>
     <P Name="ZOrder">1099</P>
   </Block>
   <Block BlockType="Reference" Name="Waypoint Follower" SID="728">
     <PortCounts in="3" out="4"/>
-    <P Name="Position">[1310, 205, 1515, 335]</P>
+    <P Name="Position">[1310, 195, 1515, 325]</P>
     <P Name="ZOrder">2253</P>
     <P Name="LibraryVersion">6.0</P>
     <P Name="SourceBlock">uavalgslib/Waypoint Follower</P>
@@ -11676,8 +11792,8 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
         </Branch>
         <Branch>
           <P Name="ZOrder">261</P>
-          <P Name="Labels">[2, 1]</P>
-          <P Name="Points">[0, 30]</P>
+          <P Name="Labels">[-1, 1]</P>
+          <P Name="Points">[0, 45]</P>
           <P Name="Dst">680#in:1</P>
         </Branch>
       </Branch>
@@ -11782,7 +11898,8 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
       </Branch>
       <Branch>
         <P Name="ZOrder">435</P>
-        <P Name="Points">[405, 0; 0, -320]</P>
+        <P Name="Labels">[-1, 0]</P>
+        <P Name="Points">[452, 0; 0, -305]</P>
         <P Name="Dst">680#in:2</P>
       </Branch>
     </Branch>
@@ -11875,7 +11992,6 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
   <Line>
     <P Name="ZOrder">457</P>
     <P Name="Src">680#out:1</P>
-    <P Name="Points">[116, 0; 0, 25]</P>
     <P Name="Dst">728#in:1</P>
   </Line>
   <Line>
@@ -11892,7 +12008,6 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
   <Line>
     <P Name="ZOrder">489</P>
     <P Name="Src">740#out:1</P>
-    <P Name="Points">[60, 0; 0, 15]</P>
     <P Name="Dst">728#in:2</P>
   </Line>
   <Line>
@@ -11928,8 +12043,8 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="LoadSaveID" Class="char">0</P>
           <P Name="Extents" Class="double">[2504.0, 1274.0]</P>
           <P Name="ZoomFactor" Class="double">0.79999999999999993</P>
-          <P Name="Offset" Class="double">[-191.96475808733302, -244.64040212570794]</P>
-          <P Name="SceneRectInView" Class="double">[-191.96475808733302, -244.64040212570794, 2086.666666666667, 1061.6666666666667]</P>
+          <P Name="Offset" Class="double">[-18.465654052768294, -249.18066724008926]</P>
+          <P Name="SceneRectInView" Class="double">[-18.465654052768294, -249.18066724008926, 2086.666666666667, 1061.6666666666667]</P>
         </Object>
         <Object ObjectID="6">
           <P Name="IsActive" Class="logical">0</P>
@@ -12182,32 +12297,8 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="SceneRectInView" Class="double">[-221.20843253968252, -99.61269841269845, 1112.8888888888889, 566.22222222222217]</P>
         </Object>
       </Array>
-      <Array PropName="DockComponentsInfo" Type="Simulink.DockComponentInfo" Dimension="1*4">
+      <Array PropName="DockComponentsInfo" Type="Simulink.DockComponentInfo" Dimension="1*3">
         <Object ObjectID="31">
-          <P Name="Type" Class="char">LibraryBrowser2 LibraryBrowserStudioComponent</P>
-          <P Name="ID" Class="char">sixdof</P>
-          <P Name="Visible" Class="logical">0</P>
-          <P Name="CreateCallback" Class="char"/>
-          <P Name="UserData" Class="char"/>
-          <P Name="Floating" Class="logical">0</P>
-          <P Name="DockPosition" Class="char">Left</P>
-          <P Name="Width" Class="int32">302</P>
-          <P Name="Height" Class="int32">874</P>
-          <P Name="Minimized" Class="char">Unset</P>
-        </Object>
-        <Object ObjectID="32">
-          <P Name="Type" Class="char">GLUE2:PropertyInspector</P>
-          <P Name="ID" Class="char">Property Inspector</P>
-          <P Name="Visible" Class="logical">0</P>
-          <P Name="CreateCallback" Class="char"/>
-          <P Name="UserData" Class="char"/>
-          <P Name="Floating" Class="logical">0</P>
-          <P Name="DockPosition" Class="char">Right</P>
-          <P Name="Width" Class="int32">426</P>
-          <P Name="Height" Class="int32">320</P>
-          <P Name="Minimized" Class="char">Unset</P>
-        </Object>
-        <Object ObjectID="33">
           <P Name="Type" Class="char">GLUE2:SpreadSheet</P>
           <P Name="ID" Class="char">ModelData</P>
           <P Name="Visible" Class="logical">0</P>
@@ -12219,7 +12310,7 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Height" Class="int32">320</P>
           <P Name="Minimized" Class="char">Unset</P>
         </Object>
-        <Object ObjectID="34">
+        <Object ObjectID="32">
           <P Name="Type" Class="char">Simulink:Editor:ReferencedFiles</P>
           <P Name="ID" Class="char">Referenced Files</P>
           <P Name="Visible" Class="logical">0</P>
@@ -12232,8 +12323,20 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="Height" Class="int32">320</P>
           <P Name="Minimized" Class="char">Unset</P>
         </Object>
+        <Object ObjectID="33">
+          <P Name="Type" Class="char">GLUE2:PropertyInspector</P>
+          <P Name="ID" Class="char">Property Inspector</P>
+          <P Name="Visible" Class="logical">0</P>
+          <P Name="CreateCallback" Class="char"/>
+          <P Name="UserData" Class="char"/>
+          <P Name="Floating" Class="logical">0</P>
+          <P Name="DockPosition" Class="char">Right</P>
+          <P Name="Width" Class="int32">426</P>
+          <P Name="Height" Class="int32">320</P>
+          <P Name="Minimized" Class="char">Unset</P>
+        </Object>
       </Array>
-      <P Name="WindowState" Class="char">AAAA/wAAAAD9AAAAAwAAAAAAAAHKAAAFSPwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAAAAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAtQAABUgAAACTAP////wAAAC1AAAFSAAAAAAA////+v////8CAAAAAvsAAABgAFMAaQBtAHUAbABpAG4AawA6AEUAZABpAHQAbwByADoAUgBlAGYAZQByAGUAbgBjAGUAZABGAGkAbABlAHMALwBSAGUAZgBlAHIAZQBuAGMAZQBkACAARgBpAGwAZQBzAAAAAAD/////AAAAxwD////7AAAAaABMAGkAYgByAGEAcgB5AEIAcgBvAHcAcwBlAHIAMgAgAEwAaQBiAHIAYQByAHkAQgByAG8AdwBzAGUAcgBTAHQAdQBkAGkAbwBDAG8AbQBwAG8AbgBlAG4AdAAvAHMAaQB4AGQAbwBmAAAAAAD/////AAABGAD///8AAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAdABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAoAA////AAAAAwAACgAAAAGe/AEAAAAB/AAAAAAAAAoAAAAAAAD////6/////wEAAAAC+wAAADYARwBMAFUARQAyADoAUwBwAHIAZQBhAGQAUwBoAGUAZQB0AC8ATQBvAGQAZQBsAEQAYQB0AGEAAAAAAP////8AAAGDAP////v/////AAAAAAD/////AAACAwD///8AAAoAAAAFSAAAAAEAAAACAAAAAQAAAAL8AAAAAwAAAAAAAAAAAAAAAQAAAAAAAAADAAAAAA==</P>
+      <P Name="WindowState" Class="char">AAAA/wAAAAD9AAAAAwAAAAAAAAHKAAAFSPwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAAAAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAtQAABUgAAACTAP////wAAAC1AAAFSAAAAAAA////+gAAAAECAAAAAvsAAABgAFMAaQBtAHUAbABpAG4AawA6AEUAZABpAHQAbwByADoAUgBlAGYAZQByAGUAbgBjAGUAZABGAGkAbABlAHMALwBSAGUAZgBlAHIAZQBuAGMAZQBkACAARgBpAGwAZQBzAAAAAAD/////AAAAxwD////7AAAAaABMAGkAYgByAGEAcgB5AEIAcgBvAHcAcwBlAHIAMgAgAEwAaQBiAHIAYQByAHkAQgByAG8AdwBzAGUAcgBTAHQAdQBkAGkAbwBDAG8AbQBwAG8AbgBlAG4AdAAvAHMAaQB4AGQAbwBmAAAAAAD/////AAAAAAAAAAAAAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAdABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAoAA////AAAAAwAACgAAAAGe/AEAAAAB/AAAAAAAAAoAAAAAAAD////6/////wEAAAAC+wAAADYARwBMAFUARQAyADoAUwBwAHIAZQBhAGQAUwBoAGUAZQB0AC8ATQBvAGQAZQBsAEQAYQB0AGEAAAAAAP////8AAAGDAP////v/////AAAAAAD/////AAACAwD///8AAAoAAAAFSAAAAAEAAAACAAAAAQAAAAL8AAAAAwAAAAAAAAAAAAAAAQAAAAAAAAADAAAAAA==</P>
       <Array PropName="PersistedApps" Type="Cell" Dimension="0*1"/>
       <P Name="WindowUuid" Class="char">81bd0054-e48a-4aed-9c5c-99d56de8e689</P>
     </Object>
