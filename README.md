@@ -1,2 +1,0 @@
-# ekranoplan
-cool plan
