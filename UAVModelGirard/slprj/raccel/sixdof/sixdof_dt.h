@@ -25,7 +25,7 @@ time_T ) } ; static const char_T * rtDataTypeNames [ ] = { "real_T" ,
 char_T * ) ( & rtB . ewh2czgzt2 [ 0 ] ) , 0 , 0 , 128 } , { ( char_T * ) ( &
 rtDW . kjy5vllogw ) , 18 , 0 , 1 } , { ( char_T * ) ( & rtDW . blkvfyc1ut ) ,
 0 , 0 , 10 } , { ( char_T * ) ( & rtDW . kqs40q3ion ) , 17 , 0 , 1 } , { (
-char_T * ) ( & rtDW . ot01cjf44p . LoggedData ) , 11 , 0 , 27 } , { ( char_T
+char_T * ) ( & rtDW . ot01cjf44p . LoggedData ) , 11 , 0 , 29 } , { ( char_T
 * ) ( & rtDW . j2zbeu35vc ) , 6 , 0 , 2 } , { ( char_T * ) ( & rtDW .
 no2vyppbyo . Count ) , 10 , 0 , 5 } , { ( char_T * ) ( & rtDW . mhy0u4hbsx )
 , 2 , 0 , 2 } , { ( char_T * ) ( & rtDW . lvfkgpske1 ) , 3 , 0 , 2 } , { (

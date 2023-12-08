@@ -546,8 +546,8 @@ static rtwCAPI_ModelMappingStaticInfo mmiStatic = { { rtBlockSignals , 65 ,
 rtRootInputs , 0 , rtRootOutputs , 0 } , { rtBlockParameters , 130 ,
 rtModelParameters , 37 } , { ( NULL ) , 0 } , { rtDataTypeMap ,
 rtDimensionMap , rtFixPtMap , rtElementMap , rtSampleTimeMap ,
-rtDimensionArray } , "float" , { 1405113090U , 4097125932U , 3769232021U ,
-2404196798U } , ( NULL ) , 0 , ( boolean_T ) 0 , rt_LoggedStateIdxList } ;
+rtDimensionArray } , "float" , { 2329722005U , 3266266654U , 3273445918U ,
+3218276492U } , ( NULL ) , 0 , ( boolean_T ) 0 , rt_LoggedStateIdxList } ;
 const rtwCAPI_ModelMappingStaticInfo * sixdof_GetCAPIStaticMap ( void ) {
 return & mmiStatic ; }
 #ifndef HOST_CAPI_BUILD

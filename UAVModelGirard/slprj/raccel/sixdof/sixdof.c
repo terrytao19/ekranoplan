@@ -149,20 +149,86 @@ rtDW . f0qoodbnbc . AQHandles , loggedName , origSigName , propName ) ; }
 sdiFreeLabel ( sigName ) ; sdiFreeLabel ( loggedName ) ; sdiFreeLabel (
 origSigName ) ; sdiFreeLabel ( propName ) ; sdiFreeLabel ( blockPath ) ;
 sdiFreeLabel ( blockSID ) ; sdiFreeLabel ( subPath ) ; } } if ( !
-isStreamoutAlreadyRegistered ) { } } } } rtDW . kjy5vllogw . LastWaypointFlag
-= false ; rtDW . kjy5vllogw . StartFlag = true ; rtDW . kjy5vllogw .
-LookaheadFactor = 1.01 ; rtDW . a0cdktfgmq = true ; rtDW . kjy5vllogw .
-isInitialized = 1 ; for ( i = 0 ; i < 8 ; i ++ ) { rtDW . kjy5vllogw .
-inputVarSize [ 0 ] . f1 [ i ] = 1U ; } rtDW . kjy5vllogw . inputVarSize [ 1 ]
-. f1 [ 0 ] = 7U ; rtDW . kjy5vllogw . inputVarSize [ 1 ] . f1 [ 1 ] = 3U ;
-for ( i = 0 ; i < 6 ; i ++ ) { rtDW . kjy5vllogw . inputVarSize [ 1 ] . f1 [
-i + 2 ] = 1U ; } for ( i = 0 ; i < 8 ; i ++ ) { rtDW . kjy5vllogw .
-inputVarSize [ 2 ] . f1 [ i ] = 1U ; } memset ( & rtDW . kjy5vllogw .
-WaypointsInternal [ 0 ] , 0 , 21U * sizeof ( real_T ) ) ; rtDW . kjy5vllogw .
-NumWaypoints = 0.0 ; rtDW . jhvamlflm5 = true ; rtDW . kqs40q3ion .
-isInitialized = 1 ; rtDW . ljddttc2rd = 0 ; { void * fp = ( NULL ) ; const
-char * fileNameOriginal = "simout.mat" ; char * fileName = ( char * ) malloc
-( 509 ) ; if ( fileName == ( NULL ) ) { ssSetErrorStatus ( rtS ,
+isStreamoutAlreadyRegistered ) { } } } } { { { bool
+isStreamoutAlreadyRegistered = false ; { sdiSignalSourceInfoU srcInfo ;
+sdiLabelU loggedName = sdiGetLabelFromChars ( "Switch" ) ; sdiLabelU
+origSigName = sdiGetLabelFromChars ( "" ) ; sdiLabelU propName =
+sdiGetLabelFromChars ( "Switch" ) ; sdiLabelU blockPath =
+sdiGetLabelFromChars ( "sixdof/Obstacles/To Workspace" ) ; sdiLabelU blockSID
+= sdiGetLabelFromChars ( "" ) ; sdiLabelU subPath = sdiGetLabelFromChars ( ""
+) ; sdiDims sigDims ; sdiLabelU sigName = sdiGetLabelFromChars ( "Switch" ) ;
+sdiAsyncRepoDataTypeHandle hDT = sdiAsyncRepoGetBuiltInDataTypeHandle (
+DATA_TYPE_DOUBLE ) ; { sdiComplexity sigComplexity = REAL ;
+sdiSampleTimeContinuity stCont = SAMPLE_TIME_CONTINUOUS ; int_T sigDimsArray
+[ 2 ] = { 1 , 1 } ; sigDims . nDims = 2 ; sigDims . dimensions = sigDimsArray
+; srcInfo . numBlockPathElems = 1 ; srcInfo . fullBlockPath = (
+sdiFullBlkPathU ) & blockPath ; srcInfo . SID = ( sdiSignalIDU ) & blockSID ;
+srcInfo . subPath = subPath ; srcInfo . portIndex = 0 + 1 ; srcInfo .
+signalName = sigName ; srcInfo . sigSourceUUID = 0 ; rtDW . mk3ro0stcv .
+AQHandles = sdiStartAsyncioQueueCreation ( hDT , & srcInfo , rt_dataMapInfo .
+mmi . InstanceMap . fullPath , "f1544771-50c6-4920-aece-02b70cef7428" ,
+sigComplexity , & sigDims , DIMENSIONS_MODE_FIXED , stCont , "" ) ;
+sdiCompleteAsyncioQueueCreation ( rtDW . mk3ro0stcv . AQHandles , hDT , &
+srcInfo ) ; if ( rtDW . mk3ro0stcv . AQHandles ) {
+sdiSetSignalSampleTimeString ( rtDW . mk3ro0stcv . AQHandles , "0.01" , 0.01
+, ssGetTFinal ( rtS ) ) ; sdiSetSignalRefRate ( rtDW . mk3ro0stcv . AQHandles
+, 0.0 ) ; sdiSetRunStartTime ( rtDW . mk3ro0stcv . AQHandles , ssGetTaskTime
+( rtS , 1 ) ) ; sdiAsyncRepoSetSignalExportSettings ( rtDW . mk3ro0stcv .
+AQHandles , 1 , 0 ) ; sdiAsyncRepoSetSignalExportName ( rtDW . mk3ro0stcv .
+AQHandles , loggedName , origSigName , propName ) ;
+sdiAsyncRepoSetBlockPathDomain ( rtDW . mk3ro0stcv . AQHandles ) ; }
+sdiFreeLabel ( sigName ) ; sdiFreeLabel ( loggedName ) ; sdiFreeLabel (
+origSigName ) ; sdiFreeLabel ( propName ) ; sdiFreeLabel ( blockPath ) ;
+sdiFreeLabel ( blockSID ) ; sdiFreeLabel ( subPath ) ; } } if ( !
+isStreamoutAlreadyRegistered ) { { sdiLabelU varName = sdiGetLabelFromChars (
+"new_yaw_desired" ) ; sdiRegisterWksVariable ( rtDW . mk3ro0stcv . AQHandles
+, varName , "timeseries" ) ; sdiFreeLabel ( varName ) ; } } } } } { { { bool
+isStreamoutAlreadyRegistered = false ; { sdiSignalSourceInfoU srcInfo ;
+sdiLabelU loggedName = sdiGetLabelFromChars ( "yaw_desired" ) ; sdiLabelU
+origSigName = sdiGetLabelFromChars ( "" ) ; sdiLabelU propName =
+sdiGetLabelFromChars ( "yaw_desired" ) ; sdiLabelU blockPath =
+sdiGetLabelFromChars ( "sixdof/Obstacles/To Workspace1" ) ; sdiLabelU
+blockSID = sdiGetLabelFromChars ( "" ) ; sdiLabelU subPath =
+sdiGetLabelFromChars ( "" ) ; sdiDims sigDims ; sdiLabelU sigName =
+sdiGetLabelFromChars ( "yaw_desired" ) ; sdiAsyncRepoDataTypeHandle hDT =
+sdiAsyncRepoGetBuiltInDataTypeHandle ( DATA_TYPE_DOUBLE ) ; { sdiComplexity
+sigComplexity = REAL ; sdiSampleTimeContinuity stCont =
+SAMPLE_TIME_CONTINUOUS ; int_T sigDimsArray [ 2 ] = { 1 , 1 } ; sigDims .
+nDims = 2 ; sigDims . dimensions = sigDimsArray ; srcInfo . numBlockPathElems
+= 1 ; srcInfo . fullBlockPath = ( sdiFullBlkPathU ) & blockPath ; srcInfo .
+SID = ( sdiSignalIDU ) & blockSID ; srcInfo . subPath = subPath ; srcInfo .
+portIndex = 0 + 1 ; srcInfo . signalName = sigName ; srcInfo . sigSourceUUID
+= 0 ; rtDW . dyyoqexn4d . AQHandles = sdiStartAsyncioQueueCreation ( hDT , &
+srcInfo , rt_dataMapInfo . mmi . InstanceMap . fullPath ,
+"cc967d73-04b0-4ec4-bb26-b54c96b7fd1c" , sigComplexity , & sigDims ,
+DIMENSIONS_MODE_FIXED , stCont , "" ) ; sdiCompleteAsyncioQueueCreation (
+rtDW . dyyoqexn4d . AQHandles , hDT , & srcInfo ) ; if ( rtDW . dyyoqexn4d .
+AQHandles ) { sdiSetSignalSampleTimeString ( rtDW . dyyoqexn4d . AQHandles ,
+"0.01" , 0.01 , ssGetTFinal ( rtS ) ) ; sdiSetSignalRefRate ( rtDW .
+dyyoqexn4d . AQHandles , 0.0 ) ; sdiSetRunStartTime ( rtDW . dyyoqexn4d .
+AQHandles , ssGetTaskTime ( rtS , 1 ) ) ; sdiAsyncRepoSetSignalExportSettings
+( rtDW . dyyoqexn4d . AQHandles , 1 , 0 ) ; sdiAsyncRepoSetSignalExportName (
+rtDW . dyyoqexn4d . AQHandles , loggedName , origSigName , propName ) ;
+sdiAsyncRepoSetBlockPathDomain ( rtDW . dyyoqexn4d . AQHandles ) ; }
+sdiFreeLabel ( sigName ) ; sdiFreeLabel ( loggedName ) ; sdiFreeLabel (
+origSigName ) ; sdiFreeLabel ( propName ) ; sdiFreeLabel ( blockPath ) ;
+sdiFreeLabel ( blockSID ) ; sdiFreeLabel ( subPath ) ; } } if ( !
+isStreamoutAlreadyRegistered ) { { sdiLabelU varName = sdiGetLabelFromChars (
+"yaw_desired" ) ; sdiRegisterWksVariable ( rtDW . dyyoqexn4d . AQHandles ,
+varName , "timeseries" ) ; sdiFreeLabel ( varName ) ; } } } } } rtDW .
+kjy5vllogw . LastWaypointFlag = false ; rtDW . kjy5vllogw . StartFlag = true
+; rtDW . kjy5vllogw . LookaheadFactor = 1.01 ; rtDW . a0cdktfgmq = true ;
+rtDW . kjy5vllogw . isInitialized = 1 ; for ( i = 0 ; i < 8 ; i ++ ) { rtDW .
+kjy5vllogw . inputVarSize [ 0 ] . f1 [ i ] = 1U ; } rtDW . kjy5vllogw .
+inputVarSize [ 1 ] . f1 [ 0 ] = 7U ; rtDW . kjy5vllogw . inputVarSize [ 1 ] .
+f1 [ 1 ] = 3U ; for ( i = 0 ; i < 6 ; i ++ ) { rtDW . kjy5vllogw .
+inputVarSize [ 1 ] . f1 [ i + 2 ] = 1U ; } for ( i = 0 ; i < 8 ; i ++ ) {
+rtDW . kjy5vllogw . inputVarSize [ 2 ] . f1 [ i ] = 1U ; } memset ( & rtDW .
+kjy5vllogw . WaypointsInternal [ 0 ] , 0 , 21U * sizeof ( real_T ) ) ; rtDW .
+kjy5vllogw . NumWaypoints = 0.0 ; rtDW . jhvamlflm5 = true ; rtDW .
+kqs40q3ion . isInitialized = 1 ; rtDW . ljddttc2rd = 0 ; { void * fp = ( NULL
+) ; const char * fileNameOriginal = "simout.mat" ; char * fileName = ( char *
+) malloc ( 509 ) ; if ( fileName == ( NULL ) ) { ssSetErrorStatus ( rtS ,
 "Error allocating memory for file name" ) ; return ; } strcpy ( fileName ,
 fileNameOriginal ) ; { const char * blockpath = "sixdof/A//C/Output/To File"
 ; if ( slIsRapidAcceleratorSimulating ( ) ) { rt_RAccelReplaceToFilename (
@@ -718,7 +784,12 @@ hrq2k5iwyr = rtP . DiscretePIDController_I * rtB . m1c2gjrdhf ; rtB .
 knqqe5buxf = rtP . DiscretePIDController1_I * rtB . c2nosomft5 ; { if ( rtDW
 . f0qoodbnbc . AQHandles && ssGetLogOutput ( rtS ) ) { sdiWriteSignal ( rtDW
 . f0qoodbnbc . AQHandles , ssGetTaskTime ( rtS , 1 ) , ( char * ) & rtB .
-amv5xbxcgx + 0 ) ; } } rtB . pxzonjrd4i = rtP . DiscretePIDController2_I *
+amv5xbxcgx + 0 ) ; } } { if ( rtDW . mk3ro0stcv . AQHandles && ssGetLogOutput
+( rtS ) ) { sdiWriteSignal ( rtDW . mk3ro0stcv . AQHandles , ssGetTaskTime (
+rtS , 1 ) , ( char * ) & rtB . amv5xbxcgx + 0 ) ; } } { if ( rtDW .
+dyyoqexn4d . AQHandles && ssGetLogOutput ( rtS ) ) { sdiWriteSignal ( rtDW .
+dyyoqexn4d . AQHandles , ssGetTaskTime ( rtS , 1 ) , ( char * ) & rtB .
+lokluenstr + 0 ) ; } } rtB . pxzonjrd4i = rtP . DiscretePIDController2_I *
 rtB . ctr2i5cu0j ; rtB . deddzxm4gc = rtP . DiscretePIDController3_I * rtB .
 agbvtgnrv4 ; } UNUSED_PARAMETER ( tid ) ; } void MdlOutputsTID2 ( int_T tid )
 { real_T tmp [ 18 ] ; real_T j3r1wb322f ; int32_T i ; tmp [ 0 ] = rtP . mass
@@ -784,8 +855,11 @@ FilePtr ; if ( fp != ( NULL ) ) { errMsg =
 rtwH5LoggingCollectionDestroyInstance ( 1 , fp ) ; if ( errMsg != ( NULL ) )
 { ssSetErrorStatus ( rtS , errMsg ) ; return ; } } } { if ( rtDW . f0qoodbnbc
 . AQHandles ) { sdiTerminateStreaming ( & rtDW . f0qoodbnbc . AQHandles ) ; }
-} } static void mr_sixdof_cacheDataAsMxArray ( mxArray * destArray , mwIndex
-i , int j , const void * srcData , size_t numBytes ) ; static void
+} { if ( rtDW . mk3ro0stcv . AQHandles ) { sdiTerminateStreaming ( & rtDW .
+mk3ro0stcv . AQHandles ) ; } } { if ( rtDW . dyyoqexn4d . AQHandles ) {
+sdiTerminateStreaming ( & rtDW . dyyoqexn4d . AQHandles ) ; } } } static void
+mr_sixdof_cacheDataAsMxArray ( mxArray * destArray , mwIndex i , int j ,
+const void * srcData , size_t numBytes ) ; static void
 mr_sixdof_cacheDataAsMxArray ( mxArray * destArray , mwIndex i , int j ,
 const void * srcData , size_t numBytes ) { mxArray * newArray =
 mxCreateUninitNumericMatrix ( ( size_t ) 1 , numBytes , mxUINT8_CLASS ,
@@ -975,14 +1049,14 @@ mxSetCell ( data , offset , mxCreateDoubleScalar ( ( real_T ) reason [ subs [
 0 ] ] ) ) ; } } return data ; } void MdlInitializeSizes ( void ) {
 ssSetNumContStates ( rtS , 12 ) ; ssSetNumPeriodicContStates ( rtS , 0 ) ;
 ssSetNumY ( rtS , 0 ) ; ssSetNumU ( rtS , 0 ) ; ssSetDirectFeedThrough ( rtS
-, 0 ) ; ssSetNumSampleTimes ( rtS , 2 ) ; ssSetNumBlocks ( rtS , 375 ) ;
+, 0 ) ; ssSetNumSampleTimes ( rtS , 2 ) ; ssSetNumBlocks ( rtS , 377 ) ;
 ssSetNumBlockIO ( rtS , 64 ) ; ssSetNumBlockParams ( rtS , 18269 ) ; } void
 MdlInitializeSampleTimes ( void ) { ssSetSampleTime ( rtS , 0 , 0.0 ) ;
 ssSetSampleTime ( rtS , 1 , 0.01 ) ; ssSetOffsetTime ( rtS , 0 , 0.0 ) ;
 ssSetOffsetTime ( rtS , 1 , 0.0 ) ; } void raccel_set_checksum ( ) {
-ssSetChecksumVal ( rtS , 0 , 1405113090U ) ; ssSetChecksumVal ( rtS , 1 ,
-4097125932U ) ; ssSetChecksumVal ( rtS , 2 , 3769232021U ) ; ssSetChecksumVal
-( rtS , 3 , 2404196798U ) ; }
+ssSetChecksumVal ( rtS , 0 , 2329722005U ) ; ssSetChecksumVal ( rtS , 1 ,
+3266266654U ) ; ssSetChecksumVal ( rtS , 2 , 3273445918U ) ; ssSetChecksumVal
+( rtS , 3 , 3218276492U ) ; }
 #if defined(_MSC_VER)
 #pragma optimize( "", off )
 #endif
@@ -1025,7 +1099,7 @@ dataTypeInfoTable = rtDataTypeInfoTable ; } sixdof_InitializeDataMapInfo ( )
 ; ssSetIsRapidAcceleratorActive ( rtS , true ) ; ssSetRootSS ( rtS , rtS ) ;
 ssSetVersion ( rtS , SIMSTRUCT_VERSION_LEVEL2 ) ; ssSetModelName ( rtS ,
 "sixdof" ) ; ssSetPath ( rtS , "sixdof" ) ; ssSetTStart ( rtS , 0.0 ) ;
-ssSetTFinal ( rtS , 800.0 ) ; ssSetStepSize ( rtS , 0.01 ) ;
+ssSetTFinal ( rtS , 650.0 ) ; ssSetStepSize ( rtS , 0.01 ) ;
 ssSetFixedStepSize ( rtS , 0.01 ) ; { static RTWLogInfo rt_DataLoggingInfo ;
 rt_DataLoggingInfo . loggingInterval = ( NULL ) ; ssSetRTWLogInfo ( rtS , &
 rt_DataLoggingInfo ) ; } { { static int_T rt_LoggedStateWidths [ ] = { 3 , 3
@@ -1146,9 +1220,9 @@ ssSetSolverNumZcSignals ( rtS , 10 ) ; ssSetModelZeroCrossings ( rtS ,
 MdlZeroCrossings ) ; ssSetTNextTid ( rtS , INT_MIN ) ; ssSetTNext ( rtS ,
 rtMinusInf ) ; ssSetSolverNeedsReset ( rtS ) ; ssSetNumNonsampledZCs ( rtS ,
 8 ) ; ssSetContStateDisabled ( rtS , contStatesDisabled ) ; }
-ssSetChecksumVal ( rtS , 0 , 1405113090U ) ; ssSetChecksumVal ( rtS , 1 ,
-4097125932U ) ; ssSetChecksumVal ( rtS , 2 , 3769232021U ) ; ssSetChecksumVal
-( rtS , 3 , 2404196798U ) ; { static const sysRanDType rtAlwaysEnabled =
+ssSetChecksumVal ( rtS , 0 , 2329722005U ) ; ssSetChecksumVal ( rtS , 1 ,
+3266266654U ) ; ssSetChecksumVal ( rtS , 2 , 3273445918U ) ; ssSetChecksumVal
+( rtS , 3 , 3218276492U ) ; { static const sysRanDType rtAlwaysEnabled =
 SUBSYS_RAN_BC_ENABLE ; static RTWExtModeInfo rt_ExtModeInfo ; static const
 sysRanDType * systemRan [ 7 ] ; gblRTWExtModeInfo = & rt_ExtModeInfo ;
 ssSetRTWExtModeInfo ( rtS , & rt_ExtModeInfo ) ;

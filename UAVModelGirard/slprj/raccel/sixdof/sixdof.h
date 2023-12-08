@@ -85,16 +85,17 @@ pxgw4feuo1 ; struct { void * LoggedData ; } gaotct0bee ; struct { void *
 LoggedData ; } iql4ez3dau ; struct { void * FilePtr ; } atwrl0cbxb ; struct {
 void * LoggedData ; } bdydrqopie ; struct { void * LoggedData ; } k4za1xg10g
 ; struct { void * LoggedData ; } gibulb434z ; struct { void * AQHandles ; }
-f0qoodbnbc ; int32_T j2zbeu35vc ; int32_T ih0gu0a4vg ; struct { int_T Count ;
-int_T Decimation ; } no2vyppbyo ; int_T n33rcmsjab ; int_T jye5a0flet [ 2 ] ;
-int_T ejk4nu5buq ; int8_T mhy0u4hbsx ; int8_T ljddttc2rd ; uint8_T lvfkgpske1
-; uint8_T ecfpev5hmr ; boolean_T mqsusrzct3 ; boolean_T gzmh1uauzr ;
-boolean_T a0cdktfgmq ; boolean_T jhvamlflm5 ; boolean_T pz1vk2xm02 ;
-boolean_T ovkmgmp3yk ; } DW ; typedef struct { real_T f50afzevjg [ 3 ] ;
-real_T kc2egwi14h [ 3 ] ; real_T o2igygaiml [ 3 ] ; real_T ajbdf0rme2 [ 3 ] ;
-} X ; typedef struct { real_T f50afzevjg [ 3 ] ; real_T kc2egwi14h [ 3 ] ;
-real_T o2igygaiml [ 3 ] ; real_T ajbdf0rme2 [ 3 ] ; } XDot ; typedef struct {
-boolean_T f50afzevjg [ 3 ] ; boolean_T kc2egwi14h [ 3 ] ; boolean_T
+f0qoodbnbc ; struct { void * AQHandles ; } mk3ro0stcv ; struct { void *
+AQHandles ; } dyyoqexn4d ; int32_T j2zbeu35vc ; int32_T ih0gu0a4vg ; struct {
+int_T Count ; int_T Decimation ; } no2vyppbyo ; int_T n33rcmsjab ; int_T
+jye5a0flet [ 2 ] ; int_T ejk4nu5buq ; int8_T mhy0u4hbsx ; int8_T ljddttc2rd ;
+uint8_T lvfkgpske1 ; uint8_T ecfpev5hmr ; boolean_T mqsusrzct3 ; boolean_T
+gzmh1uauzr ; boolean_T a0cdktfgmq ; boolean_T jhvamlflm5 ; boolean_T
+pz1vk2xm02 ; boolean_T ovkmgmp3yk ; } DW ; typedef struct { real_T f50afzevjg
+[ 3 ] ; real_T kc2egwi14h [ 3 ] ; real_T o2igygaiml [ 3 ] ; real_T ajbdf0rme2
+[ 3 ] ; } X ; typedef struct { real_T f50afzevjg [ 3 ] ; real_T kc2egwi14h [
+3 ] ; real_T o2igygaiml [ 3 ] ; real_T ajbdf0rme2 [ 3 ] ; } XDot ; typedef
+struct { boolean_T f50afzevjg [ 3 ] ; boolean_T kc2egwi14h [ 3 ] ; boolean_T
 o2igygaiml [ 3 ] ; boolean_T ajbdf0rme2 [ 3 ] ; } XDis ; typedef struct {
 real_T gxbd5k5ga1 ; real_T fyia3f0ajs ; real_T f1gbjogenh ; real_T pugigtm5ja
 ; real_T lfvmfu5zzq [ 2 ] ; real_T leel0qnkh1 [ 2 ] ; real_T d1cz5eqy4p ;
