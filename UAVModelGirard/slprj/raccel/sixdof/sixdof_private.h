@@ -26,6 +26,6 @@
 extern void rt_mldivide_U1d6x6_U2d6x1_Yd6x1_snf ( const real_T u0 [ 36 ] ,
 real_T u1 [ 6 ] ) ;
 #if defined(MULTITASKING)
-#error Model (sixdof) was built in \SingleTasking solver mode, however the MULTITASKING define is \present. If you have multitasking (e.g. -DMT or -DMULTITASKING) \defined on the Code Generation page of Simulation parameter dialog, please \remove it and on the Solver page, select solver mode \MultiTasking. If the Simulation parameter dialog is configured \correctly, please verify that your template makefile is \configured correctly.
+#error Model (sixdof) was built in \SingleTasking solver mode, however the MULTITASKING define is \present. If you have multitasking (e.g. -DMT or -DMULTITASKING) \defined on the Code Generation page of Simulation parameter dialog, please \remove it and on the Solver page, select solver mode \MultiTasking. If the Simulation parameter dialog is configured \correctly, please verify that your template makefile is \configured correctly.
 #endif
 #endif

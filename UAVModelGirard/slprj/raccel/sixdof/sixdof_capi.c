@@ -25,7 +25,7 @@
 #define TARGET_STRING(s)               (s)
 #endif
 #endif
-static const rtwCAPI_Signals rtBlockSignals [ ] = { { 0 , 6 , TARGET_STRING (
+static const rtwCAPI_Signals rtBlockSignals [ ] = { { 0 , 8 , TARGET_STRING (
 "sixdof/Waypoint Follower" ) , TARGET_STRING ( "" ) , 2 , 0 , 0 , 0 , 0 } , {
 1 , 0 , TARGET_STRING ( "sixdof/A//C/Fcn1" ) , TARGET_STRING ( "" ) , 0 , 0 ,
 0 , 0 , 0 } , { 2 , 0 , TARGET_STRING ( "sixdof/A//C/Fcn2" ) , TARGET_STRING
@@ -44,393 +44,400 @@ TARGET_STRING ( "sixdof/Altitude Controller/Subtract" ) , TARGET_STRING (
 "sixdof/Obstacles/find_new_yaw/is_active_c1_sixdof" ) , TARGET_STRING (
 "is_active_c1_sixdof" ) , 0 , 1 , 0 , 0 , 0 } , { 11 , 0 , TARGET_STRING (
 "sixdof/Obstacles/Switch" ) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 0 } , {
-12 , 0 , TARGET_STRING ( "sixdof/Yaw Controller/Subtract2" ) , TARGET_STRING
-( "yaw_error" ) , 0 , 0 , 0 , 0 , 0 } , { 13 , 0 , TARGET_STRING (
-"sixdof/Yaw Controller/Subtract3" ) , TARGET_STRING ( "roll_error" ) , 0 , 0
-, 0 , 0 , 0 } , { 14 , 0 , TARGET_STRING (
-"sixdof/A//C/6DoF EoM/Z-positive is down" ) , TARGET_STRING ( "" ) , 0 , 0 ,
-1 , 0 , 0 } , { 15 , 0 , TARGET_STRING ( "sixdof/A//C/6DoF EoM/phi theta psi"
-) , TARGET_STRING ( "" ) , 0 , 0 , 1 , 0 , 0 } , { 16 , 0 , TARGET_STRING (
-"sixdof/A//C/6DoF EoM/ub vb wb" ) , TARGET_STRING ( "" ) , 0 , 0 , 1 , 0 , 0
-} , { 17 , 0 , TARGET_STRING ( "sixdof/A//C/6DoF EoM/xe ye ze" ) ,
-TARGET_STRING ( "" ) , 0 , 0 , 1 , 0 , 0 } , { 18 , 0 , TARGET_STRING (
-"sixdof/A//C/6DoF EoM/Product" ) , TARGET_STRING ( "" ) , 0 , 0 , 1 , 0 , 0 }
-, { 19 , 0 , TARGET_STRING ( "sixdof/A//C/Engine model/Constant4" ) ,
-TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 1 } , { 20 , 0 , TARGET_STRING (
+12 , 6 , TARGET_STRING ( "sixdof/Wave Height/MATLAB Function" ) ,
+TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 0 } , { 13 , 0 , TARGET_STRING (
+"sixdof/Wave Height/MATLAB Function/is_active_c3_sixdof" ) , TARGET_STRING (
+"is_active_c3_sixdof" ) , 0 , 1 , 0 , 0 , 0 } , { 14 , 0 , TARGET_STRING (
+"sixdof/Wave Height/MATLAB Function1/is_active_c4_sixdof" ) , TARGET_STRING (
+"is_active_c4_sixdof" ) , 0 , 1 , 0 , 0 , 0 } , { 15 , 0 , TARGET_STRING (
+"sixdof/Yaw Controller/Subtract2" ) , TARGET_STRING ( "yaw_error" ) , 0 , 0 ,
+0 , 0 , 0 } , { 16 , 0 , TARGET_STRING ( "sixdof/Yaw Controller/Subtract3" )
+, TARGET_STRING ( "roll_error" ) , 0 , 0 , 0 , 0 , 0 } , { 17 , 0 ,
+TARGET_STRING ( "sixdof/A//C/6DoF EoM/Z-positive is down" ) , TARGET_STRING (
+"" ) , 0 , 0 , 1 , 0 , 0 } , { 18 , 0 , TARGET_STRING (
+"sixdof/A//C/6DoF EoM/phi theta psi" ) , TARGET_STRING ( "" ) , 0 , 0 , 1 , 0
+, 0 } , { 19 , 0 , TARGET_STRING ( "sixdof/A//C/6DoF EoM/ub vb wb" ) ,
+TARGET_STRING ( "" ) , 0 , 0 , 1 , 0 , 0 } , { 20 , 0 , TARGET_STRING (
+"sixdof/A//C/6DoF EoM/xe ye ze" ) , TARGET_STRING ( "" ) , 0 , 0 , 1 , 0 , 0
+} , { 21 , 0 , TARGET_STRING ( "sixdof/A//C/6DoF EoM/Product" ) ,
+TARGET_STRING ( "" ) , 0 , 0 , 1 , 0 , 0 } , { 22 , 0 , TARGET_STRING (
+"sixdof/A//C/Engine model/Constant4" ) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0
+, 1 } , { 23 , 0 , TARGET_STRING (
 "sixdof/A//C/Engine model/Static Thrust (lbs)" ) , TARGET_STRING ( "" ) , 0 ,
-0 , 0 , 0 , 2 } , { 21 , 0 , TARGET_STRING ( "sixdof/A//C/Engine model/kg2N"
-) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 0 } , { 22 , 0 , TARGET_STRING (
+0 , 0 , 0 , 2 } , { 24 , 0 , TARGET_STRING ( "sixdof/A//C/Engine model/kg2N"
+) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 0 } , { 25 , 0 , TARGET_STRING (
 "sixdof/A//C/Engine model/mps2fps" ) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 ,
-0 } , { 23 , 0 , TARGET_STRING ( "sixdof/A//C/Engine model/Saturation1" ) ,
-TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 0 } , { 24 , 0 , TARGET_STRING (
+0 } , { 26 , 0 , TARGET_STRING ( "sixdof/A//C/Engine model/Saturation1" ) ,
+TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 0 } , { 27 , 0 , TARGET_STRING (
 "sixdof/A//C/Forces & Moments/Reshape" ) , TARGET_STRING ( "" ) , 0 , 0 , 2 ,
-0 , 0 } , { 25 , 0 , TARGET_STRING ( "sixdof/A//C/Output/R2D" ) ,
-TARGET_STRING ( "" ) , 0 , 0 , 1 , 0 , 0 } , { 26 , 4 , TARGET_STRING (
+0 , 0 } , { 28 , 0 , TARGET_STRING ( "sixdof/A//C/Output/R2D" ) ,
+TARGET_STRING ( "" ) , 0 , 0 , 1 , 0 , 0 } , { 29 , 4 , TARGET_STRING (
 "sixdof/Obstacles/near_obstacle/is_obstacle_near" ) , TARGET_STRING ( "" ) ,
-0 , 0 , 3 , 0 , 0 } , { 27 , 0 , TARGET_STRING (
+0 , 0 , 3 , 0 , 0 } , { 30 , 0 , TARGET_STRING (
 "sixdof/Obstacles/near_obstacle/is_obstacle_near/is_active_c2_sixdof" ) ,
-TARGET_STRING ( "is_active_c2_sixdof" ) , 0 , 1 , 0 , 0 , 0 } , { 28 , 0 ,
+TARGET_STRING ( "is_active_c2_sixdof" ) , 0 , 1 , 0 , 0 , 0 } , { 31 , 0 ,
 TARGET_STRING ( "sixdof/A//C/6DoF EoM/[V1,2,3,W1,2,3]/V*dot " ) ,
-TARGET_STRING ( "" ) , 0 , 0 , 2 , 0 , 0 } , { 29 , 0 , TARGET_STRING (
+TARGET_STRING ( "" ) , 0 , 0 , 2 , 0 , 0 } , { 32 , 0 , TARGET_STRING (
 "sixdof/A//C/Forces & Moments/AoA//Beta/R2D1" ) , TARGET_STRING ( "beta" ) ,
-0 , 0 , 0 , 0 , 0 } , { 30 , 0 , TARGET_STRING (
+0 , 0 , 0 , 0 , 0 } , { 33 , 0 , TARGET_STRING (
 "sixdof/A//C/Forces & Moments/AoA//Beta/R2D2" ) , TARGET_STRING ( "aoa" ) , 0
-, 0 , 0 , 0 , 0 } , { 31 , 0 , TARGET_STRING (
+, 0 , 0 , 0 , 0 } , { 34 , 0 , TARGET_STRING (
 "sixdof/A//C/Forces & Moments/AoA//Beta/Math Function" ) , TARGET_STRING ( ""
-) , 0 , 0 , 0 , 0 , 0 } , { 32 , 0 , TARGET_STRING (
+) , 0 , 0 , 0 , 0 , 0 } , { 35 , 0 , TARGET_STRING (
 "sixdof/A//C/6DoF EoM/[V1,2,3,W1,2,3]/A Matrix/Matrix Concatenation2" ) ,
-TARGET_STRING ( "" ) , 0 , 0 , 4 , 0 , 1 } , { 33 , 0 , TARGET_STRING (
+TARGET_STRING ( "" ) , 0 , 0 , 4 , 0 , 1 } , { 36 , 0 , TARGET_STRING (
  "sixdof/Airspeed Controller/Discrete PID Controller4/I Gain/Internal Parameters/Integral Gain"
-) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 2 } , { 34 , 0 , TARGET_STRING (
+) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 2 } , { 37 , 0 , TARGET_STRING (
  "sixdof/Airspeed Controller/Discrete PID Controller4/Saturation/Enabled/Saturation"
-) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 2 } , { 35 , 0 , TARGET_STRING (
- "sixdof/Altitude Controller/Discrete PID Controller/I Gain/Internal Parameters/Integral Gain"
-) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 2 } , { 36 , 0 , TARGET_STRING (
-"sixdof/Altitude Controller/Discrete PID Controller/Sum/Sum_PID/Sum" ) ,
-TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 2 } , { 37 , 0 , TARGET_STRING (
- "sixdof/Altitude Controller/Discrete PID Controller1/I Gain/Internal Parameters/Integral Gain"
 ) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 2 } , { 38 , 0 , TARGET_STRING (
- "sixdof/Altitude Controller/Discrete PID Controller1/Saturation/Enabled/Saturation"
+ "sixdof/Altitude Controller/Discrete PID Controller/I Gain/Internal Parameters/Integral Gain"
 ) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 2 } , { 39 , 0 , TARGET_STRING (
- "sixdof/Yaw Controller/Discrete PID Controller2/I Gain/Internal Parameters/Integral Gain"
-) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 2 } , { 40 , 0 , TARGET_STRING (
- "sixdof/Yaw Controller/Discrete PID Controller2/N Gain/Internal Parameters/Filter Coefficient"
+"sixdof/Altitude Controller/Discrete PID Controller/Sum/Sum_PID/Sum" ) ,
+TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 2 } , { 40 , 0 , TARGET_STRING (
+ "sixdof/Altitude Controller/Discrete PID Controller1/I Gain/Internal Parameters/Integral Gain"
 ) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 2 } , { 41 , 0 , TARGET_STRING (
-"sixdof/Yaw Controller/Discrete PID Controller2/Sum/Sum_PID/Sum" ) ,
-TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 2 } , { 42 , 0 , TARGET_STRING (
- "sixdof/Yaw Controller/Discrete PID Controller3/I Gain/Internal Parameters/Integral Gain"
+ "sixdof/Altitude Controller/Discrete PID Controller1/Saturation/Enabled/Saturation"
+) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 2 } , { 42 , 0 , TARGET_STRING (
+ "sixdof/Yaw Controller/Discrete PID Controller2/I Gain/Internal Parameters/Integral Gain"
 ) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 2 } , { 43 , 0 , TARGET_STRING (
- "sixdof/Yaw Controller/Discrete PID Controller3/N Gain/Internal Parameters/Filter Coefficient"
+ "sixdof/Yaw Controller/Discrete PID Controller2/N Gain/Internal Parameters/Filter Coefficient"
 ) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 2 } , { 44 , 0 , TARGET_STRING (
+"sixdof/Yaw Controller/Discrete PID Controller2/Sum/Sum_PID/Sum" ) ,
+TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 2 } , { 45 , 0 , TARGET_STRING (
+ "sixdof/Yaw Controller/Discrete PID Controller3/I Gain/Internal Parameters/Integral Gain"
+) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 2 } , { 46 , 0 , TARGET_STRING (
+ "sixdof/Yaw Controller/Discrete PID Controller3/N Gain/Internal Parameters/Filter Coefficient"
+) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 2 } , { 47 , 0 , TARGET_STRING (
 "sixdof/Yaw Controller/Discrete PID Controller3/Saturation/Enabled/Saturation"
-) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 2 } , { 45 , 0 , TARGET_STRING (
- "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/CY/Gain2"
-) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 1 } , { 46 , 0 , TARGET_STRING (
- "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cl/Gain1"
-) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 1 } , { 47 , 0 , TARGET_STRING (
- "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cl/Gain3"
 ) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 2 } , { 48 , 0 , TARGET_STRING (
- "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cn/Gain1"
+ "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/CY/Gain2"
 ) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 1 } , { 49 , 0 , TARGET_STRING (
- "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cn/Gain3"
-) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 2 } , { 50 , 0 , TARGET_STRING (
- "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Longitudinal Channel/CL/Gain1"
+ "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cl/Gain1"
+) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 1 } , { 50 , 0 , TARGET_STRING (
+ "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cl/Gain3"
 ) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 2 } , { 51 , 0 , TARGET_STRING (
+ "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cn/Gain1"
+) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 1 } , { 52 , 0 , TARGET_STRING (
+ "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cn/Gain3"
+) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 2 } , { 53 , 0 , TARGET_STRING (
+ "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Longitudinal Channel/CL/Gain1"
+) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 2 } , { 54 , 0 , TARGET_STRING (
  "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Longitudinal Channel/CL/Gain3"
-) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 1 } , { 52 , 1 , TARGET_STRING (
+) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 1 } , { 55 , 1 , TARGET_STRING (
  "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Longitudinal Channel/CL/Add1"
-) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 0 } , { 53 , 0 , TARGET_STRING (
+) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 0 } , { 56 , 0 , TARGET_STRING (
  "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Longitudinal Channel/CL/Subtract"
-) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 0 } , { 54 , 0 , TARGET_STRING (
+) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 0 } , { 57 , 0 , TARGET_STRING (
  "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Longitudinal Channel/CL/Sum"
-) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 0 } , { 55 , 0 , TARGET_STRING (
+) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 0 } , { 58 , 0 , TARGET_STRING (
  "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Longitudinal Channel/Cm/Gain1"
-) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 2 } , { 56 , 0 , TARGET_STRING (
- "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Longitudinal Channel/Cm/Gain3"
-) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 1 } , { 57 , 0 , TARGET_STRING (
- "sixdof/Airspeed Controller/Discrete PID Controller4/Filter/Differentiator/Tsamp/Internal Ts/Tsamp"
-) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 2 } , { 58 , 0 , TARGET_STRING (
- "sixdof/Altitude Controller/Discrete PID Controller/Filter/Differentiator/Tsamp/Internal Ts/Tsamp"
 ) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 2 } , { 59 , 0 , TARGET_STRING (
+ "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Longitudinal Channel/Cm/Gain3"
+) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 1 } , { 60 , 0 , TARGET_STRING (
+ "sixdof/Airspeed Controller/Discrete PID Controller4/Filter/Differentiator/Tsamp/Internal Ts/Tsamp"
+) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 2 } , { 61 , 0 , TARGET_STRING (
+ "sixdof/Altitude Controller/Discrete PID Controller/Filter/Differentiator/Tsamp/Internal Ts/Tsamp"
+) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 2 } , { 62 , 0 , TARGET_STRING (
  "sixdof/Altitude Controller/Discrete PID Controller1/Filter/Differentiator/Tsamp/Internal Ts/Tsamp"
-) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 2 } , { 60 , 0 , TARGET_STRING (
+) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 2 } , { 63 , 0 , TARGET_STRING (
  "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cl/roll factors/Slider Gain/Slider Gain"
-) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 1 } , { 61 , 0 , TARGET_STRING (
- "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cl/roll factors/Slider Gain1/Slider Gain"
-) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 1 } , { 62 , 0 , TARGET_STRING (
- "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cn/yaw factors/Slider Gain/Slider Gain"
-) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 1 } , { 63 , 0 , TARGET_STRING (
- "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cn/yaw factors/Slider Gain1/Slider Gain"
 ) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 1 } , { 64 , 0 , TARGET_STRING (
+ "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cl/roll factors/Slider Gain1/Slider Gain"
+) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 1 } , { 65 , 0 , TARGET_STRING (
+ "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cn/yaw factors/Slider Gain/Slider Gain"
+) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 1 } , { 66 , 0 , TARGET_STRING (
+ "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cn/yaw factors/Slider Gain1/Slider Gain"
+) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 1 } , { 67 , 0 , TARGET_STRING (
  "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Longitudinal Channel/Cm/Lif due to pitch rate/Slider Gain/Slider Gain"
 ) , TARGET_STRING ( "" ) , 0 , 0 , 0 , 0 , 1 } , { 0 , 0 , ( NULL ) , ( NULL
 ) , 0 , 0 , 0 , 0 , 0 } } ; static const rtwCAPI_BlockParameters
-rtBlockParameters [ ] = { { 65 , TARGET_STRING ( "sixdof/Constant" ) ,
-TARGET_STRING ( "Value" ) , 0 , 5 , 0 } , { 66 , TARGET_STRING (
-"sixdof/Constant1" ) , TARGET_STRING ( "Value" ) , 0 , 6 , 0 } , { 67 ,
+rtBlockParameters [ ] = { { 68 , TARGET_STRING ( "sixdof/Constant" ) ,
+TARGET_STRING ( "Value" ) , 0 , 5 , 0 } , { 69 , TARGET_STRING (
+"sixdof/Constant1" ) , TARGET_STRING ( "Value" ) , 0 , 6 , 0 } , { 70 ,
 TARGET_STRING ( "sixdof/Constant2" ) , TARGET_STRING ( "Value" ) , 0 , 0 , 0
-} , { 68 , TARGET_STRING ( "sixdof/Constant3" ) , TARGET_STRING ( "Value" ) ,
-0 , 7 , 0 } , { 69 , TARGET_STRING ( "sixdof/airpseed_desired" ) ,
-TARGET_STRING ( "Value" ) , 0 , 0 , 0 } , { 70 , TARGET_STRING (
-"sixdof/h_desired" ) , TARGET_STRING ( "Value" ) , 0 , 0 , 0 } , { 71 ,
+} , { 71 , TARGET_STRING ( "sixdof/Constant3" ) , TARGET_STRING ( "Value" ) ,
+0 , 7 , 0 } , { 72 , TARGET_STRING ( "sixdof/airpseed_desired" ) ,
+TARGET_STRING ( "Value" ) , 0 , 0 , 0 } , { 73 , TARGET_STRING (
+"sixdof/h_desired" ) , TARGET_STRING ( "Value" ) , 0 , 0 , 0 } , { 74 ,
 TARGET_STRING ( "sixdof/A//C/ no wind" ) , TARGET_STRING ( "Value" ) , 0 , 1
-, 0 } , { 72 , TARGET_STRING ( "sixdof/A//C/R2D1" ) , TARGET_STRING ( "Gain"
-) , 0 , 0 , 0 } , { 73 , TARGET_STRING ( "sixdof/A//C/R2D2" ) , TARGET_STRING
-( "Gain" ) , 0 , 0 , 0 } , { 74 , TARGET_STRING ( "sixdof/A//C/R2D3" ) ,
-TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 75 , TARGET_STRING (
+, 0 } , { 75 , TARGET_STRING ( "sixdof/A//C/R2D1" ) , TARGET_STRING ( "Gain"
+) , 0 , 0 , 0 } , { 76 , TARGET_STRING ( "sixdof/A//C/R2D2" ) , TARGET_STRING
+( "Gain" ) , 0 , 0 , 0 } , { 77 , TARGET_STRING ( "sixdof/A//C/R2D3" ) ,
+TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 78 , TARGET_STRING (
 "sixdof/A//C/Manual Switch1" ) , TARGET_STRING ( "CurrentSetting" ) , 1 , 0 ,
-0 } , { 76 , TARGET_STRING (
+0 } , { 79 , TARGET_STRING (
 "sixdof/Airspeed Controller/Discrete PID Controller4" ) , TARGET_STRING ( "P"
-) , 0 , 0 , 0 } , { 77 , TARGET_STRING (
+) , 0 , 0 , 0 } , { 80 , TARGET_STRING (
 "sixdof/Airspeed Controller/Discrete PID Controller4" ) , TARGET_STRING ( "I"
-) , 0 , 0 , 0 } , { 78 , TARGET_STRING (
+) , 0 , 0 , 0 } , { 81 , TARGET_STRING (
 "sixdof/Airspeed Controller/Discrete PID Controller4" ) , TARGET_STRING ( "D"
-) , 0 , 0 , 0 } , { 79 , TARGET_STRING (
+) , 0 , 0 , 0 } , { 82 , TARGET_STRING (
 "sixdof/Airspeed Controller/Discrete PID Controller4" ) , TARGET_STRING (
-"InitialConditionForIntegrator" ) , 0 , 0 , 0 } , { 80 , TARGET_STRING (
+"InitialConditionForIntegrator" ) , 0 , 0 , 0 } , { 83 , TARGET_STRING (
 "sixdof/Airspeed Controller/Discrete PID Controller4" ) , TARGET_STRING (
-"DifferentiatorICPrevScaledInput" ) , 0 , 0 , 0 } , { 81 , TARGET_STRING (
+"DifferentiatorICPrevScaledInput" ) , 0 , 0 , 0 } , { 84 , TARGET_STRING (
 "sixdof/Airspeed Controller/Discrete PID Controller4" ) , TARGET_STRING (
-"UpperSaturationLimit" ) , 0 , 0 , 0 } , { 82 , TARGET_STRING (
+"UpperSaturationLimit" ) , 0 , 0 , 0 } , { 85 , TARGET_STRING (
 "sixdof/Airspeed Controller/Discrete PID Controller4" ) , TARGET_STRING (
-"LowerSaturationLimit" ) , 0 , 0 , 0 } , { 83 , TARGET_STRING (
+"LowerSaturationLimit" ) , 0 , 0 , 0 } , { 86 , TARGET_STRING (
 "sixdof/Altitude Controller/Discrete PID Controller" ) , TARGET_STRING ( "P"
-) , 0 , 0 , 0 } , { 84 , TARGET_STRING (
+) , 0 , 0 , 0 } , { 87 , TARGET_STRING (
 "sixdof/Altitude Controller/Discrete PID Controller" ) , TARGET_STRING ( "I"
-) , 0 , 0 , 0 } , { 85 , TARGET_STRING (
+) , 0 , 0 , 0 } , { 88 , TARGET_STRING (
 "sixdof/Altitude Controller/Discrete PID Controller" ) , TARGET_STRING ( "D"
-) , 0 , 0 , 0 } , { 86 , TARGET_STRING (
-"sixdof/Altitude Controller/Discrete PID Controller" ) , TARGET_STRING (
-"InitialConditionForIntegrator" ) , 0 , 0 , 0 } , { 87 , TARGET_STRING (
-"sixdof/Altitude Controller/Discrete PID Controller" ) , TARGET_STRING (
-"DifferentiatorICPrevScaledInput" ) , 0 , 0 , 0 } , { 88 , TARGET_STRING (
-"sixdof/Altitude Controller/Discrete PID Controller1" ) , TARGET_STRING ( "P"
 ) , 0 , 0 , 0 } , { 89 , TARGET_STRING (
+"sixdof/Altitude Controller/Discrete PID Controller" ) , TARGET_STRING (
+"InitialConditionForIntegrator" ) , 0 , 0 , 0 } , { 90 , TARGET_STRING (
+"sixdof/Altitude Controller/Discrete PID Controller" ) , TARGET_STRING (
+"DifferentiatorICPrevScaledInput" ) , 0 , 0 , 0 } , { 91 , TARGET_STRING (
+"sixdof/Altitude Controller/Discrete PID Controller1" ) , TARGET_STRING ( "P"
+) , 0 , 0 , 0 } , { 92 , TARGET_STRING (
 "sixdof/Altitude Controller/Discrete PID Controller1" ) , TARGET_STRING ( "I"
-) , 0 , 0 , 0 } , { 90 , TARGET_STRING (
+) , 0 , 0 , 0 } , { 93 , TARGET_STRING (
 "sixdof/Altitude Controller/Discrete PID Controller1" ) , TARGET_STRING ( "D"
-) , 0 , 0 , 0 } , { 91 , TARGET_STRING (
+) , 0 , 0 , 0 } , { 94 , TARGET_STRING (
 "sixdof/Altitude Controller/Discrete PID Controller1" ) , TARGET_STRING (
-"InitialConditionForIntegrator" ) , 0 , 0 , 0 } , { 92 , TARGET_STRING (
+"InitialConditionForIntegrator" ) , 0 , 0 , 0 } , { 95 , TARGET_STRING (
 "sixdof/Altitude Controller/Discrete PID Controller1" ) , TARGET_STRING (
-"DifferentiatorICPrevScaledInput" ) , 0 , 0 , 0 } , { 93 , TARGET_STRING (
+"DifferentiatorICPrevScaledInput" ) , 0 , 0 , 0 } , { 96 , TARGET_STRING (
 "sixdof/Altitude Controller/Discrete PID Controller1" ) , TARGET_STRING (
-"UpperSaturationLimit" ) , 0 , 0 , 0 } , { 94 , TARGET_STRING (
+"UpperSaturationLimit" ) , 0 , 0 , 0 } , { 97 , TARGET_STRING (
 "sixdof/Altitude Controller/Discrete PID Controller1" ) , TARGET_STRING (
-"LowerSaturationLimit" ) , 0 , 0 , 0 } , { 95 , TARGET_STRING (
+"LowerSaturationLimit" ) , 0 , 0 , 0 } , { 98 , TARGET_STRING (
 "sixdof/Obstacles/Switch" ) , TARGET_STRING ( "Threshold" ) , 0 , 0 , 0 } , {
-96 , TARGET_STRING ( "sixdof/Rotation Angles to Quaternions/1//2" ) ,
-TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 97 , TARGET_STRING (
+99 , TARGET_STRING ( "sixdof/Rotation Angles to Quaternions/1//2" ) ,
+TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 100 , TARGET_STRING (
 "sixdof/Yaw Controller/Discrete PID Controller2" ) , TARGET_STRING ( "P" ) ,
-0 , 0 , 0 } , { 98 , TARGET_STRING (
-"sixdof/Yaw Controller/Discrete PID Controller2" ) , TARGET_STRING ( "I" ) ,
-0 , 0 , 0 } , { 99 , TARGET_STRING (
-"sixdof/Yaw Controller/Discrete PID Controller2" ) , TARGET_STRING ( "D" ) ,
-0 , 0 , 0 } , { 100 , TARGET_STRING (
-"sixdof/Yaw Controller/Discrete PID Controller2" ) , TARGET_STRING ( "N" ) ,
 0 , 0 , 0 } , { 101 , TARGET_STRING (
-"sixdof/Yaw Controller/Discrete PID Controller2" ) , TARGET_STRING (
-"InitialConditionForIntegrator" ) , 0 , 0 , 0 } , { 102 , TARGET_STRING (
-"sixdof/Yaw Controller/Discrete PID Controller2" ) , TARGET_STRING (
-"InitialConditionForFilter" ) , 0 , 0 , 0 } , { 103 , TARGET_STRING (
-"sixdof/Yaw Controller/Discrete PID Controller3" ) , TARGET_STRING ( "P" ) ,
+"sixdof/Yaw Controller/Discrete PID Controller2" ) , TARGET_STRING ( "I" ) ,
+0 , 0 , 0 } , { 102 , TARGET_STRING (
+"sixdof/Yaw Controller/Discrete PID Controller2" ) , TARGET_STRING ( "D" ) ,
+0 , 0 , 0 } , { 103 , TARGET_STRING (
+"sixdof/Yaw Controller/Discrete PID Controller2" ) , TARGET_STRING ( "N" ) ,
 0 , 0 , 0 } , { 104 , TARGET_STRING (
-"sixdof/Yaw Controller/Discrete PID Controller3" ) , TARGET_STRING ( "I" ) ,
-0 , 0 , 0 } , { 105 , TARGET_STRING (
-"sixdof/Yaw Controller/Discrete PID Controller3" ) , TARGET_STRING ( "D" ) ,
-0 , 0 , 0 } , { 106 , TARGET_STRING (
-"sixdof/Yaw Controller/Discrete PID Controller3" ) , TARGET_STRING ( "N" ) ,
+"sixdof/Yaw Controller/Discrete PID Controller2" ) , TARGET_STRING (
+"InitialConditionForIntegrator" ) , 0 , 0 , 0 } , { 105 , TARGET_STRING (
+"sixdof/Yaw Controller/Discrete PID Controller2" ) , TARGET_STRING (
+"InitialConditionForFilter" ) , 0 , 0 , 0 } , { 106 , TARGET_STRING (
+"sixdof/Yaw Controller/Discrete PID Controller3" ) , TARGET_STRING ( "P" ) ,
 0 , 0 , 0 } , { 107 , TARGET_STRING (
+"sixdof/Yaw Controller/Discrete PID Controller3" ) , TARGET_STRING ( "I" ) ,
+0 , 0 , 0 } , { 108 , TARGET_STRING (
+"sixdof/Yaw Controller/Discrete PID Controller3" ) , TARGET_STRING ( "D" ) ,
+0 , 0 , 0 } , { 109 , TARGET_STRING (
+"sixdof/Yaw Controller/Discrete PID Controller3" ) , TARGET_STRING ( "N" ) ,
+0 , 0 , 0 } , { 110 , TARGET_STRING (
 "sixdof/Yaw Controller/Discrete PID Controller3" ) , TARGET_STRING (
-"InitialConditionForIntegrator" ) , 0 , 0 , 0 } , { 108 , TARGET_STRING (
+"InitialConditionForIntegrator" ) , 0 , 0 , 0 } , { 111 , TARGET_STRING (
 "sixdof/Yaw Controller/Discrete PID Controller3" ) , TARGET_STRING (
-"InitialConditionForFilter" ) , 0 , 0 , 0 } , { 109 , TARGET_STRING (
+"InitialConditionForFilter" ) , 0 , 0 , 0 } , { 112 , TARGET_STRING (
 "sixdof/Yaw Controller/Discrete PID Controller3" ) , TARGET_STRING (
-"UpperSaturationLimit" ) , 0 , 0 , 0 } , { 110 , TARGET_STRING (
+"UpperSaturationLimit" ) , 0 , 0 , 0 } , { 113 , TARGET_STRING (
 "sixdof/Yaw Controller/Discrete PID Controller3" ) , TARGET_STRING (
-"LowerSaturationLimit" ) , 0 , 0 , 0 } , { 111 , TARGET_STRING (
+"LowerSaturationLimit" ) , 0 , 0 , 0 } , { 114 , TARGET_STRING (
 "sixdof/A//C/6DoF EoM/Z-positive is down" ) , TARGET_STRING ( "Gain" ) , 0 ,
-8 , 0 } , { 112 , TARGET_STRING ( "sixdof/A//C/6DoF EoM/pqr" ) ,
-TARGET_STRING ( "InitialCondition" ) , 0 , 1 , 0 } , { 113 , TARGET_STRING (
+8 , 0 } , { 115 , TARGET_STRING ( "sixdof/A//C/6DoF EoM/pqr" ) ,
+TARGET_STRING ( "InitialCondition" ) , 0 , 1 , 0 } , { 116 , TARGET_STRING (
 "sixdof/A//C/6DoF EoM/ub vb wb" ) , TARGET_STRING ( "InitialCondition" ) , 0
-, 1 , 0 } , { 114 , TARGET_STRING ( "sixdof/A//C/Engine model/Constant4" ) ,
-TARGET_STRING ( "Value" ) , 0 , 0 , 0 } , { 115 , TARGET_STRING (
+, 1 , 0 } , { 117 , TARGET_STRING ( "sixdof/A//C/Engine model/Constant4" ) ,
+TARGET_STRING ( "Value" ) , 0 , 0 , 0 } , { 118 , TARGET_STRING (
 "sixdof/A//C/Engine model/Throttle2RPM" ) , TARGET_STRING ( "Gain" ) , 0 , 0
-, 0 } , { 116 , TARGET_STRING ( "sixdof/A//C/Engine model/lbs2kg" ) ,
-TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 117 , TARGET_STRING (
+, 0 } , { 119 , TARGET_STRING ( "sixdof/A//C/Engine model/lbs2kg" ) ,
+TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 120 , TARGET_STRING (
 "sixdof/A//C/Engine model/mps2fps" ) , TARGET_STRING ( "Gain" ) , 0 , 0 , 0 }
-, { 118 , TARGET_STRING ( "sixdof/A//C/Engine model/Saturation" ) ,
-TARGET_STRING ( "UpperLimit" ) , 0 , 0 , 0 } , { 119 , TARGET_STRING (
+, { 121 , TARGET_STRING ( "sixdof/A//C/Engine model/Saturation" ) ,
+TARGET_STRING ( "UpperLimit" ) , 0 , 0 , 0 } , { 122 , TARGET_STRING (
 "sixdof/A//C/Engine model/Saturation" ) , TARGET_STRING ( "LowerLimit" ) , 0
-, 0 , 0 } , { 120 , TARGET_STRING ( "sixdof/A//C/Engine model/Saturation1" )
-, TARGET_STRING ( "UpperLimit" ) , 0 , 0 , 0 } , { 121 , TARGET_STRING (
+, 0 , 0 } , { 123 , TARGET_STRING ( "sixdof/A//C/Engine model/Saturation1" )
+, TARGET_STRING ( "UpperLimit" ) , 0 , 0 , 0 } , { 124 , TARGET_STRING (
 "sixdof/A//C/Engine model/Saturation1" ) , TARGET_STRING ( "LowerLimit" ) , 0
-, 0 , 0 } , { 122 , TARGET_STRING (
+, 0 , 0 } , { 125 , TARGET_STRING (
 "sixdof/A//C/Forces & Moments/Weight matrix" ) , TARGET_STRING ( "Value" ) ,
-0 , 9 , 0 } , { 123 , TARGET_STRING ( "sixdof/A//C/Output/R2D" ) ,
-TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 124 , TARGET_STRING (
+0 , 9 , 0 } , { 126 , TARGET_STRING ( "sixdof/A//C/Output/R2D" ) ,
+TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 127 , TARGET_STRING (
 "sixdof/Obstacles/near_obstacle/Constant" ) , TARGET_STRING ( "Value" ) , 0 ,
-0 , 0 } , { 125 , TARGET_STRING (
+0 , 0 } , { 128 , TARGET_STRING (
 "sixdof/A//C/Forces & Moments/AoA//Beta/Constant" ) , TARGET_STRING ( "Value"
-) , 0 , 0 , 0 } , { 126 , TARGET_STRING (
+) , 0 , 0 , 0 } , { 129 , TARGET_STRING (
 "sixdof/A//C/Forces & Moments/AoA//Beta/R2D1" ) , TARGET_STRING ( "Gain" ) ,
-0 , 0 , 0 } , { 127 , TARGET_STRING (
+0 , 0 , 0 } , { 130 , TARGET_STRING (
 "sixdof/A//C/Forces & Moments/AoA//Beta/R2D2" ) , TARGET_STRING ( "Gain" ) ,
-0 , 0 , 0 } , { 128 , TARGET_STRING (
+0 , 0 , 0 } , { 131 , TARGET_STRING (
 "sixdof/A//C/ISA Atmosphere & Winds/ISA/Limit  altitude" ) , TARGET_STRING (
-"LowerLimit" ) , 0 , 0 , 0 } , { 129 , TARGET_STRING (
+"LowerLimit" ) , 0 , 0 , 0 } , { 132 , TARGET_STRING (
 "sixdof/A//C/ISA Atmosphere & Winds/Wind model/Matrix Gain6" ) ,
-TARGET_STRING ( "Gain" ) , 0 , 8 , 0 } , { 130 , TARGET_STRING (
+TARGET_STRING ( "Gain" ) , 0 , 8 , 0 } , { 133 , TARGET_STRING (
 "sixdof/A//C/6DoF EoM/[V1,2,3,W1,2,3]/A Matrix/Constant1" ) , TARGET_STRING (
-"Value" ) , 0 , 8 , 0 } , { 131 , TARGET_STRING (
+"Value" ) , 0 , 8 , 0 } , { 134 , TARGET_STRING (
 "sixdof/A//C/6DoF EoM/[V1,2,3,W1,2,3]/A Matrix/Constant4" ) , TARGET_STRING (
-"Value" ) , 0 , 0 , 0 } , { 132 , TARGET_STRING (
+"Value" ) , 0 , 0 , 0 } , { 135 , TARGET_STRING (
 "sixdof/A//C/6DoF EoM/[V1,2,3,W1,2,3]/Sigma/Gain" ) , TARGET_STRING ( "Gain"
-) , 0 , 8 , 0 } , { 133 , TARGET_STRING (
+) , 0 , 8 , 0 } , { 136 , TARGET_STRING (
 "sixdof/A//C/6DoF EoM/[V1,2,3,W1,2,3]/Sigma/Gain1" ) , TARGET_STRING ( "Gain"
-) , 0 , 8 , 0 } , { 134 , TARGET_STRING (
+) , 0 , 8 , 0 } , { 137 , TARGET_STRING (
 "sixdof/A//C/6DoF EoM/[V1,2,3,W1,2,3]/Sigma/Gain2" ) , TARGET_STRING ( "Gain"
-) , 0 , 8 , 0 } , { 135 , TARGET_STRING (
+) , 0 , 8 , 0 } , { 138 , TARGET_STRING (
 "sixdof/A//C/6DoF EoM/[V1,2,3,W1,2,3]/Sigma/Gain3" ) , TARGET_STRING ( "Gain"
-) , 0 , 0 , 0 } , { 136 , TARGET_STRING (
+) , 0 , 0 , 0 } , { 139 , TARGET_STRING (
 "sixdof/A//C/Forces & Moments/Body Frame F & M/Transfer to body frame/D2R" )
-, TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 137 , TARGET_STRING (
+, TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 140 , TARGET_STRING (
 "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Deg2Rad" ) ,
-TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 138 , TARGET_STRING (
-"sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Deg2Rad1" ) ,
-TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 139 , TARGET_STRING (
-"sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Deg2Rad2" ) ,
-TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 140 , TARGET_STRING (
-"sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Deg2Rad3" ) ,
 TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 141 , TARGET_STRING (
-"sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Deg2Rad4" ) ,
+"sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Deg2Rad1" ) ,
 TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 142 , TARGET_STRING (
-"sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Gain" ) ,
+"sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Deg2Rad2" ) ,
 TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 143 , TARGET_STRING (
-"sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Gain1" ) ,
+"sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Deg2Rad3" ) ,
 TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 144 , TARGET_STRING (
-"sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Gain2" ) ,
+"sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Deg2Rad4" ) ,
 TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 145 , TARGET_STRING (
-"sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Gain3" ) ,
+"sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Gain" ) ,
 TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 146 , TARGET_STRING (
-"sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Gain4" ) ,
+"sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Gain1" ) ,
 TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 147 , TARGET_STRING (
-"sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Gain5" ) ,
+"sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Gain2" ) ,
 TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 148 , TARGET_STRING (
-"sixdof/A//C/ISA Atmosphere & Winds/Wind model/GetWind/   " ) , TARGET_STRING
-( "Gain" ) , 0 , 0 , 0 } , { 149 , TARGET_STRING (
-"sixdof/A//C/ISA Atmosphere & Winds/Wind model/GetWind/   1" ) ,
+"sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Gain3" ) ,
+TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 149 , TARGET_STRING (
+"sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Gain4" ) ,
 TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 150 , TARGET_STRING (
-"sixdof/A//C/ISA Atmosphere & Winds/Wind model/GetWind/   2" ) ,
+"sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Gain5" ) ,
 TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 151 , TARGET_STRING (
+"sixdof/A//C/ISA Atmosphere & Winds/Wind model/GetWind/   " ) , TARGET_STRING
+( "Gain" ) , 0 , 0 , 0 } , { 152 , TARGET_STRING (
+"sixdof/A//C/ISA Atmosphere & Winds/Wind model/GetWind/   1" ) ,
+TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 153 , TARGET_STRING (
+"sixdof/A//C/ISA Atmosphere & Winds/Wind model/GetWind/   2" ) ,
+TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 154 , TARGET_STRING (
 "sixdof/A//C/ISA Atmosphere & Winds/Wind model/GetWind/WindX" ) ,
-TARGET_STRING ( "InputValues" ) , 0 , 10 , 0 } , { 152 , TARGET_STRING (
+TARGET_STRING ( "InputValues" ) , 0 , 10 , 0 } , { 155 , TARGET_STRING (
 "sixdof/A//C/ISA Atmosphere & Winds/Wind model/GetWind/WindX" ) ,
-TARGET_STRING ( "Table" ) , 0 , 10 , 0 } , { 153 , TARGET_STRING (
+TARGET_STRING ( "Table" ) , 0 , 10 , 0 } , { 156 , TARGET_STRING (
 "sixdof/A//C/ISA Atmosphere & Winds/Wind model/GetWind/WindY" ) ,
-TARGET_STRING ( "InputValues" ) , 0 , 10 , 0 } , { 154 , TARGET_STRING (
+TARGET_STRING ( "InputValues" ) , 0 , 10 , 0 } , { 157 , TARGET_STRING (
 "sixdof/A//C/ISA Atmosphere & Winds/Wind model/GetWind/WindY" ) ,
-TARGET_STRING ( "Table" ) , 0 , 10 , 0 } , { 155 , TARGET_STRING (
+TARGET_STRING ( "Table" ) , 0 , 10 , 0 } , { 158 , TARGET_STRING (
 "sixdof/A//C/ISA Atmosphere & Winds/Wind model/GetWind/WindZ" ) ,
-TARGET_STRING ( "InputValues" ) , 0 , 10 , 0 } , { 156 , TARGET_STRING (
+TARGET_STRING ( "InputValues" ) , 0 , 10 , 0 } , { 159 , TARGET_STRING (
 "sixdof/A//C/ISA Atmosphere & Winds/Wind model/GetWind/WindZ" ) ,
-TARGET_STRING ( "Table" ) , 0 , 10 , 0 } , { 157 , TARGET_STRING (
+TARGET_STRING ( "Table" ) , 0 , 10 , 0 } , { 160 , TARGET_STRING (
  "sixdof/Airspeed Controller/Discrete PID Controller4/Integrator/Discrete/Integrator"
-) , TARGET_STRING ( "gainval" ) , 0 , 0 , 0 } , { 158 , TARGET_STRING (
- "sixdof/Altitude Controller/Discrete PID Controller/Integrator/Discrete/Integrator"
-) , TARGET_STRING ( "gainval" ) , 0 , 0 , 0 } , { 159 , TARGET_STRING (
- "sixdof/Altitude Controller/Discrete PID Controller1/Integrator/Discrete/Integrator"
-) , TARGET_STRING ( "gainval" ) , 0 , 0 , 0 } , { 160 , TARGET_STRING (
- "sixdof/Yaw Controller/Discrete PID Controller2/Filter/Disc. Forward Euler Filter/Filter"
 ) , TARGET_STRING ( "gainval" ) , 0 , 0 , 0 } , { 161 , TARGET_STRING (
-"sixdof/Yaw Controller/Discrete PID Controller2/Integrator/Discrete/Integrator"
+ "sixdof/Altitude Controller/Discrete PID Controller/Integrator/Discrete/Integrator"
 ) , TARGET_STRING ( "gainval" ) , 0 , 0 , 0 } , { 162 , TARGET_STRING (
- "sixdof/Yaw Controller/Discrete PID Controller3/Filter/Disc. Forward Euler Filter/Filter"
+ "sixdof/Altitude Controller/Discrete PID Controller1/Integrator/Discrete/Integrator"
 ) , TARGET_STRING ( "gainval" ) , 0 , 0 , 0 } , { 163 , TARGET_STRING (
-"sixdof/Yaw Controller/Discrete PID Controller3/Integrator/Discrete/Integrator"
+ "sixdof/Yaw Controller/Discrete PID Controller2/Filter/Disc. Forward Euler Filter/Filter"
 ) , TARGET_STRING ( "gainval" ) , 0 , 0 , 0 } , { 164 , TARGET_STRING (
+"sixdof/Yaw Controller/Discrete PID Controller2/Integrator/Discrete/Integrator"
+) , TARGET_STRING ( "gainval" ) , 0 , 0 , 0 } , { 165 , TARGET_STRING (
+ "sixdof/Yaw Controller/Discrete PID Controller3/Filter/Disc. Forward Euler Filter/Filter"
+) , TARGET_STRING ( "gainval" ) , 0 , 0 , 0 } , { 166 , TARGET_STRING (
+"sixdof/Yaw Controller/Discrete PID Controller3/Integrator/Discrete/Integrator"
+) , TARGET_STRING ( "gainval" ) , 0 , 0 , 0 } , { 167 , TARGET_STRING (
  "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Longitudinal Channel/Gain"
-) , TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 165 , TARGET_STRING (
- "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Longitudinal Channel/Gain1"
-) , TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 166 , TARGET_STRING (
- "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/CY/Gain1"
-) , TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 167 , TARGET_STRING (
- "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/CY/Gain2"
 ) , TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 168 , TARGET_STRING (
- "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cl/Gain1"
+ "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Longitudinal Channel/Gain1"
 ) , TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 169 , TARGET_STRING (
- "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cl/Gain3"
+ "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/CY/Gain1"
 ) , TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 170 , TARGET_STRING (
- "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cl/Gain4"
+ "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/CY/Gain2"
 ) , TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 171 , TARGET_STRING (
- "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cn/Gain1"
+ "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cl/Gain1"
 ) , TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 172 , TARGET_STRING (
- "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cn/Gain3"
+ "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cl/Gain3"
 ) , TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 173 , TARGET_STRING (
- "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cn/Gain4"
+ "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cl/Gain4"
 ) , TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 174 , TARGET_STRING (
- "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Longitudinal Channel/CL/Constant"
-) , TARGET_STRING ( "Value" ) , 0 , 0 , 0 } , { 175 , TARGET_STRING (
- "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Longitudinal Channel/CL/Constant1"
-) , TARGET_STRING ( "Value" ) , 0 , 0 , 0 } , { 176 , TARGET_STRING (
- "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Longitudinal Channel/CL/Gain1"
+ "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cn/Gain1"
+) , TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 175 , TARGET_STRING (
+ "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cn/Gain3"
+) , TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 176 , TARGET_STRING (
+ "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cn/Gain4"
 ) , TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 177 , TARGET_STRING (
+ "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Longitudinal Channel/CL/Constant"
+) , TARGET_STRING ( "Value" ) , 0 , 0 , 0 } , { 178 , TARGET_STRING (
+ "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Longitudinal Channel/CL/Constant1"
+) , TARGET_STRING ( "Value" ) , 0 , 0 , 0 } , { 179 , TARGET_STRING (
+ "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Longitudinal Channel/CL/Gain1"
+) , TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 180 , TARGET_STRING (
  "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Longitudinal Channel/CL/Gain3"
-) , TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 178 , TARGET_STRING (
- "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Longitudinal Channel/CL/Gain4"
-) , TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 179 , TARGET_STRING (
- "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Longitudinal Channel/CL/Switch"
-) , TARGET_STRING ( "Threshold" ) , 0 , 0 , 0 } , { 180 , TARGET_STRING (
- "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Longitudinal Channel/Cm/Gain1"
 ) , TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 181 , TARGET_STRING (
- "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Longitudinal Channel/Cm/Gain3"
+ "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Longitudinal Channel/CL/Gain4"
 ) , TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 182 , TARGET_STRING (
+ "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Longitudinal Channel/CL/Switch"
+) , TARGET_STRING ( "Threshold" ) , 0 , 0 , 0 } , { 183 , TARGET_STRING (
+ "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Longitudinal Channel/Cm/Gain1"
+) , TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 184 , TARGET_STRING (
+ "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Longitudinal Channel/Cm/Gain3"
+) , TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 185 , TARGET_STRING (
  "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Longitudinal Channel/Cm/Gain4"
-) , TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 183 , TARGET_STRING (
+) , TARGET_STRING ( "Gain" ) , 0 , 0 , 0 } , { 186 , TARGET_STRING (
  "sixdof/Airspeed Controller/Discrete PID Controller4/Filter/Differentiator/Tsamp/Internal Ts/Tsamp"
-) , TARGET_STRING ( "WtEt" ) , 0 , 0 , 0 } , { 184 , TARGET_STRING (
+) , TARGET_STRING ( "WtEt" ) , 0 , 0 , 0 } , { 187 , TARGET_STRING (
  "sixdof/Altitude Controller/Discrete PID Controller/Filter/Differentiator/Tsamp/Internal Ts/Tsamp"
-) , TARGET_STRING ( "WtEt" ) , 0 , 0 , 0 } , { 185 , TARGET_STRING (
+) , TARGET_STRING ( "WtEt" ) , 0 , 0 , 0 } , { 188 , TARGET_STRING (
  "sixdof/Altitude Controller/Discrete PID Controller1/Filter/Differentiator/Tsamp/Internal Ts/Tsamp"
-) , TARGET_STRING ( "WtEt" ) , 0 , 0 , 0 } , { 186 , TARGET_STRING (
+) , TARGET_STRING ( "WtEt" ) , 0 , 0 , 0 } , { 189 , TARGET_STRING (
  "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cl/roll factors/Slider Gain"
-) , TARGET_STRING ( "gain" ) , 0 , 0 , 0 } , { 187 , TARGET_STRING (
- "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cl/roll factors/Slider Gain1"
-) , TARGET_STRING ( "gain" ) , 0 , 0 , 0 } , { 188 , TARGET_STRING (
- "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cn/yaw factors/Slider Gain"
-) , TARGET_STRING ( "gain" ) , 0 , 0 , 0 } , { 189 , TARGET_STRING (
- "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cn/yaw factors/Slider Gain1"
 ) , TARGET_STRING ( "gain" ) , 0 , 0 , 0 } , { 190 , TARGET_STRING (
- "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Longitudinal Channel/Cm/Lif due to pitch rate/Slider Gain"
+ "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cl/roll factors/Slider Gain1"
 ) , TARGET_STRING ( "gain" ) , 0 , 0 , 0 } , { 191 , TARGET_STRING (
+ "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cn/yaw factors/Slider Gain"
+) , TARGET_STRING ( "gain" ) , 0 , 0 , 0 } , { 192 , TARGET_STRING (
+ "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cn/yaw factors/Slider Gain1"
+) , TARGET_STRING ( "gain" ) , 0 , 0 , 0 } , { 193 , TARGET_STRING (
+ "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Longitudinal Channel/Cm/Lif due to pitch rate/Slider Gain"
+) , TARGET_STRING ( "gain" ) , 0 , 0 , 0 } , { 194 , TARGET_STRING (
  "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cl/roll factors/roll rate fact/Cmq1"
-) , TARGET_STRING ( "Value" ) , 0 , 0 , 0 } , { 192 , TARGET_STRING (
+) , TARGET_STRING ( "Value" ) , 0 , 0 , 0 } , { 195 , TARGET_STRING (
  "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cl/roll factors/yaw rate fact/Cmq1"
-) , TARGET_STRING ( "Value" ) , 0 , 0 , 0 } , { 193 , TARGET_STRING (
+) , TARGET_STRING ( "Value" ) , 0 , 0 , 0 } , { 196 , TARGET_STRING (
  "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cn/yaw factors/roll rate fact/Cmq1"
-) , TARGET_STRING ( "Value" ) , 0 , 0 , 0 } , { 194 , TARGET_STRING (
+) , TARGET_STRING ( "Value" ) , 0 , 0 , 0 } , { 197 , TARGET_STRING (
  "sixdof/A//C/Forces & Moments/Body Frame F & M/Wind frame F& M/Lateral Channel/Cn/yaw factors/yaw rate fact/Cmq1"
 ) , TARGET_STRING ( "Value" ) , 0 , 0 , 0 } , { 0 , ( NULL ) , ( NULL ) , 0 ,
 0 , 0 } } ; static int_T rt_LoggedStateIdxList [ ] = { - 1 } ; static const
 rtwCAPI_Signals rtRootInputs [ ] = { { 0 , 0 , ( NULL ) , ( NULL ) , 0 , 0 ,
 0 , 0 , 0 } } ; static const rtwCAPI_Signals rtRootOutputs [ ] = { { 0 , 0 ,
 ( NULL ) , ( NULL ) , 0 , 0 , 0 , 0 , 0 } } ; static const
-rtwCAPI_ModelParameters rtModelParameters [ ] = { { 195 , TARGET_STRING (
-"Apolar" ) , 0 , 0 , 0 } , { 196 , TARGET_STRING ( "CD0" ) , 0 , 0 , 0 } , {
-197 , TARGET_STRING ( "CL0" ) , 0 , 0 , 0 } , { 198 , TARGET_STRING ( "CLDe"
-) , 0 , 0 , 0 } , { 199 , TARGET_STRING ( "CLa" ) , 0 , 0 , 0 } , { 200 ,
-TARGET_STRING ( "CLa_dot" ) , 0 , 0 , 0 } , { 201 , TARGET_STRING ( "CLq" ) ,
-0 , 0 , 0 } , { 202 , TARGET_STRING ( "CYDr" ) , 0 , 0 , 0 } , { 203 ,
-TARGET_STRING ( "CYb" ) , 0 , 0 , 0 } , { 204 , TARGET_STRING ( "ClDa" ) , 0
-, 0 , 0 } , { 205 , TARGET_STRING ( "ClDr" ) , 0 , 0 , 0 } , { 206 ,
-TARGET_STRING ( "Clb" ) , 0 , 0 , 0 } , { 207 , TARGET_STRING ( "Clp" ) , 0 ,
-0 , 0 } , { 208 , TARGET_STRING ( "Clr" ) , 0 , 0 , 0 } , { 209 ,
-TARGET_STRING ( "Cm0" ) , 0 , 0 , 0 } , { 210 , TARGET_STRING ( "CmDe" ) , 0
-, 0 , 0 } , { 211 , TARGET_STRING ( "Cma" ) , 0 , 0 , 0 } , { 212 ,
-TARGET_STRING ( "Cma_dot" ) , 0 , 0 , 0 } , { 213 , TARGET_STRING ( "Cmq" ) ,
-0 , 0 , 0 } , { 214 , TARGET_STRING ( "CnDa" ) , 0 , 0 , 0 } , { 215 ,
-TARGET_STRING ( "CnDr" ) , 0 , 0 , 0 } , { 216 , TARGET_STRING ( "Cnb" ) , 0
-, 0 , 0 } , { 217 , TARGET_STRING ( "Cnp" ) , 0 , 0 , 0 } , { 218 ,
-TARGET_STRING ( "Cnr" ) , 0 , 0 , 0 } , { 219 , TARGET_STRING ( "Euler_0" ) ,
-0 , 9 , 0 } , { 220 , TARGET_STRING ( "ISA_T0" ) , 0 , 0 , 0 } , { 221 ,
-TARGET_STRING ( "ISA_g" ) , 0 , 0 , 0 } , { 222 , TARGET_STRING ( "ISA_hmax"
-) , 0 , 0 , 0 } , { 223 , TARGET_STRING ( "ISA_lapse" ) , 0 , 0 , 0 } , { 224
-, TARGET_STRING ( "ISA_rho0" ) , 0 , 0 , 0 } , { 225 , TARGET_STRING ( "Ixx"
-) , 0 , 0 , 0 } , { 226 , TARGET_STRING ( "Iyy" ) , 0 , 0 , 0 } , { 227 ,
-TARGET_STRING ( "Izz" ) , 0 , 0 , 0 } , { 228 , TARGET_STRING ( "Pos_0" ) , 0
-, 1 , 0 } , { 229 , TARGET_STRING ( "chord" ) , 0 , 0 , 0 } , { 230 ,
-TARGET_STRING ( "mass" ) , 0 , 0 , 0 } , { 231 , TARGET_STRING ( "span" ) , 0
+rtwCAPI_ModelParameters rtModelParameters [ ] = { { 198 , TARGET_STRING (
+"Apolar" ) , 0 , 0 , 0 } , { 199 , TARGET_STRING ( "CD0" ) , 0 , 0 , 0 } , {
+200 , TARGET_STRING ( "CL0" ) , 0 , 0 , 0 } , { 201 , TARGET_STRING ( "CLDe"
+) , 0 , 0 , 0 } , { 202 , TARGET_STRING ( "CLa" ) , 0 , 0 , 0 } , { 203 ,
+TARGET_STRING ( "CLa_dot" ) , 0 , 0 , 0 } , { 204 , TARGET_STRING ( "CLq" ) ,
+0 , 0 , 0 } , { 205 , TARGET_STRING ( "CYDr" ) , 0 , 0 , 0 } , { 206 ,
+TARGET_STRING ( "CYb" ) , 0 , 0 , 0 } , { 207 , TARGET_STRING ( "ClDa" ) , 0
+, 0 , 0 } , { 208 , TARGET_STRING ( "ClDr" ) , 0 , 0 , 0 } , { 209 ,
+TARGET_STRING ( "Clb" ) , 0 , 0 , 0 } , { 210 , TARGET_STRING ( "Clp" ) , 0 ,
+0 , 0 } , { 211 , TARGET_STRING ( "Clr" ) , 0 , 0 , 0 } , { 212 ,
+TARGET_STRING ( "Cm0" ) , 0 , 0 , 0 } , { 213 , TARGET_STRING ( "CmDe" ) , 0
+, 0 , 0 } , { 214 , TARGET_STRING ( "Cma" ) , 0 , 0 , 0 } , { 215 ,
+TARGET_STRING ( "Cma_dot" ) , 0 , 0 , 0 } , { 216 , TARGET_STRING ( "Cmq" ) ,
+0 , 0 , 0 } , { 217 , TARGET_STRING ( "CnDa" ) , 0 , 0 , 0 } , { 218 ,
+TARGET_STRING ( "CnDr" ) , 0 , 0 , 0 } , { 219 , TARGET_STRING ( "Cnb" ) , 0
+, 0 , 0 } , { 220 , TARGET_STRING ( "Cnp" ) , 0 , 0 , 0 } , { 221 ,
+TARGET_STRING ( "Cnr" ) , 0 , 0 , 0 } , { 222 , TARGET_STRING ( "Euler_0" ) ,
+0 , 9 , 0 } , { 223 , TARGET_STRING ( "ISA_T0" ) , 0 , 0 , 0 } , { 224 ,
+TARGET_STRING ( "ISA_g" ) , 0 , 0 , 0 } , { 225 , TARGET_STRING ( "ISA_hmax"
+) , 0 , 0 , 0 } , { 226 , TARGET_STRING ( "ISA_lapse" ) , 0 , 0 , 0 } , { 227
+, TARGET_STRING ( "ISA_rho0" ) , 0 , 0 , 0 } , { 228 , TARGET_STRING ( "Ixx"
+) , 0 , 0 , 0 } , { 229 , TARGET_STRING ( "Iyy" ) , 0 , 0 , 0 } , { 230 ,
+TARGET_STRING ( "Izz" ) , 0 , 0 , 0 } , { 231 , TARGET_STRING ( "Pos_0" ) , 0
+, 1 , 0 } , { 232 , TARGET_STRING ( "chord" ) , 0 , 0 , 0 } , { 233 ,
+TARGET_STRING ( "mass" ) , 0 , 0 , 0 } , { 234 , TARGET_STRING ( "span" ) , 0
 , 0 , 0 } , { 0 , ( NULL ) , 0 , 0 , 0 } } ;
 #ifndef HOST_CAPI_BUILD
 static void * rtDataAddrMap [ ] = { & rtB . lokluenstr , & rtB . l0izt2oa2m ,
 & rtB . jfnjrao1g3 , & rtB . cmwuafgi05 , & rtB . fwckhvycxa [ 0 ] , & rtB .
 ej2atzfwl0 [ 0 ] , & rtB . eisyorlq2r , & rtB . m1c2gjrdhf , & rtB .
-c2nosomft5 , & rtB . c04goqj2sf , & rtDW . ecfpev5hmr , & rtB . amv5xbxcgx ,
-& rtB . ctr2i5cu0j , & rtB . agbvtgnrv4 , & rtB . k1afspykmn [ 0 ] , & rtB .
+c2nosomft5 , & rtB . lbgz1x4wje , & rtDW . pxpfngwwzn , & rtB . amv5xbxcgx ,
+& rtB . heursz1pm4 , & rtDW . ouacim1lgo , & rtDW . iddriykzwh , & rtB .
+ctr2i5cu0j , & rtB . agbvtgnrv4 , & rtB . k1afspykmn [ 0 ] , & rtB .
 ffht1uab1p [ 0 ] , & rtB . av1jt30k31 [ 0 ] , & rtB . ewh2czgzt2 [ 0 ] , &
 rtB . ldelskn1jo [ 0 ] , & rtB . ijvi5t5r0z , & rtB . h1saod1n1q , & rtB .
 m5psfntta4 , & rtB . f4k3dw2w0v , & rtB . m3gvnxject , & rtB . lg5hpscltc [ 0
-] , & rtB . lc5ruufnmk [ 0 ] , & rtB . jd2mqrgdxl [ 0 ] , & rtDW . lvfkgpske1
+] , & rtB . lc5ruufnmk [ 0 ] , & rtB . irq1dwevjt [ 0 ] , & rtDW . buclet5t4e
 , & rtB . ddcf0ek4jw [ 0 ] , & rtB . mhbhj1bpzc , & rtB . ljudbp5sfm , & rtB
 . j4csspowr5 , & rtB . o0ugrkeqpd [ 0 ] , & rtB . ckb3sq150e , & rtB .
 ncckp5giye , & rtB . hrq2k5iwyr , & rtB . jlifrmbka3 , & rtB . knqqe5buxf , &
@@ -542,12 +549,12 @@ boolean_T ) 0 } , } ; static const rtwCAPI_SampleTimeMap rtSampleTimeMap [ ]
 rtcapiStoredFloats [ 0 ] , ( int8_T ) 0 , ( uint8_T ) 0 } , { ( NULL ) , (
 NULL ) , 2 , 0 } , { ( const void * ) & rtcapiStoredFloats [ 1 ] , ( const
 void * ) & rtcapiStoredFloats [ 0 ] , ( int8_T ) 1 , ( uint8_T ) 0 } } ;
-static rtwCAPI_ModelMappingStaticInfo mmiStatic = { { rtBlockSignals , 65 ,
+static rtwCAPI_ModelMappingStaticInfo mmiStatic = { { rtBlockSignals , 68 ,
 rtRootInputs , 0 , rtRootOutputs , 0 } , { rtBlockParameters , 130 ,
 rtModelParameters , 37 } , { ( NULL ) , 0 } , { rtDataTypeMap ,
 rtDimensionMap , rtFixPtMap , rtElementMap , rtSampleTimeMap ,
-rtDimensionArray } , "float" , { 2329722005U , 3266266654U , 3273445918U ,
-3218276492U } , ( NULL ) , 0 , ( boolean_T ) 0 , rt_LoggedStateIdxList } ;
+rtDimensionArray } , "float" , { 4191752109U , 3512113050U , 4255664101U ,
+1875852696U } , ( NULL ) , 0 , ( boolean_T ) 0 , rt_LoggedStateIdxList } ;
 const rtwCAPI_ModelMappingStaticInfo * sixdof_GetCAPIStaticMap ( void ) {
 return & mmiStatic ; }
 #ifndef HOST_CAPI_BUILD

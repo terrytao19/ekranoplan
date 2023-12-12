@@ -15,14 +15,14 @@ typedef void * pointer_T ;
 #endif
 #ifndef INT64_T
 #define INT64_T
-typedef long long int64_T ;
-#define MAX_int64_T                    ((int64_T)(9223372036854775807LL))
-#define MIN_int64_T                    ((int64_T)(-9223372036854775807LL-1LL))
+typedef long int64_T ;
+#define MAX_int64_T                    ((int64_T)(9223372036854775807L))
+#define MIN_int64_T                    ((int64_T)(-9223372036854775807L-1L))
 #endif
 #ifndef UINT64_T
 #define UINT64_T
-typedef unsigned long long uint64_T ;
-#define MAX_uint64_T                   ((uint64_T)(0xFFFFFFFFFFFFFFFFULL))
+typedef unsigned long uint64_T ;
+#define MAX_uint64_T                   ((uint64_T)(0xFFFFFFFFFFFFFFFFUL))
 #endif
 #ifndef CINT64_T
 #define CINT64_T

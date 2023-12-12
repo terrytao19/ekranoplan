@@ -34,9 +34,9 @@ if ( itemsConverted != 1 || ( ( port != 0 && port < 255 ) || port > 65535 ) )
 { result = "Illegal port value for target connectivity comm service\n" ;
 return ( result ) ; } argv [ tvar ++ ] = NULL ; argv [ tvar ] = NULL ;
 continue ; } if ( strcmp ( argv [ tvar ] , "-tgtconn_server_info_file" ) == 0
-) { writePortNumToServerInfoFile = true ; sprintf ( serverInfoFileName , "%s"
-, argv [ tvar + 1 ] ) ; argv [ tvar ++ ] = NULL ; argv [ tvar ] = NULL ;
-continue ; } } port = getCommServicePort ( ) ;
+) { writePortNumToServerInfoFile = true ; snprintf ( serverInfoFileName ,
+1024 , "%s" , argv [ tvar + 1 ] ) ; argv [ tvar ++ ] = NULL ; argv [ tvar ] =
+NULL ; continue ; } } port = getCommServicePort ( ) ;
 #if defined(_MSC_VER)
 addOutBoundRule ( ( size_t ) port , argv [ 0 ] ) ;
 #endif

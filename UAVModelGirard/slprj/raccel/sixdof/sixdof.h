@@ -20,6 +20,7 @@
 #include "rt_logging_simtarget.h"
 #include "dt_info.h"
 #include "ext_work.h"
+#include "blas.h"
 #endif
 #include "sixdof_types.h"
 #include "rt_nonfinite.h"
@@ -32,12 +33,12 @@
 #define NSAMPLE_TIMES (3) 
 #define NINPUTS (0)       
 #define NOUTPUTS (0)     
-#define NBLOCKIO (64) 
+#define NBLOCKIO (68) 
 #define NUM_ZC_EVENTS (0) 
 #ifndef NCSTATES
 #define NCSTATES (12)   
 #elif NCSTATES != 12
-#error Invalid specification of NCSTATES defined in compiler command
+#error Invalid specification of NCSTATES defined in compiler command
 #endif
 #ifndef rtmGetDataMapInfo
 #define rtmGetDataMapInfo(rtm) (*rt_dataMapInfoPtr)
@@ -64,38 +65,41 @@ real_T hrq2k5iwyr ; real_T knqqe5buxf ; real_T pxzonjrd4i ; real_T deddzxm4gc
 ; real_T o0ugrkeqpd [ 36 ] ; real_T ijvi5t5r0z ; real_T i5zbjzuhhx ; real_T
 kwxg3amuly ; real_T b1n2m12ywt ; real_T bx1plzk1jh ; real_T eej5dfdnuw ;
 real_T leydlmjwwh ; real_T exx2dadn0g ; real_T ebpprftokq ; real_T b152zcpgbp
-; real_T l0yxgnvu5h ; real_T lokluenstr ; real_T jd2mqrgdxl [ 2 ] ; real_T
-c04goqj2sf ; real_T jhen0kkdwf ; } B ; typedef struct { p1ga5fgg1t kjy5vllogw
-; real_T blkvfyc1ut ; real_T dbof0j1l1z ; real_T epsgdxius2 ; real_T
-i5vdoafna1 ; real_T f21v3dtx13 ; real_T odzrzx3nyk ; real_T ko2emyti4i ;
-real_T hx53qo0tyb ; real_T hoflvlpyvq ; real_T bsuso3aou5 ; hnn0xl5fkk
-kqs40q3ion ; struct { void * LoggedData ; } ot01cjf44p ; struct { void *
-LoggedData ; } ienxpx13ox ; struct { void * LoggedData ; } lonsi5tvy2 ;
-struct { void * LoggedData ; } bopkytftsp ; struct { void * LoggedData ; }
-mukxshufya ; struct { void * LoggedData ; } i2ymfnvraf ; struct { void *
-LoggedData ; } fpsvbqvcgs ; struct { void * LoggedData ; } cl0ejounxl ;
-struct { void * LoggedData ; } ac4mtsmytw ; struct { void * LoggedData ; }
-jswy3gs4if ; struct { void * LoggedData ; } m5knzhq5rr ; struct { void *
-LoggedData ; } a0xwp4frij ; struct { void * LoggedData ; } o11ub12fkb ;
-struct { void * LoggedData ; } lpwv0ihuhs ; struct { void * LoggedData ; }
-bo3mponwcp ; struct { void * LoggedData ; } mtyb0k5fng ; struct { void *
-LoggedData ; } g4ynicugn1 ; struct { void * LoggedData ; } glbmpk0lvf ;
-struct { void * LoggedData ; } kmvfsayspc ; struct { void * LoggedData ; }
-pxgw4feuo1 ; struct { void * LoggedData ; } gaotct0bee ; struct { void *
-LoggedData ; } iql4ez3dau ; struct { void * FilePtr ; } atwrl0cbxb ; struct {
-void * LoggedData ; } bdydrqopie ; struct { void * LoggedData ; } k4za1xg10g
-; struct { void * LoggedData ; } gibulb434z ; struct { void * AQHandles ; }
-f0qoodbnbc ; struct { void * AQHandles ; } mk3ro0stcv ; struct { void *
-AQHandles ; } dyyoqexn4d ; int32_T j2zbeu35vc ; int32_T ih0gu0a4vg ; struct {
-int_T Count ; int_T Decimation ; } no2vyppbyo ; int_T n33rcmsjab ; int_T
-jye5a0flet [ 2 ] ; int_T ejk4nu5buq ; int8_T mhy0u4hbsx ; int8_T ljddttc2rd ;
-uint8_T lvfkgpske1 ; uint8_T ecfpev5hmr ; boolean_T mqsusrzct3 ; boolean_T
-gzmh1uauzr ; boolean_T a0cdktfgmq ; boolean_T jhvamlflm5 ; boolean_T
-pz1vk2xm02 ; boolean_T ovkmgmp3yk ; } DW ; typedef struct { real_T f50afzevjg
-[ 3 ] ; real_T kc2egwi14h [ 3 ] ; real_T o2igygaiml [ 3 ] ; real_T ajbdf0rme2
-[ 3 ] ; } X ; typedef struct { real_T f50afzevjg [ 3 ] ; real_T kc2egwi14h [
-3 ] ; real_T o2igygaiml [ 3 ] ; real_T ajbdf0rme2 [ 3 ] ; } XDot ; typedef
-struct { boolean_T f50afzevjg [ 3 ] ; boolean_T kc2egwi14h [ 3 ] ; boolean_T
+; real_T l0yxgnvu5h ; real_T lokluenstr ; real_T heursz1pm4 ; real_T
+irq1dwevjt [ 2 ] ; real_T lbgz1x4wje ; real_T jhen0kkdwf ; } B ; typedef
+struct { p1ga5fgg1t kjy5vllogw ; real_T blkvfyc1ut ; real_T dbof0j1l1z ;
+real_T epsgdxius2 ; real_T i5vdoafna1 ; real_T f21v3dtx13 ; real_T odzrzx3nyk
+; real_T ko2emyti4i ; real_T hx53qo0tyb ; real_T hoflvlpyvq ; real_T
+bsuso3aou5 ; hnn0xl5fkk kqs40q3ion ; struct { void * LoggedData ; }
+ot01cjf44p ; struct { void * LoggedData ; } ienxpx13ox ; struct { void *
+LoggedData ; } lonsi5tvy2 ; struct { void * LoggedData ; } bopkytftsp ;
+struct { void * LoggedData ; } mukxshufya ; struct { void * LoggedData ; }
+i2ymfnvraf ; struct { void * LoggedData ; } fpsvbqvcgs ; struct { void *
+LoggedData ; } cl0ejounxl ; struct { void * LoggedData ; } ac4mtsmytw ;
+struct { void * LoggedData ; } jswy3gs4if ; struct { void * LoggedData ; }
+m5knzhq5rr ; struct { void * LoggedData ; } a0xwp4frij ; struct { void *
+LoggedData ; } o11ub12fkb ; struct { void * LoggedData ; } lpwv0ihuhs ;
+struct { void * LoggedData ; } bo3mponwcp ; struct { void * LoggedData ; }
+mtyb0k5fng ; struct { void * LoggedData ; } g4ynicugn1 ; struct { void *
+LoggedData ; } glbmpk0lvf ; struct { void * LoggedData ; } kmvfsayspc ;
+struct { void * LoggedData ; } pxgw4feuo1 ; struct { void * LoggedData ; }
+gaotct0bee ; struct { void * LoggedData ; } iql4ez3dau ; struct { void *
+FilePtr ; } atwrl0cbxb ; struct { void * LoggedData ; } bdydrqopie ; struct {
+void * LoggedData ; } k4za1xg10g ; struct { void * LoggedData ; } gibulb434z
+; struct { void * AQHandles ; } f0qoodbnbc ; struct { void * AQHandles ; }
+mk3ro0stcv ; struct { void * AQHandles ; } dyyoqexn4d ; struct { void *
+LoggedData ; } oo3juhdx4t ; int32_T hbijqpjfmj ; int32_T gg3skupl10 ; int32_T
+no3jro0ul3 ; int32_T mcybje2ozl ; struct { int_T Count ; int_T Decimation ; }
+no2vyppbyo ; int_T n33rcmsjab ; int_T jye5a0flet [ 2 ] ; int_T ejk4nu5buq ;
+int8_T mhy0u4hbsx ; int8_T ljddttc2rd ; uint8_T iddriykzwh ; uint8_T
+ouacim1lgo ; uint8_T buclet5t4e ; uint8_T pxpfngwwzn ; boolean_T mqsusrzct3 ;
+boolean_T gzmh1uauzr ; boolean_T a0cdktfgmq ; boolean_T jzqwpkv30d ;
+boolean_T kksiycbt0b ; boolean_T jhvamlflm5 ; boolean_T gzval4tfha ;
+boolean_T l2krxsgpd1 ; } DW ; typedef struct { real_T f50afzevjg [ 3 ] ;
+real_T kc2egwi14h [ 3 ] ; real_T o2igygaiml [ 3 ] ; real_T ajbdf0rme2 [ 3 ] ;
+} X ; typedef struct { real_T f50afzevjg [ 3 ] ; real_T kc2egwi14h [ 3 ] ;
+real_T o2igygaiml [ 3 ] ; real_T ajbdf0rme2 [ 3 ] ; } XDot ; typedef struct {
+boolean_T f50afzevjg [ 3 ] ; boolean_T kc2egwi14h [ 3 ] ; boolean_T
 o2igygaiml [ 3 ] ; boolean_T ajbdf0rme2 [ 3 ] ; } XDis ; typedef struct {
 real_T gxbd5k5ga1 ; real_T fyia3f0ajs ; real_T f1gbjogenh ; real_T pugigtm5ja
 ; real_T lfvmfu5zzq [ 2 ] ; real_T leel0qnkh1 [ 2 ] ; real_T d1cz5eqy4p ;
@@ -176,17 +180,10 @@ rtDW ; extern P rtP ; extern mxArray * mr_sixdof_GetDWork ( ) ; extern void
 mr_sixdof_SetDWork ( const mxArray * ssDW ) ; extern mxArray *
 mr_sixdof_GetSimStateDisallowedBlocks ( ) ; extern const
 rtwCAPI_ModelMappingStaticInfo * sixdof_GetCAPIStaticMap ( void ) ; extern
-SimStruct * const rtS ; extern const int_T gblNumToFiles ; extern const int_T
-gblNumFrFiles ; extern const int_T gblNumFrWksBlocks ; extern rtInportTUtable
-* gblInportTUtables ; extern const char * gblInportFileName ; extern const
-int_T gblNumRootInportBlks ; extern const int_T gblNumModelInputs ; extern
-const int_T gblInportDataTypeIdx [ ] ; extern const int_T gblInportDims [ ] ;
-extern const int_T gblInportComplex [ ] ; extern const int_T
-gblInportInterpoFlag [ ] ; extern const int_T gblInportContinuous [ ] ;
-extern const int_T gblParameterTuningTid ; extern DataMapInfo *
-rt_dataMapInfoPtr ; extern rtwCAPI_ModelMappingInfo * rt_modelMapInfoPtr ;
-void MdlOutputs ( int_T tid ) ; void MdlOutputsParameterSampleTime ( int_T
-tid ) ; void MdlUpdate ( int_T tid ) ; void MdlTerminate ( void ) ; void
-MdlInitializeSizes ( void ) ; void MdlInitializeSampleTimes ( void ) ;
-SimStruct * raccel_register_model ( ssExecutionInfo * executionInfo ) ;
+SimStruct * const rtS ; extern DataMapInfo * rt_dataMapInfoPtr ; extern
+rtwCAPI_ModelMappingInfo * rt_modelMapInfoPtr ; void MdlOutputs ( int_T tid )
+; void MdlOutputsParameterSampleTime ( int_T tid ) ; void MdlUpdate ( int_T
+tid ) ; void MdlTerminate ( void ) ; void MdlInitializeSizes ( void ) ; void
+MdlInitializeSampleTimes ( void ) ; SimStruct * raccel_register_model (
+ssExecutionInfo * executionInfo ) ;
 #endif

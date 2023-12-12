@@ -751,8 +751,8 @@
         ;%
         ;% Auto data (rtB)
         ;%
-            section.nData     = 64;
-            section.data(64)  = dumData; %prealloc
+            section.nData     = 65;
+            section.data(65)  = dumData; %prealloc
 
                     ;% rtB.ewh2czgzt2
                     section.data(1).logicalSrcIdx = 0;
@@ -998,17 +998,21 @@
                     section.data(61).logicalSrcIdx = 60;
                     section.data(61).dtTransOffset = 123;
 
-                    ;% rtB.jd2mqrgdxl
-                    section.data(62).logicalSrcIdx = 61;
+                    ;% rtB.heursz1pm4
+                    section.data(62).logicalSrcIdx = 62;
                     section.data(62).dtTransOffset = 124;
 
-                    ;% rtB.c04goqj2sf
-                    section.data(63).logicalSrcIdx = 62;
-                    section.data(63).dtTransOffset = 126;
+                    ;% rtB.irq1dwevjt
+                    section.data(63).logicalSrcIdx = 65;
+                    section.data(63).dtTransOffset = 125;
+
+                    ;% rtB.lbgz1x4wje
+                    section.data(64).logicalSrcIdx = 66;
+                    section.data(64).dtTransOffset = 127;
 
                     ;% rtB.jhen0kkdwf
-                    section.data(64).logicalSrcIdx = 63;
-                    section.data(64).dtTransOffset = 127;
+                    section.data(65).logicalSrcIdx = 67;
+                    section.data(65).dtTransOffset = 128;
 
             nTotData = nTotData + section.nData;
             sigMap.sections(1) = section;
@@ -1124,8 +1128,8 @@
             dworkMap.sections(3) = section;
             clear section
 
-            section.nData     = 29;
-            section.data(29)  = dumData; %prealloc
+            section.nData     = 30;
+            section.data(30)  = dumData; %prealloc
 
                     ;% rtDW.ot01cjf44p.LoggedData
                     section.data(1).logicalSrcIdx = 12;
@@ -1243,20 +1247,32 @@
                     section.data(29).logicalSrcIdx = 40;
                     section.data(29).dtTransOffset = 28;
 
+                    ;% rtDW.oo3juhdx4t.LoggedData
+                    section.data(30).logicalSrcIdx = 41;
+                    section.data(30).dtTransOffset = 29;
+
             nTotData = nTotData + section.nData;
             dworkMap.sections(4) = section;
             clear section
 
-            section.nData     = 2;
-            section.data(2)  = dumData; %prealloc
+            section.nData     = 4;
+            section.data(4)  = dumData; %prealloc
 
-                    ;% rtDW.j2zbeu35vc
-                    section.data(1).logicalSrcIdx = 41;
+                    ;% rtDW.hbijqpjfmj
+                    section.data(1).logicalSrcIdx = 42;
                     section.data(1).dtTransOffset = 0;
 
-                    ;% rtDW.ih0gu0a4vg
-                    section.data(2).logicalSrcIdx = 42;
+                    ;% rtDW.gg3skupl10
+                    section.data(2).logicalSrcIdx = 43;
                     section.data(2).dtTransOffset = 1;
+
+                    ;% rtDW.no3jro0ul3
+                    section.data(3).logicalSrcIdx = 44;
+                    section.data(3).dtTransOffset = 2;
+
+                    ;% rtDW.mcybje2ozl
+                    section.data(4).logicalSrcIdx = 45;
+                    section.data(4).dtTransOffset = 3;
 
             nTotData = nTotData + section.nData;
             dworkMap.sections(5) = section;
@@ -1266,19 +1282,19 @@
             section.data(4)  = dumData; %prealloc
 
                     ;% rtDW.no2vyppbyo.Count
-                    section.data(1).logicalSrcIdx = 43;
+                    section.data(1).logicalSrcIdx = 46;
                     section.data(1).dtTransOffset = 0;
 
                     ;% rtDW.n33rcmsjab
-                    section.data(2).logicalSrcIdx = 44;
+                    section.data(2).logicalSrcIdx = 47;
                     section.data(2).dtTransOffset = 1;
 
                     ;% rtDW.jye5a0flet
-                    section.data(3).logicalSrcIdx = 45;
+                    section.data(3).logicalSrcIdx = 48;
                     section.data(3).dtTransOffset = 2;
 
                     ;% rtDW.ejk4nu5buq
-                    section.data(4).logicalSrcIdx = 46;
+                    section.data(4).logicalSrcIdx = 49;
                     section.data(4).dtTransOffset = 4;
 
             nTotData = nTotData + section.nData;
@@ -1289,58 +1305,74 @@
             section.data(2)  = dumData; %prealloc
 
                     ;% rtDW.mhy0u4hbsx
-                    section.data(1).logicalSrcIdx = 47;
+                    section.data(1).logicalSrcIdx = 50;
                     section.data(1).dtTransOffset = 0;
 
                     ;% rtDW.ljddttc2rd
-                    section.data(2).logicalSrcIdx = 48;
+                    section.data(2).logicalSrcIdx = 51;
                     section.data(2).dtTransOffset = 1;
 
             nTotData = nTotData + section.nData;
             dworkMap.sections(7) = section;
             clear section
 
-            section.nData     = 2;
-            section.data(2)  = dumData; %prealloc
+            section.nData     = 4;
+            section.data(4)  = dumData; %prealloc
 
-                    ;% rtDW.lvfkgpske1
-                    section.data(1).logicalSrcIdx = 49;
+                    ;% rtDW.iddriykzwh
+                    section.data(1).logicalSrcIdx = 52;
                     section.data(1).dtTransOffset = 0;
 
-                    ;% rtDW.ecfpev5hmr
-                    section.data(2).logicalSrcIdx = 50;
+                    ;% rtDW.ouacim1lgo
+                    section.data(2).logicalSrcIdx = 53;
                     section.data(2).dtTransOffset = 1;
+
+                    ;% rtDW.buclet5t4e
+                    section.data(3).logicalSrcIdx = 54;
+                    section.data(3).dtTransOffset = 2;
+
+                    ;% rtDW.pxpfngwwzn
+                    section.data(4).logicalSrcIdx = 55;
+                    section.data(4).dtTransOffset = 3;
 
             nTotData = nTotData + section.nData;
             dworkMap.sections(8) = section;
             clear section
 
-            section.nData     = 6;
-            section.data(6)  = dumData; %prealloc
+            section.nData     = 8;
+            section.data(8)  = dumData; %prealloc
 
                     ;% rtDW.mqsusrzct3
-                    section.data(1).logicalSrcIdx = 51;
+                    section.data(1).logicalSrcIdx = 56;
                     section.data(1).dtTransOffset = 0;
 
                     ;% rtDW.gzmh1uauzr
-                    section.data(2).logicalSrcIdx = 52;
+                    section.data(2).logicalSrcIdx = 57;
                     section.data(2).dtTransOffset = 1;
 
                     ;% rtDW.a0cdktfgmq
-                    section.data(3).logicalSrcIdx = 53;
+                    section.data(3).logicalSrcIdx = 58;
                     section.data(3).dtTransOffset = 2;
 
-                    ;% rtDW.jhvamlflm5
-                    section.data(4).logicalSrcIdx = 54;
+                    ;% rtDW.jzqwpkv30d
+                    section.data(4).logicalSrcIdx = 59;
                     section.data(4).dtTransOffset = 3;
 
-                    ;% rtDW.pz1vk2xm02
-                    section.data(5).logicalSrcIdx = 55;
+                    ;% rtDW.kksiycbt0b
+                    section.data(5).logicalSrcIdx = 60;
                     section.data(5).dtTransOffset = 4;
 
-                    ;% rtDW.ovkmgmp3yk
-                    section.data(6).logicalSrcIdx = 56;
+                    ;% rtDW.jhvamlflm5
+                    section.data(6).logicalSrcIdx = 61;
                     section.data(6).dtTransOffset = 5;
+
+                    ;% rtDW.gzval4tfha
+                    section.data(7).logicalSrcIdx = 62;
+                    section.data(7).dtTransOffset = 6;
+
+                    ;% rtDW.l2krxsgpd1
+                    section.data(8).logicalSrcIdx = 63;
+                    section.data(8).dtTransOffset = 7;
 
             nTotData = nTotData + section.nData;
             dworkMap.sections(9) = section;
@@ -1372,8 +1404,8 @@
     ;%
 
 
-    targMap.checksum0 = 2329722005;
-    targMap.checksum1 = 3266266654;
-    targMap.checksum2 = 3273445918;
-    targMap.checksum3 = 3218276492;
+    targMap.checksum0 = 4191752109;
+    targMap.checksum1 = 3512113050;
+    targMap.checksum2 = 4255664101;
+    targMap.checksum3 = 1875852696;
 

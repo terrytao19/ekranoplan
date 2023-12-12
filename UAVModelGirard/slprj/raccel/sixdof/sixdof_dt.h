@@ -22,14 +22,14 @@ time_T ) } ; static const char_T * rtDataTypeNames [ ] = { "real_T" ,
 , "timer_uint32_pair_T" , "physical_connection" , "int64_T" , "uint64_T" ,
 "hnn0xl5fkk" , "p1ga5fgg1t" , "uint64_T" , "int64_T" , "uint_T" , "char_T" ,
 "uchar_T" , "time_T" } ; static DataTypeTransition rtBTransitions [ ] = { { (
-char_T * ) ( & rtB . ewh2czgzt2 [ 0 ] ) , 0 , 0 , 128 } , { ( char_T * ) ( &
+char_T * ) ( & rtB . ewh2czgzt2 [ 0 ] ) , 0 , 0 , 129 } , { ( char_T * ) ( &
 rtDW . kjy5vllogw ) , 18 , 0 , 1 } , { ( char_T * ) ( & rtDW . blkvfyc1ut ) ,
 0 , 0 , 10 } , { ( char_T * ) ( & rtDW . kqs40q3ion ) , 17 , 0 , 1 } , { (
-char_T * ) ( & rtDW . ot01cjf44p . LoggedData ) , 11 , 0 , 29 } , { ( char_T
-* ) ( & rtDW . j2zbeu35vc ) , 6 , 0 , 2 } , { ( char_T * ) ( & rtDW .
+char_T * ) ( & rtDW . ot01cjf44p . LoggedData ) , 11 , 0 , 30 } , { ( char_T
+* ) ( & rtDW . hbijqpjfmj ) , 6 , 0 , 4 } , { ( char_T * ) ( & rtDW .
 no2vyppbyo . Count ) , 10 , 0 , 5 } , { ( char_T * ) ( & rtDW . mhy0u4hbsx )
-, 2 , 0 , 2 } , { ( char_T * ) ( & rtDW . lvfkgpske1 ) , 3 , 0 , 2 } , { (
-char_T * ) ( & rtDW . mqsusrzct3 ) , 8 , 0 , 6 } } ; static
+, 2 , 0 , 2 } , { ( char_T * ) ( & rtDW . iddriykzwh ) , 3 , 0 , 4 } , { (
+char_T * ) ( & rtDW . mqsusrzct3 ) , 8 , 0 , 8 } } ; static
 DataTypeTransitionTable rtBTransTable = { 10U , rtBTransitions } ; static
 DataTypeTransition rtPTransitions [ ] = { { ( char_T * ) ( & rtP . Apolar ) ,
 0 , 0 , 18268 } , { ( char_T * ) ( & rtP . ManualSwitch1_CurrentSetting ) , 3
