@@ -1,15 +1,15 @@
 clear; close all; clc;
 
-wind_speed = [19, 37, 56, 74, 92]; % km /hr
+wind_speed = [0, 19, 37, 56, 74, 92]; % km /hr
 
-fetch = [19, 139, 518, 1313, 2627]; % km
-duration = [2, 10, 23, 42, 69]; % hr
-amplitude = [0.27, 1.5, 4.1, 8.5, 14.8]; % m
-wavelength = [8.5, 33.8, 76.5, 136, 212]; % m
-wave_period = [3, 5.7, 8.6, 11.4, 14.3]; % s
-wave_velocity = [2.8, 5.9, 8.9, 11.9, 14.8]; % m/s
+fetch = [0, 19, 139, 518, 1313, 2627]; % km
+duration = [0, 2, 10, 23, 42, 69]; % hr
+amplitude = [0, 0.27, 1.5, 4.1, 8.5, 14.8]; % m
+wavelength = [0, 8.5, 33.8, 76.5, 136, 212]; % m
+wave_period = [0, 3, 5.7, 8.6, 11.4, 14.3]; % s
+wave_velocity = [0, 2.8, 5.9, 8.9, 11.9, 14.8]; % m/s
 
-wind_speed_amp_fit = fit(wind_speed.', amplitude.', 'poly2');
+wind_speed_amp_fit = fit(wind_speed.', amplitude.', 'poly3');
 wind_speed_wavelength_fit = fit(wind_speed.', wavelength.', 'poly2');
 wind_speed_period_fit = fit(wind_speed.', wave_period.', 'poly1');
 

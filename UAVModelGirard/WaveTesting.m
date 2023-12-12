@@ -34,17 +34,17 @@ c_y2 = w_y2 / k_y2;
 
 t = 0:1:4;
 
-x_max = 50000;
+x_max = 10000;
 y_max = 10000;
 z_max = 20;
 
 [X, Y] = meshgrid(linspace(0, x_max, 2000));
 Z = A * (cos(k_x1 * (X + c_x1 * t(1))) .* cos(k_y1 * (Y + c_y1 * t(1)))) + ...
-(cos(k_x2 * (X + c_x2 * t(1))) .* sin(k_y2 * (Y + c_y2 * t(1))));
+(cos(k_x2 * (X + c_x2 * t(1))) .* cos(k_y2 * (Y + c_y2 * t(1))));
 p = surf(X,Y,Z);
 set(p,'LineStyle','none');
-xlim([0, 50000]);
-ylim([0, 50000]);
+title("Modeled Wave Field")
+xlim([0, 10000]);
+ylim([0, 10000]);
 zlim([-z_max, z_max]);
-
-done = true
+saveas(gcf, "WaveField.png")

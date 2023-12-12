@@ -1,3 +1,8 @@
+close all; clear; clc;
+
+load simout.mat
+
+%%
 hold off
 hold on
 waypoints = [0,0,5;501.717105508643,908.922660414421,5;3007.34596928847,2458.44221262396,5;5143.8601437273,2189.82336415166,5;4248.4135386412,823.96084565673,5;2381.03201490461,241.3162953267,5;0,0,5];
@@ -8,3 +13,13 @@ plot(object_poses(:,1), object_poses(:,2), "or")
 plot(simout(8,:),simout(9,:))
 plot(waypoints(:,1), waypoints(:,2), "og")
 axis equal
+title("Simulation Flight With Obstacles and Wind Wave Disturbance")
+xlabel("X Position (m)")
+ylabel("Y Position (m)")
+hold off
+
+%%
+plot(simout(1, :), simout(10, :))
+title("Aircraft Altitude Over Time With Disturbances")
+xlabel("Simulation Time (s)")
+ylabel("Altitude (m)")
